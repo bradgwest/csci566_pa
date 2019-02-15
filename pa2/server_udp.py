@@ -92,7 +92,6 @@ def main():
             (args.client_ports and not args.client_addresses):
         parser.error("--client-port and client-addresses must both be specified if one is")
 
-
     receive_and_process(args.ports, args.question)
 
 
