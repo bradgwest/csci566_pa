@@ -9,6 +9,8 @@ import logging
 import socket
 import sys
 
+import messages
+
 
 def open_socket(port):
     """
@@ -21,7 +23,7 @@ def open_socket(port):
     logging.info('Socket opened on port {}'.format(port))
 
 
-def receive_and_process(server_socket, client_address=None, client_port=None):
+def receive_and_process_on_socket(server_socket, client_address=None, client_port=None):
     """
     Receives messages on the socket and routes/processes appropriately
     :param socket.Socket server_socket:
@@ -37,26 +39,38 @@ def receive_and_process(server_socket, client_address=None, client_port=None):
         # server_socket.sendto(server_message, client_address)
 
 
+def receive_and_process(server_ports):
+    """
+    Opens sockets (multiple if necessary) and starts communications
+    :param str server_ports: comma separated list of server ports
+    """
+    server_sockets = [open_socket(int(p)) for p in server_ports.split(",")]
+    for s in server_sockets:
+        receive_and_process_on_socket(s)
+
+
+# TODO could extend the argparse class
 def parse_arguments(args):
     parser = argparse.ArgumentParser()
-    parser.add_argument('-p', '--port', help='port to send/receive messages on',
-                        default=12000, type=int)
-    parser.add_argument('-c', '--receiver-address', required=True,
-                        help='comma separated list of ip addresses to send to')
-    parser.add_argument('-k', '--receiver-ports', default=12000, type=int,
-                        help="comma separated list of ports to send to")
+    parser.add_argument('-p', '--ports', default="12000",
+                        help='comma separated list of ports to receive messages on')
+    parser.add_argument('-c', '--server-address',
+                        help='server ip to send to')
+    parser.add_argument('-k', '--server-port', default=12000, type=int,
+                        help="server port to send to")
     parser.add_argument('-b', '--bytes', help='size of message in bytes',
                         defaut=1, type=int)
     parser.add_argument('-r', '--rate', help='rate to send message in msg/sec',
                         default=1, type=int)
-    return parser.parse_args()
+    parser.add_argument('-q', '--question', required=True,
+                        help='the integer numbered question, see readme')
+    return parser.parse_args(args)
 
 
 def main():
     logging.getLogger().setLevel(logging.INFO)
     args = parse_arguments(sys.argv[1:])
-    server_socket = open_socket(args.port)
-    receive_and_process(server_socket, args.client_address)
+    receive_and_process(args.ports)
 
 
 if __name__ == "__main__":

@@ -4,10 +4,11 @@
 Implements a grenade throwing client
 """
 
-import argparse
 import logging
 import socket
 import sys
+
+import messages
 
 from server_udp import open_socket, parse_arguments
 
