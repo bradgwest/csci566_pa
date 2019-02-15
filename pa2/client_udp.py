@@ -7,8 +7,9 @@ Implements a grenade throwing client
 import argparse
 import logging
 import socket
+import sys
 
-from server_udp import open_socket
+from server_udp import open_socket, parse_arguments
 
 
 def send_messages(socket, server_address, server_port):
@@ -24,14 +25,7 @@ def send_messages(socket, server_address, server_port):
 
 def main():
     logging.getLogger().setLevel(logging.INFO)
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-p', '--port', help='port to send/receive messages on',
-                        default=12000, type=int)
-    parser.add_argument('-s', '--server', help='server address', required=True)
-    parser.add_argument('-k', '--server-port', help='server port',
-                        default=12000)
-    args = parser.parse_args()
+    args = parse_arguments(sys.argv[1:])
 
     client_socket = open_socket(args.port)
     send_messages(client_socket, args.server_address, args.server_port)
