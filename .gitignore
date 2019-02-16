@@ -6,7 +6,7 @@ data/
 *.csv
 *.gz
 *.png
-*.xlxs
+*.xlsx
 *.xls
 
 # Created by https://www.gitignore.io/api/vim,macos,python,intellij
