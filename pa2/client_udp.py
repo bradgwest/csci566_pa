@@ -6,11 +6,21 @@ Implements a grenade throwing client
 
 import argparse
 import logging
+import socket
 import time
 
 import messages
 
-from server_udp import open_socket
+
+def open_socket(port):
+    """
+    Opens a UDP socket on the given port
+    :param int port: port to receive on
+    :rtype: socket.Socket
+    """
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    server_socket.bind(('', port))
+    logging.info('Socket opened on port {}'.format(port))
 
 
 def send_messages_for_time(client_socket,
@@ -39,8 +49,9 @@ def main():
     logging.getLogger().setLevel(logging.INFO)
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-p', '--ports', default=12000, type=int,
-                        help='port to receive messages on')
+    parser.add_argument('-p', '--ports', default="12000",
+                        help='comma separated list of ports to send/receive '
+                             'messages on. Each port represents a client')
     parser.add_argument('-c', '--server-address',
                         help='server ip to send to')
     parser.add_argument('-k', '--server-port', default=12000, type=int,
