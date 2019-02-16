@@ -10,7 +10,7 @@ import sys
 import time
 
 import messages
-from server_udp import listen, parse_arguments
+from server_udp import listen, parse_arguments, BUFF_SIZE
 
 
 def open_socket(port):
@@ -22,13 +22,13 @@ def open_socket(port):
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     server_socket.bind(('', port))
     logging.info('Socket opened on port {}'.format(port))
+    return server_socket
 
 
 def send_messages_for_time(client_socket,
                            server_address,
                            server_port,
-                           message_len,
-                           duration):
+                           message_len):
     """
     Send messages tos server
     :param socket.SSLSocket client_socket:
@@ -36,14 +36,19 @@ def send_messages_for_time(client_socket,
     :param int server_port:
     :param int message_len: message length in bytes
     :param int duration:
+    :param str path: file to write to
     :return:
     """
-    message = messages.create_message_of_len(message_len)
-    end_time = time.time() + duration
-    while time.time() < end_time:
-        # TODO Do we need to throttle this to wait for a message?
-        client_socket.sendto(message.encode(), (server_address, server_port))
-        _, _ = client_socket.recvfrom(2048)
+    i = 0
+    server_ip_port = (server_address, server_port)
+    while i < 62:
+        message = messages.create_message_of_len(message_len,
+                                                 messages.MESSAGE_CHAR[i])
+        client_socket.sendto(message.encode(), server_ip_port)
+        logging.info('mt-send: {},{}'.format(message[0], time.time()))
+        message, server_ip_port = client_socket.recvfrom(BUFF_SIZE)
+        logging.info('mt-rec: {},{}'.format(message.decode()[0], time.time()))
+        i += 1
 
 
 def main():
@@ -54,7 +59,7 @@ def main():
     if args.send_type in {"cs", "csc"}:
         client_socket = open_socket(args.port)
         send_messages_for_time(client_socket, args.server_address,
-                               args.server_port, args.bytes, args.duration)
+                               args.server_port, args.bytes)
     elif args.send_type == "scc":
         listen(args.multicast_address, args.multicast_port)
     else:
