@@ -10,3 +10,13 @@ def create_message_of_len(len):
     :rtype: str
     """
     return "a" * len
+
+
+def rate_to_sec(rate):
+    """
+    Converts a rate (messages/sec) to a time to delay
+    :param int rate:
+    :rtype: int
+    """
+    return 1/rate
+

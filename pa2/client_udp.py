@@ -4,12 +4,13 @@
 Implements a grenade throwing client
 """
 
-import argparse
 import logging
 import socket
+import sys
 import time
 
 import messages
+from server_udp import listen, parse_arguments
 
 
 def open_socket(port):
@@ -48,25 +49,16 @@ def send_messages_for_time(client_socket,
 def main():
     logging.getLogger().setLevel(logging.INFO)
 
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-p', '--ports', default="12000",
-                        help='comma separated list of ports to send/receive '
-                             'messages on. Each port represents a client')
-    parser.add_argument('-c', '--server-address',
-                        help='server ip to send to')
-    parser.add_argument('-k', '--server-port', default=12000, type=int,
-                        help="server port to send to")
-    parser.add_argument('-b', '--bytes', help='size of message in bytes',
-                        defaut=1, type=int)
-    parser.add_argument('-r', '--rate', help='rate to send message in msg/sec',
-                        default=1, type=int)
-    parser.add_argument('-d', '--duration', type=int, default=30,
-                        help='time in seconds to keep socket open')
-    args = parser.parse_args()
+    args = parse_arguments(sys.argv[1:])
 
-    client_socket = open_socket(args.port)
-    send_messages_for_time(client_socket, args.server_address, args.server_port,
-                  args.bytes, args.duration)
+    if args.send_type in {"cs", "csc"}:
+        client_socket = open_socket(args.port)
+        send_messages_for_time(client_socket, args.server_address,
+                               args.server_port, args.bytes, args.duration)
+    elif args.send_type == "scc":
+        listen(args.multicast_address, args.multicast_port)
+    else:
+        raise ValueError("send_type must be one of cs, csc, or scc")
 
 
 if __name__ == "__main__":
