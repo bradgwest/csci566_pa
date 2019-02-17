@@ -88,20 +88,23 @@ class ReceiveHandler(socketserver.BaseRequestHandler):
     """
     def handle(self):
         message = self.request[0].strip()
-        logging.info('{{"message":{},"time":{}}}'.format(
-            message.decode()[0], time.time()))
+        logging.info('mt-rec: {},{},{}'.format(message.decode()[0], time.time(), len(message)))
 
 
 class ResendHandler(socketserver.BaseRequestHandler):
     """
     Logic for server side handling of messages
     """
+    timeout = 10
 
     def handle(self):
         message = self.request[0].strip()
         sock = self.request[1]
         logging.info('mt-rec:{},{}'.format(message.decode()[0], time.time()))
         sock.sendto(message, self.client_address)
+
+    def handle_timeout(self):
+        self.finish()
 
 
 def serve(server_address, server_port, handler):
@@ -140,7 +143,11 @@ def parse_arguments(sysargs):
 
 
 def main():
-    logging.getLogger().setLevel(logging.INFO)
+    root = logging.getLogger()
+    root.setLevel(logging.INFO)
+    handler = logging.StreamHandler(sys.stdout)
+    handler.setLevel(logging.INFO)
+    root.addHandler(handler)
 
     args = parse_arguments(sys.argv[1:])
 
