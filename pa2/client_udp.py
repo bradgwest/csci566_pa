@@ -107,6 +107,12 @@ def listen(client_socket):
                                                socket.gethostname()))
 
 
+def send_single_message(client_socket, server_address, port, size):
+    message = messages.create_message_of_len(size, "a")
+    for _ in range(5):
+        client_socket.sento(message.encode(), (server_address, port))
+
+
 def main():
     root = logging.getLogger()
     root.setLevel(logging.INFO)
@@ -117,6 +123,9 @@ def main():
     args = parse_arguments(sys.argv[1:])
 
     client_socket = open_socket(args.port)
+    if args.question == 9:
+        send_single_message(client_socket, args.server_address,
+                            args.server_port, args.bytes)
     if args.send_type in {"cs", "csc"}:
         if args.question == 7:
             send_messages_for_count(client_socket, args.server_address,
