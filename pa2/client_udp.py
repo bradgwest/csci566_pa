@@ -10,35 +10,22 @@ import sys
 import time
 
 import messages
-from server_udp import listen, parse_arguments, BUFF_SIZE
-
-
-def open_socket(port):
-    """
-    Opens a UDP socket on the given port
-    :param int port: port to receive on
-    :rtype: socket.Socket
-    """
-    server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    server_socket.bind(('', port))
-    logging.info('Socket opened on port {}'.format(port))
-    server_socket.settimeout(5)
-    return server_socket
+from server_udp import open_socket, parse_arguments, BUFF_SIZE
 
 
 def split_message(message, buffsize):
     if len(message) <= buffsize:
-        return [str(0) + message]
+        return [message]
     chunks = []
     i = 0
     while len(message) > buffsize:
-        chunks.append(str(i) + message[0:buffsize])
+        chunks.append(message[0:buffsize])
         message = message[buffsize:]
         i += 1
     return chunks
 
 
-def send_messages_for_time(client_socket,
+def send_messages_for_size(client_socket,
                            server_address,
                            server_port):
     """
@@ -59,7 +46,7 @@ def send_messages_for_time(client_socket,
             chunks = split_message(message, BUFF_SIZE)
             for chunk in chunks:
                 client_socket.sendto(chunk.encode(), server_ip_port)
-                logging.info('mt-send: {},{},{}'.format(chunk[:2], time.time(), j))
+                logging.info('mt-send: {},{},{}'.format(chunk[0], time.time(), j))
                 try:
                     message, server_ip_port = client_socket.recvfrom(BUFF_SIZE)
                 except socket.timeout:
@@ -78,6 +65,16 @@ def send_messages_for_time(client_socket,
             logging.info('END::{}'.format(message.decode()))
         time.sleep(1)
         j *= 2
+    exit(0)
+
+
+def listen(client_socket):
+    logging.info("listening on {}".format(socket.gethostname()))
+    while True:
+        message, server_ip_port = client_socket.recvfrom(BUFF_SIZE)
+        logging.info('mt-rec: {},{},{}'.format(message.decode()[0],
+                                               time.time(),
+                                               socket.gethostname()))
 
 
 def main():
@@ -89,12 +86,12 @@ def main():
 
     args = parse_arguments(sys.argv[1:])
 
+    client_socket = open_socket(args.port)
     if args.send_type in {"cs", "csc"}:
-        client_socket = open_socket(args.port)
-        send_messages_for_time(client_socket, args.server_address,
+        send_messages_for_size(client_socket, args.server_address,
                                args.server_port)
     elif args.send_type == "scc":
-        listen(args.multicast_address, args.multicast_port)
+        listen(client_socket)
     else:
         raise ValueError("send_type must be one of cs, csc, or scc")
 

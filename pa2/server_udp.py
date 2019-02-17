@@ -13,82 +13,46 @@ import time
 
 import messages
 
-LOCAL_IP = '127.0.0.1'
 BUFF_SIZE = 4096
 
 
-def open_multicast_socket(multicast_ip, port):
+def open_socket(port):
     """
-    Adapted from https://gist.github.com/aaroncohen/4630685
+    Opens a UDP socket on the given port
+    :param int port: port to receive on
+    :rtype: socket.Socket
     """
-    # create a UDP socket
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    # allow reuse of addresses
-    sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    # set multicast interface to local_ip
-    sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_IF, socket.inet_aton(LOCAL_IP))
-    # Set multicast time-to-live to 2...should keep our multicast packets from escaping the local network
-    sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, 2)
-    # Construct a membership request...tells router what multicast group we want to subscribe to
-    membership_request = socket.inet_aton(multicast_ip) + socket.inet_aton(LOCAL_IP)
-    # Send add membership request to socket
-    sock.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, membership_request)
-    # Bind the socket to an interface.
-    # If you bind to a specific interface on the Mac, no multicast data will arrive.
-    # If you try to bind to all interfaces on Windows, no multicast data will arrive.
-    # Hence the following.
-    if sys.platform.startswith("darwin"):
-        sock.bind(('0.0.0.0', port))
-    else:
-        sock.bind((LOCAL_IP, port))
-    return sock
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    server_socket.bind(('', port))
+    logging.info('Socket opened on port {}'.format(port))
+    server_socket.settimeout(8)
+    return server_socket
 
 
-def listen(multicast_ip, multicast_port):
+def send_to_clients(server_socket,
+                    client_addresses,
+                    client_ports,
+                    message_len,
+                    rate):
     """
-    Subscribes to multicast and listens
-    :param str multicast_ip:
-    :param int multicast_port:
+    Sends to multiple clients
+    :param server_socket:
+    :param client_addresses:
+    :param client_ports:
+    :param message_len:
+    :param rate:
     :return:
     """
-    sock = open_multicast_socket(multicast_ip, multicast_port)
-    data = []
+    clients = [(a, int(p)) for a, p in zip(client_addresses.split(","), client_ports.split(","))]
     i = 0
-    while True:
-        message, address = sock.recvfrom(BUFF_SIZE)
-        data.append({"message": message.decode(), "time": time.time()})
-        logging.info("Received {} from {}".format(message.decode(), address))
-        i += 1
-
-
-def announce(multicast_ip, port, message_len, rate, duration):
-    """
-    Performs multicast announce
-    :param str multicast_ip:
-    :param int port:
-    :param int message_len:
-    :param int rate:
-    :param int duration:
-    :return:
-    """
-    server_socket = open_multicast_socket(multicast_ip, port + 1)
-    end_time = time.time() + duration
-    i = 0
-    while time.time() < end_time:
-        message = messages.create_message_of_len(message_len,
-                                                 messages.MESSAGE_CHAR[i])
-        server_socket.sendto(message.encode(), (multicast_ip, port))
+    while i < 26:
+        message = messages.create_message_of_len(message_len, messages.MESSAGE_CHAR_LONG[i])
+        for client in clients:
+            server_socket.sendto(message.encode(), client)
+            logging.info('mt-send: {},{},{},{}'.format(message[0], time.time(), message_len, client[0]))
         time.sleep(messages.rate_to_sec(rate))
         i += 1
-
-
-class ReceiveHandler(socketserver.BaseRequestHandler):
-    """
-    Just receive messages
-    """
-    def handle(self):
-        message = self.request[0].strip()
-        logging.info('mt-rec: {},{},{}'.format(message.decode()[0], time.time(), len(message)-1))
+    exit()
 
 
 class ResendHandler(socketserver.BaseRequestHandler):
@@ -100,7 +64,7 @@ class ResendHandler(socketserver.BaseRequestHandler):
     def handle(self):
         message = self.request[0].strip()
         sock = self.request[1]
-        logging.info('mt-rec: {},{},{}'.format(message.decode()[0], time.time(), len(message)))
+        logging.info('mt-send: {},{},{}'.format(message.decode()[0], time.time(), len(message)))
         sock.sendto(message, self.client_address)
 
     def handle_timeout(self):
@@ -126,9 +90,8 @@ def parse_arguments(sysargs):
                         help='server port to send to')
     parser.add_argument('-p', '--port', default=5201, type=int,
                         help='port to send/receive messages on')
-    parser.add_argument('-ma', '--multicast-address', help='multicast address',
-                        default='239.255.4.3')
-    parser.add_argument('-mp', '--multicast-port', help='multicast port',
+    parser.add_argument('-c', '--client-address', help='client addresses')
+    parser.add_argument('-cp', '--client-port', help='client ports',
                         default=5201)
     parser.add_argument('-b', '--bytes', help='size of message in bytes',
                         default=1, type=int)
@@ -154,8 +117,9 @@ def main():
     if args.send_type in {"cs", "csc"}:
         serve(args.server_address, args.port, ResendHandler)
     elif args.send_type == "scc":
-        announce(args.multicast_address, args.multicast_port, args.bytes,
-                 args.rate, args.duration)
+        sock = open_socket(args.port)
+        send_to_clients(sock, args.client_address, args.client_port, args.bytes,
+                        args.rate)
     else:
         raise ValueError("send_type must be one of cs, csc, or scc")
 

@@ -4,6 +4,7 @@ Messages for the grenades application
 import string
 
 MESSAGE_CHAR = string.ascii_lowercase
+MESSAGE_CHAR_LONG = string.ascii_letters
 
 
 def create_message_of_len(len, value):
