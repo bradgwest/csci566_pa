@@ -110,7 +110,7 @@ def listen(client_socket):
 def send_single_message(client_socket, server_address, port, size):
     message = messages.create_message_of_len(size, "a")
     for _ in range(5):
-        client_socket.sento(message.encode(), (server_address, port))
+        client_socket.sento(message.encode(), (server_address, int(port)))
 
 
 def main():
