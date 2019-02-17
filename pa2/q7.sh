@@ -25,7 +25,7 @@ sudo tc qdisc add dev eth0 parent 1:1 handle 10: tbf rate 10000kbit latency 30ms
 
 if [[ "$CLIENT" = "true" ]]; then
   echo Running client
-  python3 client_udp.py -s ${SERVER_IP} -p 5201 -t cs -q 7 > ./results/q7_client_${LOSS}.csv
+  python3 client_udp.py -s ${SERVER_IP} -p 5201 -t cs -b 32 -q 7 -r 52 > ./results/q7_client_${LOSS}.csv
   SENT=$(grep -c "send" ./results/q7_client_${LOSS}.csv)
   REC=$(grep -c "rec" ./results/q7_client_${LOSS}.csv)
   echo Client sent ${SENT} and received ${REC} with loss ${LOSS}
