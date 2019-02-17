@@ -88,3 +88,68 @@ csc <- client_send_grouped %>%
 write_csv(csc, "./pa2/results/q3csc.csv")
 
 # QUESTION 4
+read_client <- function(f) {
+  raw <- read_lines(f)
+  v <- raw[3:length(raw)]
+  tibble(raw = v) %>% 
+    split_rows() %>% 
+    mutate(direction=substring(direction, 4, length(direction)),
+           time = as.numeric(time)) %>% 
+    rename(ip = size)
+}
+
+options(digits=20)
+combine_frames <- function(client_count) {
+  dfs <- list()
+  for (i in 1:client_count) {
+    f <- sprintf(paste0(RESULTS_DIR, "/q4_client_", client_count, "clients_%s.csv"), letters[i])
+    dfs[[i]] <- read_client(f)
+  }
+  df <- do.call(rbind, dfs)
+  df %>% 
+    mutate(nn = client_count)
+}
+
+get_server <- function(client_count) {
+  ss <- sprintf(paste0(RESULTS_DIR, "/q4_server_", client_count, "clients.csv"))
+  raw <- read_lines(ss)
+  v <- raw[2:length(raw)]
+  tibble(raw = v) %>% 
+    split_rows() %>% 
+    mutate(direction=substring(direction, 4, length(direction)),
+           time = as.numeric(time),
+           nn = client_count)
+}
+
+answer_q4 <- function() {
+  dfs <- list()
+  for (i in 2:5) {
+    clients <- combine_frames(i)
+    server <- get_server(i)
+    server_grouped <- server %>% 
+      group_by(nn, letter) %>% 
+      summarise(min_time = min(time),
+                max_time = max(time),
+                mean_time = mean(time))
+    clients_grouped <- clients %>% 
+      group_by(nn, letter) %>% 
+      summarise(min_time = min(time),
+                max_time = max(time),
+                mean_time = mean(time))
+    together <- server_grouped %>% 
+      full_join(clients_grouped,  by = c("letter", "nn"))
+    dfs[[i]] <- together
+  }
+  all_together <- do.call(rbind, dfs)
+  all_together %>% 
+    mutate(mx = max_time.y - min_time.x,
+           mn = min_time.y - max_time.x,
+           mnn = mean_time.y - mean_time.x) %>% 
+    group_by(nn) %>% 
+    summarise(min_time = min(mn),
+              max_time = max(mx),
+              mean_time = mean(mnn))
+}
+
+q4 <- answer_q4()
+write_csv(q4, "./pa2/results/q4.csv")
