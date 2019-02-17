@@ -153,3 +153,35 @@ answer_q4 <- function() {
 
 q4 <- answer_q4()
 write_csv(q4, "./pa2/results/q4.csv")
+
+# QUESTION 7
+
+client_raw <- read_csv(paste0(RESULTS_DIR, "/q7_client.csv"), 
+                       col_names = c("loss", "c_sent", "c_rec"))
+
+client <- client_raw %>% 
+  mutate(id = 1:nrow(client_raw))
+
+server_raw <- read_csv(paste0(RESULTS_DIR, "/q7_server.csv"),
+                       col_names = c("loss", "s_rec"))
+
+server <- server_raw %>% 
+  mutate(id = 1:nrow(server_raw))
+
+comb <- client %>% 
+  full_join(server, by = c("id", "loss")) %>% 
+  mutate(csc_error = (1 - (c_rec / c_sent)) * 100,
+         cs_error = (1 - (s_rec / c_sent)) * 100) %>% 
+  group_by(loss) %>% 
+  summarise(csc_min = min(csc_error),
+            csc_mean = mean(csc_error),
+            csc_max = max(csc_error),
+            cs_min = min(cs_error),
+            cs_mean = mean(cs_error),
+            cs_max = max(cs_error))
+
+write_csv(comb, "./pa2/results/q7.csv")
+
+# QUESTION 8
+
+
