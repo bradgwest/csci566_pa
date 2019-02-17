@@ -3,7 +3,7 @@ Messages for the grenades application
 """
 import string
 
-MESSAGE_CHAR = string.ascii_letters + string.digits
+MESSAGE_CHAR = string.ascii_lowercase
 
 
 def create_message_of_len(len, value):

@@ -88,7 +88,7 @@ class ReceiveHandler(socketserver.BaseRequestHandler):
     """
     def handle(self):
         message = self.request[0].strip()
-        logging.info('mt-rec: {},{},{}'.format(message.decode()[0], time.time(), len(message)))
+        logging.info('mt-rec: {},{},{}'.format(message.decode()[0], time.time(), len(message)-1))
 
 
 class ResendHandler(socketserver.BaseRequestHandler):
@@ -100,7 +100,7 @@ class ResendHandler(socketserver.BaseRequestHandler):
     def handle(self):
         message = self.request[0].strip()
         sock = self.request[1]
-        logging.info('mt-rec:{},{}'.format(message.decode()[0], time.time()))
+        logging.info('mt-rec: {},{},{}'.format(message.decode()[0], time.time(), len(message)))
         sock.sendto(message, self.client_address)
 
     def handle_timeout(self):
