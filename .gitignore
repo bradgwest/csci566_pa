@@ -6,8 +6,10 @@ data/
 *.csv
 *.gz
 *.png
-*.xlsx
 *.xls
+
+# R
+.Rproj
 
 # Created by https://www.gitignore.io/api/vim,macos,python,intellij
 # Edit at https://www.gitignore.io/?templates=vim,macos,python,intellij
@@ -262,3 +264,4 @@ tags
 
 # End of https://www.gitignore.io/api/vim,macos,python,intellij
 
+.Rproj.user
