@@ -68,6 +68,36 @@ def send_messages_for_size(client_socket,
     exit(0)
 
 
+def send_messages_for_count(client_socket, server_address, server_port, size, rate=0):
+    """
+    Send messages without wrapping in size changes
+    :param client_socket:
+    :param server_address:
+    :param server_port:
+    :param size:
+    :param rate:
+    :return:
+    """
+    server_ip_port = (server_address, server_port)
+    i = 0
+    while i < 52:
+        message = messages.create_message_of_len(size, messages.MESSAGE_CHAR_LONG[i])
+        # split large messages
+        chunks = split_message(message, BUFF_SIZE)
+        for chunk in chunks:
+            client_socket.sendto(chunk.encode(), server_ip_port)
+            logging.info('mt-send: {},{}'.format(chunk[0], time.time()))
+            try:
+                message, server_ip_port = client_socket.recvfrom(BUFF_SIZE)
+            except socket.timeout:
+                i += 1
+                continue
+            logging.info('mt-rec: {},{}'.format(message.decode()[0], time.time()))
+        i += 1
+        if rate != 0:
+            time.sleep(messages.rate_to_sec(rate))
+
+
 def listen(client_socket):
     logging.info("listening on {}".format(socket.gethostname()))
     while True:
@@ -88,8 +118,12 @@ def main():
 
     client_socket = open_socket(args.port)
     if args.send_type in {"cs", "csc"}:
-        send_messages_for_size(client_socket, args.server_address,
-                               args.server_port)
+        if args.question == 7:
+            send_messages_for_count(client_socket, args.server_address,
+                                    args.server_port, args.bytes, args.rate)
+        else:
+            send_messages_for_size(client_socket, args.server_address,
+                                   args.server_port)
     elif args.send_type == "scc":
         listen(client_socket)
     else:

@@ -59,16 +59,18 @@ class ResendHandler(socketserver.BaseRequestHandler):
     """
     Logic for server side handling of messages
     """
-    timeout = 10
+    timeout = 7
 
     def handle(self):
         message = self.request[0].strip()
         sock = self.request[1]
-        logging.info('mt-send: {},{},{}'.format(message.decode()[0], time.time(), len(message)))
+        logging.info('mt-rec: {},{},{}'.format(message.decode()[0], time.time(),
+                                               len(message)))
         sock.sendto(message, self.client_address)
 
     def handle_timeout(self):
         self.finish()
+        exit(1)
 
 
 def serve(server_address, server_port, handler):
@@ -99,6 +101,8 @@ def parse_arguments(sysargs):
                         default=1, type=int)
     parser.add_argument('-t', '--send-type', required=True,
                         help='the type of send, either "cs", "csc", or "scc"')
+    parser.add_argument("-q", "--question", type = int,
+                        help='the question number')
 
     args = parser.parse_args(sysargs)
 
