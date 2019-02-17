@@ -45,7 +45,7 @@ def send_to_clients(server_socket,
     """
     clients = [(a, int(p)) for a, p in zip(client_addresses.split(","), client_ports.split(","))]
     i = 0
-    while i < 26:
+    while i < 52:
         message = messages.create_message_of_len(message_len, messages.MESSAGE_CHAR_LONG[i])
         for client in clients:
             server_socket.sendto(message.encode(), client)
