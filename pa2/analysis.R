@@ -41,7 +41,6 @@ while (i < nrow(server)) {
     server$size_actual[i] <- size
   } else {
     size = size * 2
-    print(size)
     while ((i + 1) < nrow(server) & server$letter[i+1] == "$") {
       i = i + 1
     }
@@ -69,9 +68,23 @@ server_grouped <- server %>%
 # C-S
 cs <- client_send_grouped %>% 
   full_join(server_grouped, by=c("letter", "size")) %>% 
-  
   mutate(message_time = max_time.y - min_time.x) %>% 
   group_by(size) %>% 
-  summarise(mean_delay = mean(size, na.rm = T),
-            min_delay = min(size, na.rm = T),
-            max_delay = max(size, na.rm = T))
+  summarise(mean_delay = mean(message_time, na.rm = T),
+            min_delay = min(message_time, na.rm = T),
+            max_delay = max(message_time, na.rm = T))
+
+write_csv(cs, "./pa2/results/q3cs.csv")
+
+# C-S-C
+csc <- client_send_grouped %>% 
+  full_join(client_rec_grouped, by=c("letter", "size")) %>% 
+  mutate(message_time = max_time.y - min_time.x) %>% 
+  group_by(size) %>% 
+  summarise(mean_delay = mean(message_time, na.rm = T),
+            min_delay = min(message_time, na.rm = T),
+            max_delay = max(message_time, na.rm = T))
+
+write_csv(csc, "./pa2/results/q3csc.csv")
+
+# QUESTION 4
