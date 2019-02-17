@@ -184,4 +184,24 @@ write_csv(comb, "./pa2/results/q7.csv")
 
 # QUESTION 8
 
+server <- read_csv(paste0(RESULTS_DIR, "/q8_server.csv"),
+                   col_names = c("loss", "sent")) %>% 
+                     mutate(sent = (sent / 3) - 3)
+server <- server %>% mutate(id = 1:nrow(server))
 
+dfs <- list()
+for (i in 1:3) {
+  dfs[[i]] <- read_csv(paste0(RESULTS_DIR, "/q8_client_", i, ".csv"), 
+                     col_names = c("loss","c_rec")) %>% mutate(id = 1:55)
+}
+clients <- do.call(rbind, dfs)
+
+comb <- server %>% 
+  full_join(clients, by = c("loss", "id")) %>% 
+  mutate(err_rate = (1 - (c_rec / sent)) * 100) %>% 
+  group_by(loss) %>% 
+  summarise(scc_min = min(err_rate),
+            scc_mean = mean(err_rate),
+            scc_max = max(err_rate))
+
+write_csv(comb, "./pa2/results/q8.csv")
