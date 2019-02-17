@@ -110,7 +110,7 @@ def listen(client_socket):
 def send_single_message(client_socket, server_address, port, size):
     message = messages.create_message_of_len(size, "a")
     for _ in range(5):
-        client_socket.sento(message.encode(), (server_address, int(port)))
+        client_socket.sendto(message.encode(), (server_address, int(port)))
 
 
 def main():
@@ -126,7 +126,7 @@ def main():
     if args.question == 9:
         send_single_message(client_socket, args.server_address,
                             args.server_port, args.bytes)
-    if args.send_type in {"cs", "csc"}:
+    elif args.send_type in {"cs", "csc"}:
         if args.question == 7:
             send_messages_for_count(client_socket, args.server_address,
                                     args.server_port, args.bytes, args.rate)
