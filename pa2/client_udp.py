@@ -113,6 +113,22 @@ def send_single_message(client_socket, server_address, port, size):
         client_socket.sendto(message.encode(), (server_address, int(port)))
 
 
+def send_with_rate(client_socket, server_address, port, size):
+    rates = [1, 2, 4, 8, 16, 32, 64, 128, 256]
+    for rate in rates:
+        logging.info('$$$-{}'.format(rate))
+        for letter in messages.MESSAGE_CHAR_LONG:
+            message = messages.create_message_of_len(size, letter)
+            client_socket.sendto(message.encode(), (server_address, int(port)))
+            logging.info('send,{},{},{}'.format(message[0], time.time(), rate))
+            try:
+                message, _ = client_socket.recvfrom(BUFF_SIZE)
+            except socket.timeout:
+                continue
+            logging.info('rec,{},{},{}'.format(message.decode()[0], time.time(), rate))
+            time.sleep(messages.rate_to_sec(rate))
+
+
 def main():
     root = logging.getLogger()
     root.setLevel(logging.INFO)
@@ -126,6 +142,9 @@ def main():
     if args.question == 9:
         send_single_message(client_socket, args.server_address,
                             args.server_port, args.bytes)
+    elif args.question == 10:
+        send_with_rate(client_socket, args.server_address, args.server_port,
+                       args.bytes)
     elif args.send_type in {"cs", "csc"}:
         if args.question == 7:
             send_messages_for_count(client_socket, args.server_address,

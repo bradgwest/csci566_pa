@@ -205,3 +205,25 @@ comb <- server %>%
             scc_max = max(err_rate))
 
 write_csv(comb, "./pa2/results/q8.csv")
+
+# QUESTION 10
+
+results_raw <- read_lines(paste0(RESULTS_DIR, "/q10_results.csv"))
+
+results <- tibble(raw = results_raw) %>% 
+  filter(!startsWith(raw, "$$$")) %>% 
+  separate(raw, into = c("dir", "letter", "time", "rate"), sep = ",")
+
+rec <- results %>% filter(dir == "rec")
+send <- results %>% filter(dir == "send")
+
+comb <- send %>% 
+  full_join(rec, by = c("letter", "rate")) %>% 
+  mutate(delay = as.numeric(time.y) - as.numeric(time.x),
+         rate = as.numeric(rate)) %>%
+  group_by(rate) %>% 
+  summarize(min_delay = min(delay),
+            mean_delay = mean(delay), 
+            max_delay = max(delay))
+
+write_csv(comb, "./pa2/results/q10.csv")
