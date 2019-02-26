@@ -7,9 +7,11 @@ data/
 *.gz
 *.png
 *.xls
+*.pdf
 
 # R
-.Rproj
+*.Rproj
+*.Rhistory
 
 # Created by https://www.gitignore.io/api/vim,macos,python,intellij
 # Edit at https://www.gitignore.io/?templates=vim,macos,python,intellij
