@@ -20,6 +20,7 @@ def parse_arguments(sys_args):
     parser = argparse.ArgumentParser()
     parser.add_argument('-s', '--send-queue', help='queue to publish to')
     parser.add_argument('-c', '--consume-queue', help='queue to consume')
+    parser.add_argument('-d', '--delete-queue', help='queue to push delete messages to')
     parser.add_argument('-b', '--bytes', help='message size (bytes)', default=1, type=int)
     parser.add_argument('-t', '--rate', help='message rate (msg/sec)', default=1, type=int)
     parser.add_argument('-n', '--num-messages', default=52, type=int)
