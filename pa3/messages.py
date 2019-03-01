@@ -24,7 +24,7 @@ def parse_arguments(sys_args):
     parser.add_argument('-b', '--bytes', help='message size (bytes)', default=1, type=int)
     parser.add_argument('-t', '--rate', help='message rate (msg/sec)', default=1, type=int)
     parser.add_argument('-n', '--num-messages', default=52, type=int)
-    parser.add_argument('-device', help='network device', default='eth0')
+    parser.add_argument('--device', help='network device', default='eth0')
     parser.add_argument('--latency', help='desired latency (ms)', default=15, type=int)
     parser.add_argument('--loss', help='packet loss (%)', default=1, type=int)
     parser.add_argument('--bandwidth', help='bandwidth (kbits/sec)', default=10000, type=int)
