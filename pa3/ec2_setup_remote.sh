@@ -9,5 +9,5 @@ pip3 --version
 sudo apt -y install iproute2
 
 # install dependencies
-mkdir results
+mkdir log
 pip3 install -Ur requirements.txt
