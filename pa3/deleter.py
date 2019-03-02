@@ -3,7 +3,9 @@ Functionality for deleting messages from a queue
 """
 
 import argparse
+
 import boto3
+import botocore.exceptions
 
 
 # MESSAGE_LEDGER has queue urls as keys and dicts as values where that dict has
@@ -16,29 +18,40 @@ MESSAGE_LEDGER = {}
 def delete_messages(delete_queue, client_count):
     sqs = boto3.client("sqs")
     while True:
-        response = sqs.receive_messages(
+        response = sqs.receive_message(
             QueueUrl=delete_queue,
             MaxNumberOfMessages=10,
             MessageAttributeNames=['All']
         )
+        if not response.get('Messages'):
+            continue
         for message in response['Messages']:
             message_attributes = message['MessageAttributes']
-            queue_to_delete_from = message_attributes['deleteQueue']
             should_exit = message_attributes.get('exit')
+            queue_to_delete_from_att = message_attributes.get('deleteQueue')
+            receipt_handle_att = message_attributes.get('receiptHandle')
             if should_exit:
                 return
-            receipt_handle = message_attributes['receiptHandle']
-            if queue_to_delete_from not in MESSAGE_LEDGER or receipt_handle not in MESSAGE_LEDGER[queue_to_delete_from]:
-                MESSAGE_LEDGER[queue_to_delete_from] = dict(
-                    receipt_handle=1
-                )
-            elif MESSAGE_LEDGER[queue_to_delete_from] < (client_count - 1):
-                MESSAGE_LEDGER[queue_to_delete_from] += 1
+            elif not (queue_to_delete_from_att or receipt_handle_att):
+                continue
             else:
-                sqs.delete_message(
-                    QueueUrl=queue_to_delete_from,
-                    ReceiptHandle=receipt_handle
-                )
+                queue_to_delete_from = queue_to_delete_from_att['StringValue']
+                receipt_handle = receipt_handle_att['StringValue']
+                if queue_to_delete_from not in MESSAGE_LEDGER or \
+                        receipt_handle not in MESSAGE_LEDGER[queue_to_delete_from]:
+                    MESSAGE_LEDGER[queue_to_delete_from] = dict(
+                        receipt_handle=1
+                    )
+                elif MESSAGE_LEDGER[queue_to_delete_from] < (client_count - 1):
+                    MESSAGE_LEDGER[queue_to_delete_from] += 1
+                else:
+                    try:
+                        _ = sqs.delete_message(
+                            QueueUrl=queue_to_delete_from,
+                            ReceiptHandle=receipt_handle
+                        )
+                    except botocore.exceptions.ClientError:
+                        pass
 
 
 def main():
