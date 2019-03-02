@@ -78,7 +78,7 @@ def delete_tc(dev):
     subprocess.run(tc_delete_cmd, shell=True)
 
 
-def setup_log(log_file, name='logger'):
+def setup_log(log_file):
     # Set up logger
     logging.basicConfig(filename=log_file, level=LOG_LEVEL)
     sh = logging.StreamHandler()
