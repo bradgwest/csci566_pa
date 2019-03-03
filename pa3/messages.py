@@ -63,7 +63,6 @@ def set_tc(dev, latency, loss, bandwidth):
     """
     tc_set_cmd = TC_SET_CMD_TEMPLATE.format(
         dev=dev, lat=latency, loss=loss, bw=bandwidth).replace("\n", "")
-    logging.info("Setting tc: ", tc_set_cmd)
     subprocess.run(tc_set_cmd, shell=True)
 
 
@@ -74,7 +73,6 @@ def delete_tc(dev):
     :return:
     """
     tc_delete_cmd = "sudo tc qdisc del dev {dev} root".format(dev=dev)
-    logging.info("Deleting tc: ", tc_delete_cmd)
     subprocess.run(tc_delete_cmd, shell=True)
 
 
