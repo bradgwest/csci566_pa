@@ -74,17 +74,34 @@ def receive_messages(client, receive_queue, send_queue=None, delete_queue=None,
             should_exit = message_attributes and message_attributes.get('exit')
             if send_queue:
                 # send it to the send queue to pick off
-                message_attributes['message_id'] = {
-                    'StringValue': message['MessageId'],
-                    'DataType': 'String'
-                }
+                if message_attributes:
+                    new_attributes = {
+                        'exit': {
+                            'DataType': 'Number',
+                            'StringValue': '1'
+                        }
+                    }
+                else:
+                    new_attributes = {
+                        'message_id': {
+                            'StringValue': message['MessageId'],
+                            'DataType': 'String'
+                        }
+                    }
                 _ = client.send_message(
                     QueueUrl=send_queue,
-                    MessageAttributes=message_attributes,
+                    MessageAttributes=new_attributes,
                     MessageBody=message['Body'],
                     MessageGroupId='0',
                     MessageDeduplicationId=str(uuid.uuid4())
                 )
+                try:
+                    _ = client.delete_message(
+                        QueueUrl=receive_queue,
+                        ReceiptHandle=message['ReceiptHandle']
+                    )
+                except botocore.exceptions.ClientError:
+                    pass
                 if should_exit:
                     return
             else:
@@ -133,7 +150,7 @@ def receive_messages(client, receive_queue, send_queue=None, delete_queue=None,
 def perform_experiment(device, latency, loss, bandwidth, log_file, send_queue,
                        receive_queue, delete_queue, num_messages, size, rate,
                        comm_type, sender, num_clients, server):
-    messages.setup_log(log_file, 'client_logger')
+    messages.setup_log(log_file)
     # setup networking
     messages.set_tc(device, latency, loss, bandwidth)
 
@@ -218,7 +235,8 @@ def main():
     perform_experiment(args.device, args.latency, args.loss, args.bandwidth,
                        args.log_file, args.send_queue, args.receive_queue,
                        args.delete_queue, args.num_messages, args.size,
-                       args.rate, args.comm_type, args.sender, args.num_clients)
+                       args.rate, args.comm_type, args.sender, args.num_clients,
+                       args.server)
 
 
 if __name__ == "__main__":
