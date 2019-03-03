@@ -12,5 +12,7 @@ scp -i ${PEM} *.py requirements.txt ubuntu@$1:~/
 
 if [[ ${SETUP_REMOTE} == 'True' ]]
 then
+  ssh -i ${PEM} ubuntu@$1 "mkdir -p ~/.aws"
+  scp -i ${PEM} ~/.aws/credentials ubuntu@$1:~/.aws
   ssh -i ${PEM} ubuntu@$1 "bash -s" < ec2_setup_remote.sh
 fi
