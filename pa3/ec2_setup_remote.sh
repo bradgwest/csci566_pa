@@ -7,6 +7,7 @@ sudo apt update
 sudo apt -y install python3-pip
 pip3 --version
 sudo apt -y install iproute2
+sudo apt -y install iperf
 
 # install dependencies
 mkdir log
