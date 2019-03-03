@@ -135,8 +135,7 @@ def perform_experiment(device, latency, loss, bandwidth, log_file, send_queue,
                        comm_type, sender, num_clients, server):
     messages.setup_log(log_file, 'client_logger')
     # setup networking
-    # TODO Add back in
-    # messages.set_tc(device, latency, loss, bandwidth)
+    messages.set_tc(device, latency, loss, bandwidth)
 
     # setup client and run the threads
     threads = []
@@ -209,7 +208,6 @@ def perform_experiment(device, latency, loss, bandwidth, log_file, send_queue,
             pass
 
     # delete networking rules
-    # TODO Add back in
     messages.delete_tc(device)
 
     return "DONE"
