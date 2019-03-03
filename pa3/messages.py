@@ -8,7 +8,7 @@ import subprocess
 
 
 TC_SET_CMD_TEMPLATE = """
-sudo tc qdisc add dev {dev} root handle 1: netem delay {lat}ms loss {loss}% && 
+sudo tc qdisc add dev {dev} root handle 1: netem delay {lat}ms {loss_cmd} && 
 sudo tc qdisc add dev {dev} parent 1:1 handle 10: tbf rate {bw}kbit latency 
 {lat}ms burst 32kbit"""
 
@@ -32,7 +32,7 @@ def parse_arguments(sys_args):
     parser.add_argument('--num-messages', default=52, type=int)
     parser.add_argument('--device', help='network device', default='eth0')
     parser.add_argument('--latency', help='desired latency (ms)', default=15, type=int)
-    parser.add_argument('--loss', help='packet loss (%)', default=1, type=int)
+    parser.add_argument('--loss', help='packet loss (%)', default=0, type=float)
     parser.add_argument('--bandwidth', help='bandwidth (kbits/sec)', default=10000, type=int)
     parser.add_argument('-f', '--log-file', help='log file to write to', required=True)
     parser.add_argument('-t', '--comm-type', help='communication type, one of csc, or scc',
@@ -41,6 +41,8 @@ def parse_arguments(sys_args):
     parser.add_argument('--sender', help='if scc is specified, whether this is a sender or not',
                         action='store_true')
     parser.add_argument('-c', '--num-clients', help='number of clients')
+    parser.add_argument('--delay', type=int,
+                        help='number of seconds to delay before sending a batch of messages of different size')
     args = parser.parse_args(sys_args)
 
     if args.comm_type not in {'csc', 'scc'}:
@@ -61,8 +63,11 @@ def set_tc(dev, latency, loss, bandwidth):
     :param bandwidth:
     :return:
     """
+    loss_cmd = ""
+    if loss > 0:
+        loss_cmd = "loss {}%".format(loss)
     tc_set_cmd = TC_SET_CMD_TEMPLATE.format(
-        dev=dev, lat=latency, loss=loss, bw=bandwidth).replace("\n", "")
+        dev=dev, lat=latency, loss_cmd=loss_cmd, bw=bandwidth).replace("\n", "")
     subprocess.run(tc_set_cmd, shell=True)
 
 
