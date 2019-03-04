@@ -109,6 +109,9 @@ def setup_and_run_experiment(question, ec2_client_dns, ec2_server_dns=None,
         logging.info("Running question 9")
         sqs = boto3.client("sqs")
         for i, size in enumerate(sizes):
+            a = input("do you wish to continue at size {} [y/n]".format(size))
+            if a != "y":
+                return
             _ = sqs.send_message(
                 QueueUrl=sqs_queues[0],
                 MessageAttributes={},
