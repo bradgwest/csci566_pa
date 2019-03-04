@@ -5,7 +5,9 @@ Remotely invokes an experiment
 import argparse
 import logging
 import os
+import string
 import subprocess
+import uuid
 
 import boto3
 
@@ -103,8 +105,20 @@ def setup_and_run_experiment(question, ec2_client_dns, ec2_server_dns=None,
         for s, l in zip((ec2_client_dns, ec2_server_dns), logfiles):
             copy_logs(s, local_directory="log/q5/",
                       remote_file="~/{}".format(l))
+    elif question == 9:
+        logging.info("Running question 9")
+        sqs = boto3.client("sqs")
+        for i, size in enumerate(sizes):
+            _ = sqs.send_message(
+                QueueUrl=sqs_queues[0],
+                MessageAttributes={},
+                MessageBody=int(size)*string.ascii_letters[i],
+                MessageGroupId='0',
+                MessageDeduplicationId=str(uuid.uuid4())
+            )
+        logging.info("Done with question 9")
     elif question == 10:
-        logging.info("Running question 5")
+        logging.info("Running question 10")
         logfile_client = "log/q10_client.log"
         logfile_server = "log/q10_server.log"
         logfiles = (logfile_client, logfile_server)
