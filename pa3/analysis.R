@@ -126,3 +126,14 @@ q7 <- function() {
   }
   FALSE
 }
+
+q10 <- function() {
+  lines <- read_lines(paste0(LOG_DIR, "/q10/q10_client.log"))
+  clean <- clean_logfile(lines)
+  clean %>% 
+    select(-size) %>% 
+    rename(size = rate) %>% 
+    mutate(rate = NA) %>% 
+    client_to_client() %>% 
+    View
+}

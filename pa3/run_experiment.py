@@ -16,8 +16,10 @@ QUEUE_ATTRIBUTES = {
     'VisibilityTimeout': '720'
 }
 
-sizes = [1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768,65536,131072]
+sizes = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384,
+         32768, 65536, 131072]
 losses = [0.0, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8, 2.0]
+rates = [1, 2, 4, 8, 16, 32, 64, 128, 256]
 
 
 def setup_queues(sqs_client):
@@ -100,6 +102,31 @@ def setup_and_run_experiment(question, ec2_client_dns, ec2_server_dns=None,
             return
         for s, l in zip((ec2_client_dns, ec2_server_dns), logfiles):
             copy_logs(s, local_directory="log/q5/",
+                      remote_file="~/{}".format(l))
+    elif question == 10:
+        logging.info("Running question 5")
+        logfile_client = "log/q10_client.log"
+        logfile_server = "log/q10_server.log"
+        logfiles = (logfile_client, logfile_server)
+        py_server_cmd = "python3 handler.py --send-queue {} " \
+                        "--receive-queue {} --log-file {} --comm-type csc " \
+                        "--server ".format(sqs_queues[0], sqs_queues[1], logfiles[1])
+        py_client_cmd = "python3 handler.py --send-queue {} " \
+                        "--receive-queue {} " \
+                        "--size 32 " \
+                        "--rate 1,2,4,8,16,32,64,128,256 --log-file {} " \
+                        "--comm-type csc " \
+                        "--delay 60".format(sqs_queues[0], sqs_queues[1], logfiles[0])
+        print("Run on server:")
+        print(py_server_cmd)
+        print("Run on client:")
+        print(py_client_cmd)
+        a = input("Copy Logs? [y/n]")
+        if a != "y":
+            print("Quitting")
+            return
+        for s, l in zip((ec2_client_dns, ec2_server_dns), logfiles):
+            copy_logs(s, local_directory="log/q10/",
                       remote_file="~/{}".format(l))
     else:
         print("Question {} not implemented".format(question))
