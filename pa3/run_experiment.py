@@ -90,7 +90,8 @@ def setup_and_run_experiment(question, ec2_client_dns, ec2_server_dns=None,
                         "--loss {}".format(sqs_queues[0], sqs_queues[1], logfiles[1], losses[loss])
         py_client_cmd = "python3 handler.py --send-queue {} " \
                         "--receive-queue {} " \
-                        "--size 32 " \
+                        "--size 32 "\
+                        "--num-messages 100" \
                         "--rate 0 --log-file {} " \
                         "--comm-type csc --loss {} " \
                         "--delay 0".format(sqs_queues[0], sqs_queues[1], logfiles[0], losses[loss])
