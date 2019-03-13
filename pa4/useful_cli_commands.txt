@@ -2,7 +2,8 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 
 bin/kafka-server-start.sh config/server.properties
 
-bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test1
+
 bin/kafka-topics.sh --list --zookeeper localhost:2181
 bin/kafka-topics.sh --zookeeper localhost:2181 --delete --topic test
 
@@ -16,3 +17,10 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9093 --topic test --f
 
 bin/kafka-consumer-groups.sh  --list --bootstrap-server localhost:9092
 bin/kafka-consumer-groups.sh --describe --group mygroup --bootstrap-server localhost:9092
+
+sudo timedatectl set-ntp no
+sudo apt update
+sudo apt install ntp
+sudo service ntp restart
+ntpq -p
+date -u
