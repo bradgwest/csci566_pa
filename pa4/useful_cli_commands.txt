@@ -4,6 +4,8 @@ bin/kafka-server-start.sh config/server.properties
 
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test1
 
+bin/kafka-topics.sh --create --zookeeper 192.168.0.100:2181 --replication-factor 1 --partitions 1 --topic test1
+
 bin/kafka-topics.sh --list --zookeeper localhost:2181
 bin/kafka-topics.sh --zookeeper localhost:2181 --delete --topic test
 
@@ -24,3 +26,14 @@ sudo apt install ntp
 sudo service ntp restart
 ntpq -p
 date -u
+
+
+sudo ssh rocky91@192.168.0.111 mkdir pa4
+sudo scp kafka_2.11-2.1.0.tgz rocky91@192.168.0.111:~/pa4
+sudo ssh rocky91@192.168.0.111 'cd pa4 && tar -xzvf ~/pa4/kafka_2.11-2.1.0.tgz'
+sudo ssh -t rocky91@192.168.0.111 'sudo apt install default-jre'
+sudo ssh rocky91@192.168.0.111 'pa4/kafka_2.11-2.1.0/bin/zookeeper-server-start.sh config/zookeeper.properties'
+
+sudo ssh rocky@192.168.0.108 mkdir pa4
+sudo scp kafka_2.11-2.1.0.tgz rocky@192.168.0.108:~/pa4
+sudo ssh rocky@192.168.0.108 'cd pa4 && tar -xzvf ~/pa4/kafka_2.11-2.1.0.tgz'

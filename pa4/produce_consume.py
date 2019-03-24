@@ -8,9 +8,11 @@ def consume():
 				  'default.topic.config':{'auto.offset.reset':'smallest'}
 				  })
 	c.subscribe(['mytopic'])
-	msg = c.poll(0.1)
-	print(msg.value())
+	while True:	
+		msg = c.poll(0.1)
+		print(msg.value())
 
 def produce():
 	p = Producer({'bootstrap.servers':'localhost:9092'})
 	p.produce('mytopic',key='hello',value = 'world')
+	p.flush(1)
