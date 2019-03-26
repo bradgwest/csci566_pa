@@ -1,13 +1,10 @@
-def get_ip(instance_type):
-	with open('./remote_ips.txt','r') as file:
-		lines = file.readlines()
-	for line in lines:
-		inst_type = line.split(',')[0].strip()
-		if(inst_type == instance_type):
-			return line.split(',')[1].strip()
+from aux_func import *
 
 def main():
 	print("Running experiment >>>>>>>>>>>>>>>>>>")
+	print("Setting up EC2 instances")
+
+
 	while True:
 		q_num = input("Enter question number 3-10> ")
 		if(q_num == '3'):
