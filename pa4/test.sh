@@ -35,6 +35,6 @@ done
 # 	fi
 # fi
 
-if [ "$2" = "kafka" ]; then
-	echo "kafka"
-fi
+# if [ "$2" = "kafka" ]; then
+# 	echo "kafka"
+# fi

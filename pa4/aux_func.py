@@ -4,9 +4,7 @@ import subprocess
 # set up all EC2 instances
 def instance_setup():
 	for ip in get_ip('kafka'):
-
 		subprocess.run(['./set_up.sh',ip])
-
 	for ip in get_ip('client'):
 		subprocess.run(['./set_up.sh',ip])
 	
