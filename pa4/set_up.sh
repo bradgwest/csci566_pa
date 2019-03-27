@@ -20,6 +20,8 @@ ssh -i .aws/key1.pem $IP "bash -s" < ~/kafka/remote_setup.sh
 # fi
 if [ $type = "kafka" ]; then
 	echo "kafka"
+	scp -i .aws/key1.pem kafka_2.11-2.1.0.tgz $IP:~/kafka
+	ssh -i .aws/key1.pem $IP "tar -xzvf ~/kafka/kafka_2.11-2.1.0.tgz"
 fi
 
 
