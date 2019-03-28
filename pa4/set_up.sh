@@ -11,18 +11,18 @@ while [ "$1" != "" ]; do
 	esac
 	shift
 done
+if [ $type = "kafka" ]; then
+	# echo "kafka"
+	scp -i .aws/credential/key1.pem kafka_2.11-2.1.0.tgz $IP:~
+	ssh -i .aws/credential/key1.pem $IP "tar -xzvf kafka_2.11-2.1.0.tgz"
+fi
 
-ssh -i .aws/key1.pem $IP 'mkdir kafka' 
-scp -i .aws/key1.pem remote_setup.sh $IP:~/kafka
-ssh -i .aws/key1.pem $IP "bash -s" < ~/kafka/remote_setup.sh
+# ssh -i .aws/credential/key1.pem $IP 'mkdir kafka' 
+scp -i .aws/credential/key1.pem remote_setup.sh $IP:~
+ssh -i .aws/credential/key1.pem $IP "bash remote_setup.sh"
 # if [ $IP = "" ]; then
 # 	echo "IP"
 # fi
-if [ $type = "kafka" ]; then
-	echo "kafka"
-	# scp -i .aws/key1.pem kafka_2.11-2.1.0.tgz $IP:~/kafka
-	ssh -i .aws/key1.pem $IP "tar -xzvf ~/kafka/kafka_2.11-2.1.0.tgz"
-fi
 
 
 

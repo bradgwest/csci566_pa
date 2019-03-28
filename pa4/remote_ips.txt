@@ -1,3 +1,1 @@
-kafka, 192.168.0.1
-client, 192.168.0.1
-kafka, asdf
+kafka, ubuntu@34.217.179.22
