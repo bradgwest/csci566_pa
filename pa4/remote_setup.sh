@@ -7,4 +7,4 @@ mkdir ~/kafka/log
 # sudo tar -xvzf ~/kafka/kafka_2.11-2.1.0.tgz
 
 sudo apt install librdkafka-dev
-pip3 install confluent-kafka
+pip3 install confluent-kafka 

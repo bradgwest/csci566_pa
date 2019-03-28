@@ -1,12 +1,15 @@
 from aux_func import *
 
+
 def main():
 	print("Running experiment >>>>>>>>>>>>>>>>>>")
 	print("Setting up EC2 instances")
 
+	instance_list = []
 
-	while True:
-		q_num = input("Enter question number 3-10> ")
+	for q_num in range(3,11):
+		# q_num = input("Enter question number 3-10> ")
+
 		if(q_num == '3'):
 			pass
 		elif(q_num == '4'):
@@ -23,12 +26,12 @@ def main():
 			pass
 		elif(q_num == '10'):
 			pass
-		else:
-			print("Please enter a valid number 3-10 ")
-			continue
-		done = input("Done? y/n > ")
-		if(done == 'y'):
-			break
+		# else:
+		# 	print("Please enter a valid number 3-10 ")
+		# 	continue
+		# done = input("Done? y/n > ")
+		# if(done == 'y'):
+		# 	break
 
 
 
