@@ -8,3 +8,7 @@ mkdir ~/kafka/log
 
 sudo apt install librdkafka-dev
 pip3 install confluent-kafka 
+
+sudo timedatectl set-ntp no
+sudo apt install ntp
+sudo service ntp restart
