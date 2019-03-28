@@ -17,6 +17,12 @@ if [ $type = "kafka" ]; then
 	ssh -i .aws/credential/key1.pem $IP "tar -xzvf kafka_2.11-2.1.0.tgz"
 fi
 
+if [ $type = "client" ]; then
+	# echo "kafka"
+	scp -i .aws/credential/key1.pem prod_msg.py consume_msg.py $IP:
+fi
+
+
 # ssh -i .aws/credential/key1.pem $IP 'mkdir kafka' 
 scp -i .aws/credential/key1.pem remote_setup.sh $IP:~
 ssh -i .aws/credential/key1.pem $IP "bash remote_setup.sh"
