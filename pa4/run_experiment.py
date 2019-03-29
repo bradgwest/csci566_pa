@@ -1,7 +1,8 @@
 from aux_func import *
 import logging
+import threading
 
-# 
+
 # logging.basicConfig(filemode='a')
 # logging.info("another message")
 
@@ -20,7 +21,7 @@ def main():
 			logging.info("Start running experiment for question 3>>>>>>>>>>")
 			logging.basicConfig(filemode='a')
 			
-			pass
+			
 		elif(q_num == '4'):
 			pass
 		elif(q_num == '5'):

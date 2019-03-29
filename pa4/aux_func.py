@@ -30,10 +30,11 @@ def print_instance_list(instance_list):
 		print("Instance type is: {0:7}, ip address is {1}".format(instance.type,instance.ip))
 
 def pre_experiment_check():
+	print("Reminder")
 	net_setting_check = input("Is the network performance measured as specified? y/n >")
 	kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
 
-	while(net_setting_check == 'n' or kafka_setup_check = 'n'):
+	while(net_setting_check == 'n' or kafka_setup_check == 'n'):
 		net_setting_check = input("Is the network performance measured as specified? y/n >")
 		kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
 		

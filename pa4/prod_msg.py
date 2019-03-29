@@ -1,5 +1,6 @@
 from confluent_kafka import Producer
- 
+import logging
+import time
 # p = Producer({'bootstrap.servers': 'localhost:9092'})
 # p.produce('mytopic', key='hello', value='world1')
 # p.produce('mytopic', key='hello', value='world2')
@@ -11,11 +12,6 @@ from confluent_kafka import Producer
 
 # p.flush(30)
 
-
-
-
-
-
 def acked(err, msg):
     if err is not None:
         print("Failed to deliver message: {0}: {1}"
@@ -23,15 +19,20 @@ def acked(err, msg):
     else:
         print("Message produced: {0}".format(msg.value()))
 
-p = Producer({'bootstrap.servers': 'localhost:9092'})
+def produce_from_local(ip,topic, msgs):
+    p = Producer({'bootstrap.servers': ip+':9092'})
 
-try:
-    for val in range(1, 1000):
-        p.produce('mytopic', 'myvalue #{0}'
-                  .format(val), callback=acked)
-        # p.poll(0.5)
+    try:
+        for i, msg in enumerate(msgs):
+            logging.basicConfig(level=logging.DEBUG, filename='q3.log',filemode='a')
+            p.produce(topic, msg, callback=acked)
+            p.flush()
+            logging.info("produce message: {} to topic: {} at time: {}".format(i,topic,time.time())
 
-except KeyboardInterrupt:
-    pass
+
+            # p.poll(0.5)
+
+# except KeyboardInterrupt:
+#     pass
 
 # p.flush(30)
