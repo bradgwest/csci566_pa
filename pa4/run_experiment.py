@@ -4,9 +4,15 @@ from aux_func import *
 def main():
 	print("Running experiment >>>>>>>>>>>>>>>>>>")
 	print("Setting up EC2 instances")
+	instance_setup()
 
-	instance_list = []
+	net_setting_check = input("Is the network performance measured as specified? y/n >")
+	kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
 
+	while(net_setting_check == 'n' or kafka_setup_check = 'n'):
+		net_setting_check = input("Is the network performance measured as specified? y/n >")
+		kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
+		
 	for q_num in range(3,11):
 		# q_num = input("Enter question number 3-10> ")
 

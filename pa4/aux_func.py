@@ -8,10 +8,12 @@ class EC2_instance():
 
 # set up all EC2 instances
 def instance_setup():
-	for ip in get_ip('kafka'):
-		subprocess.run(['./set_up.sh',ip])
-	for ip in get_ip('client'):
-		subprocess.run(['./set_up.sh',ip])
+	for instance in get_ip():
+		subprocess.run(['.set_up.sh','-i',instance.ip,'-t',instance.type])
+	# for ip in get_ip('kafka'):
+	# 	subprocess.run(['./set_up.sh',ip])
+	# for ip in get_ip('client'):
+	# 	subprocess.run(['./set_up.sh',ip])
 	
 
 # Get ip address that is type of instance_type when all_instance is False,
