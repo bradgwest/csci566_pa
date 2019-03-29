@@ -12,8 +12,7 @@ def instance_setup():
 		subprocess.run(['.set_up.sh','-i',instance.ip,'-t',instance.type])
 
 
-# Get ip address that is type of instance_type when all_instance is False,
-# otherwise get all ip address
+# Get ip address list
 def get_ip():
 	instance_list = []
 	with open('./remote_ips.txt','r') as file:
@@ -24,6 +23,13 @@ def get_ip():
 			# ip_list.append(line.split(',')[1].strip())
 		instance_list.append(EC2_instance(line.split(',')[0].strip(),line.split(',')[1].strip()))
 	return instance_list
+
+def get_kafka_ip():
+	with open('./remote_ips.txt','r') as file:
+		lines = file.readlines()
+	for line in lines:
+		if(line.split(',')[0].strip() == 'kafka'):
+			return line.split(',')[1].split('@')[1].strip()
 
 def print_instance_list(instance_list):
 	for instance in instance_list:

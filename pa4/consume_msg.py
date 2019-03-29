@@ -1,7 +1,12 @@
 from confluent_kafka import Consumer, KafkaError
+import logging
+import time
+
+kafka_ip = sys.argv[1]
+topic = sys.argv[2]
 
 settings = {
-    'bootstrap.servers': 'localhost:9092',
+    'bootstrap.servers': kafka_ip+':9092',
     'group.id': 'mygroup',
     'client.id': 'client-1',
     'enable.auto.commit': True,
@@ -11,7 +16,7 @@ settings = {
 
 c = Consumer(settings)
 
-c.subscribe(['mytopic'])
+c.subscribe([topic])
 
 try:
     while True:

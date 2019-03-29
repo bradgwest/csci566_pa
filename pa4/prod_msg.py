@@ -22,17 +22,13 @@ def acked(err, msg):
 def produce_from_local(ip,topic, msgs):
     p = Producer({'bootstrap.servers': ip+':9092'})
 
-    try:
+    try: 
         for i, msg in enumerate(msgs):
             logging.basicConfig(level=logging.DEBUG, filename='q3.log',filemode='a')
             p.produce(topic, msg, callback=acked)
             p.flush()
-            logging.info("produce message: {} to topic: {} at time: {}".format(i,topic,time.time())
+            logging.info("produce message: {} to topic: {} at time: {}".format(i,topic,time.time()))
 
+    except KeyboardInterrupt:
+        pass
 
-            # p.poll(0.5)
-
-# except KeyboardInterrupt:
-#     pass
-
-# p.flush(30)
