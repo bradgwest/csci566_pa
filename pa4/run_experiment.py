@@ -1,22 +1,25 @@
 from aux_func import *
+import logging
 
+# 
+# logging.basicConfig(filemode='a')
+# logging.info("another message")
 
 def main():
 	print("Running experiment >>>>>>>>>>>>>>>>>>")
 	print("Setting up EC2 instances")
 	instance_setup()
 
-	net_setting_check = input("Is the network performance measured as specified? y/n >")
-	kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
-
-	while(net_setting_check == 'n' or kafka_setup_check = 'n'):
-		net_setting_check = input("Is the network performance measured as specified? y/n >")
-		kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
-		
+	pre_experiment_check()
+	
 	for q_num in range(3,11):
 		# q_num = input("Enter question number 3-10> ")
 
 		if(q_num == '3'):
+			logging.basicConfig(level=logging.DEBUG, filename='q3.log',filemode='w')
+			logging.info("Start running experiment for question 3>>>>>>>>>>")
+			logging.basicConfig(filemode='a')
+			
 			pass
 		elif(q_num == '4'):
 			pass

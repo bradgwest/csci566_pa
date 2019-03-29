@@ -10,11 +10,7 @@ class EC2_instance():
 def instance_setup():
 	for instance in get_ip():
 		subprocess.run(['.set_up.sh','-i',instance.ip,'-t',instance.type])
-	# for ip in get_ip('kafka'):
-	# 	subprocess.run(['./set_up.sh',ip])
-	# for ip in get_ip('client'):
-	# 	subprocess.run(['./set_up.sh',ip])
-	
+
 
 # Get ip address that is type of instance_type when all_instance is False,
 # otherwise get all ip address
@@ -33,4 +29,11 @@ def print_instance_list(instance_list):
 	for instance in instance_list:
 		print("Instance type is: {0:7}, ip address is {1}".format(instance.type,instance.ip))
 
-# print_instance_list(get_ip())
+def pre_experiment_check():
+	net_setting_check = input("Is the network performance measured as specified? y/n >")
+	kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
+
+	while(net_setting_check == 'n' or kafka_setup_check = 'n'):
+		net_setting_check = input("Is the network performance measured as specified? y/n >")
+		kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
+		
