@@ -12,19 +12,22 @@ while [ "$1" != "" ]; do
 	shift
 done
 if [ $type = "kafka" ]; then
-	# echo "kafka"
+	echo "Sending and extracting kafka zip"
 	scp -i .aws/credential/key1.pem kafka_2.11-2.1.0.tgz $IP:~
 	ssh -i .aws/credential/key1.pem $IP "tar -xzvf kafka_2.11-2.1.0.tgz"
 fi
 
 if [ $type = "client" ]; then
 	# echo "kafka"
+	echo "Send prood_msg.py and consume_msg.py"
 	scp -i .aws/credential/key1.pem prod_msg.py consume_msg.py $IP:
 fi
 
 
-# ssh -i .aws/credential/key1.pem $IP 'mkdir kafka' 
+# ssh -i .aws/credential/key1.pem $IP 'mkdir kafka'
+echo "Sending remote setup script"  
 scp -i .aws/credential/key1.pem remote_setup.sh $IP:~
+echo "Running remote set up script"
 ssh -i .aws/credential/key1.pem $IP "bash remote_setup.sh"
 # if [ $IP = "" ]; then
 # 	echo "IP"

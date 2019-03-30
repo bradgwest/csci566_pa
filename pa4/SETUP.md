@@ -17,7 +17,7 @@ zookeeper and kafka server need to be manually started by logging into kafka ins
 ~/pa4/kafka_2.11-2.1.0/bin/kafka-server-start.sh config/server.properties
 ```
 
-
+To measure network setting, use following script on local machine and AWS instances.
 
 ```bash
 sudo tc qdisc add dev eth0 root handle 1: netem delay 15ms loss 1%

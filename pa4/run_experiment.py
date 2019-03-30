@@ -22,8 +22,10 @@ def main():
 			logging.basicConfig(level=logging.DEBUG, filename=log_name,filemode='w')
 			logging.info("Start running experiment for question 3>>>>>>>>>>")
 			logging.basicConfig(filemode='a')
-			# input("Please set network setting. Press Enter to continue")
-			input("Please log in consumer instance and start consumer_msg.py\n\
+			# Need to set network setting
+			input("Please log in consumer(client) instance and start consumer_msg.py,consume topic1\n\
+			Press Enter to continue")
+			input("Please start consume_msg at local machine, consume topic2\n\
 			Press Enter to continue")
 			for msg in msg_list:
 				produce_from_local(kafka_ip,'topic_1',msg)

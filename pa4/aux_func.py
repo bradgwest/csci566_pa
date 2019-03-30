@@ -1,7 +1,7 @@
 import subprocess
 
 class EC2_instance():
-	def __init__(self,type='regular',ip=''):
+	def __init__(self,type='client',ip=''):
 		self.type = type
 		self.ip = ip
 
@@ -9,7 +9,7 @@ class EC2_instance():
 # set up all EC2 instances
 def instance_setup():
 	for instance in get_ip():
-		subprocess.run(['.set_up.sh','-i',instance.ip,'-t',instance.type])
+		subprocess.run(['./set_up.sh','-i',instance.ip,'-t',instance.type])
 
 
 # Get ip address list
