@@ -21,6 +21,7 @@ c = Consumer(settings)
 
 c.subscribe([topic])
 
+log_name = 'q3_consume'
 try:
     while True:
         msg = c.poll()
