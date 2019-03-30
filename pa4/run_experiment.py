@@ -18,9 +18,13 @@ def main():
 		# q_num = input("Enter question number 3-10> ")
 
 		if(q_num == '3'):
-			logging.basicConfig(level=logging.DEBUG, filename='q3.log',filemode='w')
+			log_name = q3_produce.log
+			logging.basicConfig(level=logging.DEBUG, filename=log_name,filemode='w')
 			logging.info("Start running experiment for question 3>>>>>>>>>>")
 			logging.basicConfig(filemode='a')
+			# input("Please set network setting. Press Enter to continue")
+			input("Please log in consumer instance and start consumer_msg.py\n\
+			Press Enter to continue")
 			for msg in msg_list:
 				produce_from_local(kafka_ip,'topic_1',msg)
 

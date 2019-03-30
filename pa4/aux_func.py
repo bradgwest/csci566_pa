@@ -24,6 +24,7 @@ def get_ip():
 		instance_list.append(EC2_instance(line.split(',')[0].strip(),line.split(',')[1].strip()))
 	return instance_list
 
+# get ip address of kafka broker without user name
 def get_kafka_ip():
 	with open('./remote_ips.txt','r') as file:
 		lines = file.readlines()
@@ -37,10 +38,12 @@ def print_instance_list(instance_list):
 
 def pre_experiment_check():
 	print("Reminder")
-	net_setting_check = input("Is the network performance measured as specified? y/n >")
-	kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
+	input("Is the network performance measured as specified? press Enter to continue")
+	input("Is kafka and zookeeper server started? press Enter to continue")
+	# net_setting_check = input("Is the network performance measured as specified? y/n >")
+	# kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
 
-	while(net_setting_check == 'n' or kafka_setup_check == 'n'):
-		net_setting_check = input("Is the network performance measured as specified? y/n >")
-		kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
-		
+	# while(net_setting_check == 'n' or kafka_setup_check == 'n'):
+	# 	net_setting_check = input("Is the network performance measured as specified? y/n >")
+	# 	kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
+	# 	
