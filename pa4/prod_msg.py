@@ -12,6 +12,7 @@ import time
 
 # p.flush(30)
 
+
 def acked(err, msg):
     if err is not None:
         print("Failed to deliver message: {0}: {1}"
@@ -19,16 +20,26 @@ def acked(err, msg):
     else:
         print("Message produced: {0}".format(msg.value()))
 
-def produce_from_local(ip,topic, msgs):
+def produce_wo_delay(ip,topic, msgs):
     p = Producer({'bootstrap.servers': ip+':9092'})
 
     try: 
-        for i, msg in enumerate(msgs):
-            logging.basicConfig(level=logging.DEBUG, filename='q3.log',filemode='a')
+        for msg in msgs:
+            # logging.basicConfig(level=logging.DEBUG, filename='q3.log',filemode='a')
             p.produce(topic, msg, callback=acked)
             p.flush()
-            logging.info("produce message: {} to topic: {} at time: {}".format(i,topic,time.time()))
+            logging.info("produce message: {} to topic: {} at time: {}".format(msg.value(),topic,time.time()))
 
     except KeyboardInterrupt:
         pass
 
+def produce_w_delay(topic,msg,delay):
+    try: 
+        for i in range(50):
+            # logging.basicConfig(level=logging.DEBUG, filename='q3.log',filemode='a')
+            p.produce(topic, msg, callback=acked)
+            p.flush()
+            logging.info("produce message: {} to topic: {} at time: {}".format(msg.value(),topic,time.time()))
+            time.sleep(delay)
+    except KeyboardInterrupt:
+        pass

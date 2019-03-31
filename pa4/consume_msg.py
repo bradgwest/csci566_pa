@@ -2,9 +2,12 @@ from confluent_kafka import Consumer, KafkaError
 import logging
 import time
 from prod_msg import *
+from aux_func import *
+from confluent_kafka import Producer, Consumer, KafkaError
 
-kafka_ip = sys.argv[1]
-topic = sys.argv[2]
+kafka_ip = get_kafka_ip()
+topic = sys.argv[1]
+log_name = sys.argv[2]
 message_forwarding = sys.argv[3]
 forwarding_topic = sys.argv[4]
 
@@ -21,18 +24,18 @@ c = Consumer(settings)
 
 c.subscribe([topic])
 
+logging.basicConfig(level=logging.DEBUG, filename=log_name,filemode='w')
+logging.info("Start Receiving Message >>>>>>>>>>")
+logging.basicConfig(filemode='a')
 try:
     while True:
         msg = c.poll()
         if msg is None:
             continue
         elif not msg.error():
-            logging.basicConfig(level=logging.DEBUG, filename=log_name,filemode='w')
-            logging.info("Start running experiment for question 3>>>>>>>>>>")
-            logging.basicConfig(filemode='a')
-            # print('Received message: {0}'.format(msg.value()))
+            logging.info("Receive message: {} from topic: {} at time: {}".format(msg.value(),topic,time.time()))
             if(message_forwarding = 'True'):
-                produce_from_local(kafka_ip,forwarding_topic,[msg.value()])
+                produce_wo_delay(kafka_ip,forwarding_topic,[msg.value()])
         # elif msg.error().code() == KafkaError._PARTITION_EOF:
         #     print('End of partition reached {0}/{1}'
         #           .format(msg.topic(), msg.partition()))

@@ -6,6 +6,26 @@ class EC2_instance():
 		self.ip = ip
 
 
+def csc_instruction(question_num):
+	logging.basicConfig(filename='q'+question_num+'.log')
+	logging.info("Start running experiment for question {} >>>>>> ".format(question_num))
+	# Need to set network setting
+	input("Please log in consumer(client) instance and start consumer_msg.py,\
+	run 'python3 consumer_msg.py topic1 q{}_consume.log True topic2'\n\
+	Press Enter to continue".format(question_num))
+	input("Please start consume_msg at local machine, consume topic2\n\
+	run 'python3 consumer_msg.py topic2 q{}_localconsume.log False None'\
+	Press Enter to continue".format(question_num))
+def scc_instruction(question_num):
+	logging.basicConfig(filename='q'+question_num+'.log')
+	logging.info("Start running experiment for question {} >>>>>> ".format(question_num))
+	# Need to set network setting
+	input("Please make sure kafka instance and all 5 non-kafka instances are set up\
+	Press Enter to continue")
+	input("Please log in each consumer(client) instance and start consumer_msg.py,\
+	run 'python3 consumer_msg.py topic1 q{}_consume.log False None'\n\
+	Press Enter to continue".format(question_num))
+
 # set up all EC2 instances
 def instance_setup():
 	for instance in get_ip():
@@ -31,6 +51,7 @@ def get_kafka_ip():
 	for line in lines:
 		if(line.split(',')[0].strip() == 'kafka'):
 			return line.split(',')[1].split('@')[1].strip()
+
 
 def print_instance_list(instance_list):
 	for instance in instance_list:
