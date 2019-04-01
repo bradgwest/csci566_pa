@@ -54,6 +54,7 @@ def main():
 			msg_list = ['a'*32]*50
 			for nodes in nodes_setting:
 				print("Number of non-kafka nodes: {}".format(nodes))
+				logging.info("Number of non-kafka nodes: {}".format(nodes))
 				input("Start consuming on {} nodes".format(nodes))
 				for msg in msg_list:
 					ts = time.time()
