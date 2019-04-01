@@ -53,8 +53,11 @@ def main():
 			nodes_setting = [c for c in range(2,6)]
 			msg_list = ['a'*32]*50
 			for nodes in nodes_setting:
-				ts = time.time()
-				produce_msg(p,'topic1',str(ts),msg)
+				print("Number of non-kafka nodes: {}".format(nodes))
+				input("Start consuming on {} nodes".format(nodes))
+				for msg in msg_list:
+					ts = time.time()
+					produce_msg(p,'topic1',str(ts),msg)
 
 		elif(q_num == '5'):
 			csc_instruction(q_num)
@@ -66,6 +69,8 @@ def main():
 
 			loss_settings = [0.2 * c for c in range(0,11)]
 			for loss_setting in loss_settings:
+				print("loss setting is {}".format(loss_setting))
+				logging.info(""loss setting is {}".format(loss_setting)")
 				input("Adjusting network setting")
 				subprocess.run(['./run_net_setting.sh','15','10m',str(loss_setting+0.00000000001)])
 				for msg in msg_list:
@@ -80,10 +85,12 @@ def main():
 			loss_settings = [0.2 * c for c in range(0,11)]
 			for loss_setting in loss_settings:
 				print("loss setting is {}".format(loss_setting))
+				logging.info(""loss setting is {}".format(loss_setting)")
 				input("Adjusting network setting")
 				subprocess.run(['./run_net_setting.sh','15','10m',str(loss_setting+0.00000000001)])
 				ts = time.time()
-				produce_msg(p,'topic1',str(ts),msg)
+				for msg in msg_list():
+					produce_msg(p,'topic1',str(ts),msg)
 		elif(q_num == '7'):
 			### same experiment from question 5
 			# csc_instruction(q_num)
