@@ -1,1 +1,0 @@
-python3 consume_msg.py $1 $2

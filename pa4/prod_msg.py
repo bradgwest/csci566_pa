@@ -20,26 +20,33 @@ def acked(err, msg):
     else:
         print("Message produced: {0}".format(msg.value()))
 
-def produce_wo_delay(ip,topic, msgs):
-    p = Producer({'bootstrap.servers': ip+':9092'})
+def produce_msg(producer,topic,key,msg):
+    producer.produce(topic,key,msg)
+    producer.flush()
+    logging.info("produce message:(key={} msg size={}) to topic: {} at time: {}".format(key,len(msg),topic,time.time()))
 
-    try: 
-        for msg in msgs:
-            # logging.basicConfig(level=logging.DEBUG, filename='q3.log',filemode='a')
-            p.produce(topic, msg, callback=acked)
-            p.flush()
-            logging.info("produce message: {} to topic: {} at time: {}".format(msg.value(),topic,time.time()))
+# def produce_wo_delay(ip,topic, msgs):
+#     p = Producer({'bootstrap.servers': ip+':9092'})
 
-    except KeyboardInterrupt:
-        pass
+#     try: 
+#         for msg in msgs:
+#             # logging.basicConfig(level=logging.DEBUG, filename='q3.log',filemode='a')
+#             msg_key = str(time.time())
+#             p.produce(topic,key=msg_key,value=msg, callback=acked)
+#             p.flush()
+#             logging.info("produce message:(key={} value={}) to topic: {} at time: {}".format(msg_key,msg,topic,time.time()))
 
-def produce_w_delay(topic,msg,delay):
-    try: 
-        for i in range(50):
-            # logging.basicConfig(level=logging.DEBUG, filename='q3.log',filemode='a')
-            p.produce(topic, msg, callback=acked)
-            p.flush()
-            logging.info("produce message: {} to topic: {} at time: {}".format(msg.value(),topic,time.time()))
-            time.sleep(delay)
-    except KeyboardInterrupt:
-        pass
+#     except KeyboardInterrupt:
+#         pass
+
+# def produce_w_delay(topic,msg,delay):
+#     try: 
+#         for i in range(50):
+#             # logging.basicConfig(level=logging.DEBUG, filename='q3.log',filemode='a')
+#             msg_key = str(time.time())
+#             p.produce(topic, key=msg_key,value=msg, callback=acked)
+#             p.flush()
+#             logging.info("produce message: (key={} value={})  to topic: {} at time: {}".format(msg_key,msg,topic,time.time()))
+#             time.sleep(delay)
+#     except KeyboardInterrupt:
+#         pass

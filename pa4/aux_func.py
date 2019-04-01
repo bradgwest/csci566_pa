@@ -1,30 +1,30 @@
 import subprocess
-
+import logging
 class EC2_instance():
 	def __init__(self,type='client',ip=''):
 		self.type = type
 		self.ip = ip
 
-
+# def adjust_net_setting(lat,bw, loss):
+# 	subprocess.run(['])
 def csc_instruction(question_num):
-	logging.basicConfig(filename='q'+question_num+'.log')
-	logging.info("Start running experiment for question {} >>>>>> ".format(question_num))
-	# Need to set network setting
-	input("Please log in consumer(client) instance and start consumer_msg.py,\
-	run 'python3 consumer_msg.py topic1 q{}_consume.log True topic2'\n\
-	Press Enter to continue".format(question_num))
-	input("Please start consume_msg at local machine, consume topic2\n\
-	run 'python3 consumer_msg.py topic2 q{}_localconsume.log False None'\
-	Press Enter to continue".format(question_num))
-def scc_instruction(question_num):
-	logging.basicConfig(filename='q'+question_num+'.log')
-	logging.info("Start running experiment for question {} >>>>>> ".format(question_num))
-	# Need to set network setting
-	input("Please make sure kafka instance and all 5 non-kafka instances are set up\
+	
+	input("Please log in consumer(client) instance and start consume_msg.py,\n\
+	run 'python3 consume_msg.py topic1 your_log_name.log True topic2'\n\
 	Press Enter to continue")
-	input("Please log in each consumer(client) instance and start consumer_msg.py,\
-	run 'python3 consumer_msg.py topic1 q{}_consume.log False None'\n\
-	Press Enter to continue".format(question_num))
+	input("Please start consume_msg at local machine, consume topic2\n\
+	run 'python3 consume_msg.py topic2 your_log_name.log False None'\
+	Press Enter to continue")
+def scc_instruction(question_num):
+	logging.basicConfig(filename='q'+question_num+'.log',filemode='w')
+	logging.info("Start running experiment for question {} >>>>>> ".format(question_num))
+	logging.basicConfig(filemode='a')
+	# Need to set network setting
+	input("Please make sure kafka instance and all 5 non-kafka instances are set up\n\
+	Press Enter to continue")
+	input("Please log in each consumer(client) instance and start consume_msg.py,\n\
+	run 'python3 consume_msg.py topic1 your_log_name.log False None'\n\
+	Press Enter to continue")
 
 # set up all EC2 instances
 def instance_setup():
@@ -58,9 +58,10 @@ def print_instance_list(instance_list):
 		print("Instance type is: {0:7}, ip address is {1}".format(instance.type,instance.ip))
 
 def pre_experiment_check():
-	print("Reminder")
 	input("Is the network performance measured as specified? press Enter to continue")
+	input("Is the server.config file modified(add advertised.listeners), press Enter to continue")
 	input("Is kafka and zookeeper server started? press Enter to continue")
+
 	# net_setting_check = input("Is the network performance measured as specified? y/n >")
 	# kafka_setup_check = input("Is kafka and zookeeper server started? y/n >")
 
