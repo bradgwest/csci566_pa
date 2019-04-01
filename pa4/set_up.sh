@@ -19,8 +19,8 @@ fi
 
 if [ $type = "client" ]; then
 	# echo "kafka"
-	echo "Send prood_msg.py and consume_msg.py"
-	scp -i .aws/credential/key1.pem prod_msg.py consume_msg.py $IP:
+	echo "Send prood_msg.py and consume_msg.py remote_ips.txt aux_func.py"
+	scp -i .aws/credential/key1.pem prod_msg.py consume_msg.py remote_ips.txt aux_func.py $IP:
 fi
 
 
