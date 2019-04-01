@@ -1,2 +1,2 @@
-kafka, ubuntu@34.219.195.80
-client, ubuntu@54.244.177.112
+kafka, ubuntu@35.160.249.181
+client, ubuntu@18.236.188.40
