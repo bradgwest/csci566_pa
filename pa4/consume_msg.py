@@ -24,15 +24,12 @@ c = Consumer(settings)
 
 c.subscribe([topic])
 
-<<<<<<< HEAD
-log_name = 'q3_consume'
-=======
+
 logging.basicConfig(level=logging.DEBUG, filename=log_name,filemode='w')
 logging.info("Start Receiving Message >>>>>>>>>>")
 logging.basicConfig(filemode='a')
 p = Producer({'bootstrap.servers': kafka_ip+':9092'})
 
->>>>>>> c37fcb7e92719e2fabe748364d501e357b249bce
 try:
     while True:
         msg = c.poll()

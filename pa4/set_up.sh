@@ -1,5 +1,21 @@
 #!/bin/bash
 
+sudo apt update
+sudo apt install default-jdk
+sudo apt -y install python3-pip
+sudo apt -y install iproute2
+sudo apt -y install iperf3
+mkdir ~/log
+
+sudo apt install librdkafka-dev
+pip3 install confluent-kafka 
+
+echo "Setting up clock sync"
+sudo timedatectl set-ntp no
+sudo apt install ntp
+sudo service ntp restart
+
+
 while [ "$1" != "" ]; do
 	case $1 in 
 		-i | --instance_ip )  	shift 
@@ -13,8 +29,8 @@ while [ "$1" != "" ]; do
 done
 if [ $type = "kafka" ]; then
 	echo "Sending and extracting kafka zip"
-	scp -i .aws/credential/key1.pem kafka_2.11-2.1.0.tgz $IP:~
-	ssh -i .aws/credential/key1.pem $IP "tar -xzvf kafka_2.11-2.1.0.tgz"
+	scp -i .aws/credential/key1.pem kafka_2.12-2.2.0.tgz $IP:~
+	ssh -i .aws/credential/key1.pem $IP "tar -xzvf kafka_2.12-2.2.0.tgz"
 fi
 
 if [ $type = "client" ]; then

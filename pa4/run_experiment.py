@@ -16,7 +16,7 @@ def main():
 	pre_experiment_check()
 	kafka_ip = get_kafka_ip()
 
-	input("Please set up network rule, press Enter to continue")
+	# input("Please set up network rule, press Enter to continue")
 
 	# logging.basicConfig(level=logging.DEBUG)
 	# logging.info("Start running experiment >>>>>>>>>>")
@@ -28,7 +28,7 @@ def main():
 
 		if(q_num == '3'):
 			csc_instruction(q_num)
-			subprocess.run(['.run_net_setting.sh','15','10m','0'])
+			subprocess.run(['./run_net_setting.sh','15','10m','0.0000000001'])
 			# batch = input("Enter batch number > ")
 			# print("Creating log")
 			logging.basicConfig(level=logging.DEBUG,filename='q3_produce.log',filemode='w')
@@ -67,7 +67,7 @@ def main():
 			loss_settings = [0.2 * c for c in range(0,11)]
 			for loss_setting in loss_settings:
 				input("Adjusting network setting")
-				subprocess.run(['.run_net_setting.sh','15','10m',loss_setting])
+				subprocess.run(['./run_net_setting.sh','15','10m',str(loss_setting+0.00000000001)])
 				for msg in msg_list:
 					ts = time.time()
 					produce_msg(p,'topic1',str(ts),msg)
@@ -81,7 +81,7 @@ def main():
 			for loss_setting in loss_settings:
 				print("loss setting is {}".format(loss_setting))
 				input("Adjusting network setting")
-				subprocess.run(['.run_net_setting.sh','15','10m',loss_setting])
+				subprocess.run(['./run_net_setting.sh','15','10m',str(loss_setting+0.00000000001)])
 				ts = time.time()
 				produce_msg(p,'topic1',str(ts),msg)
 		elif(q_num == '7'):
@@ -98,7 +98,7 @@ def main():
 			Press Enter to continue".format(question_num))
 			input("Please start wireshark")
 			input("Adjusting network setting")
-			subprocess.run(['.run_net_setting.sh','15','10m','0'])
+			subprocess.run(['./run_net_setting.sh','15','10m','0.00000000001'])
 			
 			for msg in msg_list:
 				ts = time.time()
@@ -106,7 +106,7 @@ def main():
 		elif(q_num == '10'):
 			msg = 'a'*32
 			input("Adjusting network setting")
-			subprocess.run(['.run_net_setting.sh','15','10m','0'])
+			subprocess.run(['./run_net_setting.sh','15','10m','0.00000000001'])
 			csc_instruction(q_num)
 			trans_rate = [2**r for r in range(0,9)]
 			delays = [1/tr for tr in trans_rate]
