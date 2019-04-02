@@ -7,6 +7,16 @@ class EC2_instance():
 
 # def adjust_net_setting(lat,bw, loss):
 # 	subprocess.run(['])
+
+
+def write_to_file(filename,content):
+	with open(filename,'w') as file:
+		file.write(content+'\n')
+
+def append_to_file(filename,content):
+	with open(filename,'a') as file:
+		file.write(content+'\n')
+		
 def csc_instruction(question_num):
 	
 	input("Please log in consumer(client) instance and start consume_msg.py,\n\

@@ -9,9 +9,9 @@ echo "setting up local net rule"
 ./net_setting.sh $lat $bw $loss
 
 echo "setting up net rule for kafka"
-scp -i .aws/credential/key1.pem net_setting.sh ubuntu@35.160.249.181:
-ssh -i .aws/credential/key1.pem ubuntu@35.160.249.181 ./net_setting.sh $lat $bw $loss
+scp -i .aws/credential/key1.pem net_setting.sh ubuntu@54.201.231.207:
+ssh -i .aws/credential/key1.pem ubuntu@54.201.231.207 ./net_setting.sh $lat $bw $loss
 
 echo "setting up net rule for client"
-scp -i .aws/credential/key1.pem net_setting.sh ubuntu@18.236.188.40:
-ssh -i .aws/credential/key1.pem ubuntu@18.236.188.40 ./net_setting.sh $lat $bw $loss
+scp -i .aws/credential/key1.pem net_setting.sh ubuntu@54.185.9.14:
+ssh -i .aws/credential/key1.pem ubuntu@54.185.9.14 ./net_setting.sh $lat $bw $loss
