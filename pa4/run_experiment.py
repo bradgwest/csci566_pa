@@ -89,7 +89,7 @@ def main():
 		elif(q_num == '6'):
 			append_to_file('local_produce.log',"Start running experiment for question {} >>>>>>".format(q_num))
 
-			csc_instruction(q_num)
+			scc_instruction(q_num)
 			input("Only using 3 non-kafka nodes. Press Enter to continue")
 			nodes = 3
 			msg_list = ['a'*32]*5
@@ -101,7 +101,7 @@ def main():
 				print("Adjusting network setting")
 				subprocess.run(['./run_net_setting.sh','15','10m',str(loss_setting+0.00000000001)])
 				ts = time.time()
-				for msg in msg_list():
+				for msg in msg_list:
 					produce_msg(p,'topic1',str(ts),msg,'local_produce.log')
 		elif(q_num == '7'):
 			### same experiment from question 5
