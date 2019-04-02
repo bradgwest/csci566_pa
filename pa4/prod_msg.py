@@ -20,12 +20,13 @@ def acked(err, msg):
         logging.info("Failed to deliver message: {0}: {1}"
               .format(msg.value(), err.str()))
     else:
-        print("Message produced: {0}".format(msg.value()))
+        print("Message produced: key = {} size = {}".format(msg.key(),len(msg.value())))
 
 def produce_msg(producer,topic,key,msg):
-    producer.produce(topic,key,msg)
+    producer.produce(topic,key=key,value=msg)
     producer.flush()
     logging.info("produce message:(key={} msg size={}) to topic: {} at time: {}".format(key,len(msg),topic,time.time()))
+    # print("produce message:(key={} msg size={}) to topic: {} at time: {}".format(key,len(msg),topic,time.time()))
 
 # def produce_wo_delay(ip,topic, msgs):
 #     p = Producer({'bootstrap.servers': ip+':9092'})

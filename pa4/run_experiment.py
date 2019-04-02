@@ -41,8 +41,10 @@ def main():
 			# input("Please start consume_msg at local machine, consume topic2\n\
 			# run 'python3 consumer_msg.py topic2 q3_localconsume.log False None'\
 			# Press Enter to continue")
-			msg_list = ['a' * 2**c for c in range(0,20)]
-			for i in range(50):
+
+			msg_list = ['a', 'aa']
+			# msg_list = ['a' * 2**c for c in range(0,20)]
+			for i in range(5):
 				for msg in msg_list:
 					ts = time.time()
 					print("current message id is {} size is {}".format(ts,len(msg)))
@@ -51,7 +53,7 @@ def main():
 		elif(q_num == '4'):
 			scc_instruction(q_num)
 			nodes_setting = [c for c in range(2,6)]
-			msg_list = ['a'*32]*50
+			msg_list = ['a'*32]*5
 			for nodes in nodes_setting:
 				print("Number of non-kafka nodes: {}".format(nodes))
 				logging.info("Number of non-kafka nodes: {}".format(nodes))
@@ -66,12 +68,12 @@ def main():
 			logging.basicConfig(level=logging.DEBUG,filename='q5_produce.log',filemode='w')
 			logging.info("Start running experiment for question {} >>>>>> ".format(q_num))
 			logging.basicConfig(filemode='a')
-			msg_list = ['a'*32]*50
+			msg_list = ['a'*32]*5
 
 			loss_settings = [0.2 * c for c in range(0,11)]
 			for loss_setting in loss_settings:
 				print("loss setting is {}".format(loss_setting))
-				logging.info(""loss setting is {}".format(loss_setting)")
+				logging.info("loss setting is {}".format(loss_setting))
 				input("Adjusting network setting")
 				subprocess.run(['./run_net_setting.sh','15','10m',str(loss_setting+0.00000000001)])
 				for msg in msg_list:
@@ -82,11 +84,11 @@ def main():
 			csc_instruction(q_num)
 			input("Only using 3 non-kafka nodes. Press Enter to continue")
 			nodes = 3
-			msg_list = ['a'*32]*50
+			msg_list = ['a'*32]*5
 			loss_settings = [0.2 * c for c in range(0,11)]
 			for loss_setting in loss_settings:
 				print("loss setting is {}".format(loss_setting))
-				logging.info(""loss setting is {}".format(loss_setting)")
+				logging.info("loss setting is {}".format(loss_setting))
 				input("Adjusting network setting")
 				subprocess.run(['./run_net_setting.sh','15','10m',str(loss_setting+0.00000000001)])
 				ts = time.time()

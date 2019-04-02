@@ -37,6 +37,7 @@ try:
             continue
         elif not msg.error():
             consume_time = time.time()
+            print("Receive message: (key={} msg size={}) from topic: {} at time: {}".format(msg.key(),len(msg.value()),topic,consume_time))
             logging.info("Receive message: (key={} msg size={}) from topic: {} at time: {}".format(msg.key(),len(msg.value()),topic,consume_time))
             if(message_forwarding == 'True'):
                 produce_msg(p,forwarding_topic,msg.key(),msg.value())
