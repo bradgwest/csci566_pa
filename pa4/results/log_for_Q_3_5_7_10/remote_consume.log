@@ -1,0 +1,1211 @@
+Start Receiving Message >>>>>>
+Receive message: (key=b'1554185368.2888446' msg size=1) from topic: topic1 at time: 1554185371.3219192
+produce message:(key=b'1554185368.2888446' msg size=1) to topic: topic2 at time: 1554185371.659505
+Receive message: (key=b'1554185368.5955527' msg size=2) from topic: topic1 at time: 1554185371.6598299
+produce message:(key=b'1554185368.5955527' msg size=2) to topic: topic2 at time: 1554185371.6918662
+Receive message: (key=b'1554185368.6276898' msg size=4) from topic: topic1 at time: 1554185371.692109
+produce message:(key=b'1554185368.6276898' msg size=4) to topic: topic2 at time: 1554185371.724683
+Receive message: (key=b'1554185368.659594' msg size=8) from topic: topic1 at time: 1554185371.7249722
+produce message:(key=b'1554185368.659594' msg size=8) to topic: topic2 at time: 1554185371.756776
+Receive message: (key=b'1554185368.6914983' msg size=16) from topic: topic1 at time: 1554185371.757013
+produce message:(key=b'1554185368.6914983' msg size=16) to topic: topic2 at time: 1554185371.788921
+Receive message: (key=b'1554185368.7234106' msg size=32) from topic: topic1 at time: 1554185371.7891736
+produce message:(key=b'1554185368.7234106' msg size=32) to topic: topic2 at time: 1554185371.8208468
+Receive message: (key=b'1554185368.7554064' msg size=64) from topic: topic1 at time: 1554185371.8210545
+produce message:(key=b'1554185368.7554064' msg size=64) to topic: topic2 at time: 1554185371.8527753
+Receive message: (key=b'1554185368.78724' msg size=128) from topic: topic1 at time: 1554185371.8529427
+produce message:(key=b'1554185368.78724' msg size=128) to topic: topic2 at time: 1554185371.884654
+Receive message: (key=b'1554185368.8191357' msg size=256) from topic: topic1 at time: 1554185371.8849661
+produce message:(key=b'1554185368.8191357' msg size=256) to topic: topic2 at time: 1554185371.9295316
+Receive message: (key=b'1554185368.8512437' msg size=512) from topic: topic1 at time: 1554185371.9298267
+produce message:(key=b'1554185368.8512437' msg size=512) to topic: topic2 at time: 1554185371.972776
+Receive message: (key=b'1554185368.9290097' msg size=1024) from topic: topic1 at time: 1554185371.9729757
+produce message:(key=b'1554185368.9290097' msg size=1024) to topic: topic2 at time: 1554185372.004941
+Receive message: (key=b'1554185368.9607394' msg size=2048) from topic: topic1 at time: 1554185372.0051596
+produce message:(key=b'1554185368.9607394' msg size=2048) to topic: topic2 at time: 1554185372.1160796
+Receive message: (key=b'1554185368.9926894' msg size=4096) from topic: topic1 at time: 1554185372.1163974
+produce message:(key=b'1554185368.9926894' msg size=4096) to topic: topic2 at time: 1554185372.1514041
+Receive message: (key=b'1554185369.062507' msg size=8192) from topic: topic1 at time: 1554185372.1515968
+produce message:(key=b'1554185369.062507' msg size=8192) to topic: topic2 at time: 1554185372.2344346
+Receive message: (key=b'1554185369.2002277' msg size=16384) from topic: topic1 at time: 1554185372.2347407
+produce message:(key=b'1554185369.2002277' msg size=16384) to topic: topic2 at time: 1554185372.5057638
+Receive message: (key=b'1554185369.3414888' msg size=32768) from topic: topic1 at time: 1554185372.5061011
+produce message:(key=b'1554185369.3414888' msg size=32768) to topic: topic2 at time: 1554185372.7147226
+Receive message: (key=b'1554185369.539499' msg size=65536) from topic: topic1 at time: 1554185372.7150588
+produce message:(key=b'1554185369.539499' msg size=65536) to topic: topic2 at time: 1554185372.862371
+Receive message: (key=b'1554185369.6970296' msg size=131072) from topic: topic1 at time: 1554185372.8627498
+produce message:(key=b'1554185369.6970296' msg size=131072) to topic: topic2 at time: 1554185373.1369092
+Receive message: (key=b'1554185369.9361055' msg size=262144) from topic: topic1 at time: 1554185373.1373723
+produce message:(key=b'1554185369.9361055' msg size=262144) to topic: topic2 at time: 1554185373.5620434
+Receive message: (key=b'1554185370.4028752' msg size=524288) from topic: topic1 at time: 1554185373.5626144
+produce message:(key=b'1554185370.4028752' msg size=524288) to topic: topic2 at time: 1554185374.348109
+Receive message: (key=b'1554185371.2026467' msg size=1) from topic: topic1 at time: 1554185374.3485928
+produce message:(key=b'1554185371.2026467' msg size=1) to topic: topic2 at time: 1554185374.3908372
+Receive message: (key=b'1554185371.33612' msg size=2) from topic: topic1 at time: 1554185374.3911486
+produce message:(key=b'1554185371.33612' msg size=2) to topic: topic2 at time: 1554185374.4338021
+Receive message: (key=b'1554185371.4692895' msg size=4) from topic: topic1 at time: 1554185374.4341354
+produce message:(key=b'1554185371.4692895' msg size=4) to topic: topic2 at time: 1554185374.4766462
+Receive message: (key=b'1554185371.501401' msg size=8) from topic: topic1 at time: 1554185374.476876
+produce message:(key=b'1554185371.501401' msg size=8) to topic: topic2 at time: 1554185374.518263
+Receive message: (key=b'1554185371.533284' msg size=16) from topic: topic1 at time: 1554185374.5184925
+produce message:(key=b'1554185371.533284' msg size=16) to topic: topic2 at time: 1554185374.566859
+Receive message: (key=b'1554185371.56524' msg size=32) from topic: topic1 at time: 1554185374.5671065
+produce message:(key=b'1554185371.56524' msg size=32) to topic: topic2 at time: 1554185374.5990136
+Receive message: (key=b'1554185371.59768' msg size=64) from topic: topic1 at time: 1554185374.59928
+produce message:(key=b'1554185371.59768' msg size=64) to topic: topic2 at time: 1554185374.6326346
+Receive message: (key=b'1554185371.6297364' msg size=128) from topic: topic1 at time: 1554185374.6329646
+produce message:(key=b'1554185371.6297364' msg size=128) to topic: topic2 at time: 1554185374.6730964
+Receive message: (key=b'1554185371.681547' msg size=256) from topic: topic1 at time: 1554185374.6733794
+produce message:(key=b'1554185371.681547' msg size=256) to topic: topic2 at time: 1554185374.706016
+Receive message: (key=b'1554185371.7134125' msg size=512) from topic: topic1 at time: 1554185374.7062974
+produce message:(key=b'1554185371.7134125' msg size=512) to topic: topic2 at time: 1554185374.7977474
+Receive message: (key=b'1554185371.7452028' msg size=1024) from topic: topic1 at time: 1554185374.798059
+produce message:(key=b'1554185371.7452028' msg size=1024) to topic: topic2 at time: 1554185374.8297963
+Receive message: (key=b'1554185371.7786067' msg size=2048) from topic: topic1 at time: 1554185374.8300982
+produce message:(key=b'1554185371.7786067' msg size=2048) to topic: topic2 at time: 1554185374.8687108
+Receive message: (key=b'1554185371.8102946' msg size=4096) from topic: topic1 at time: 1554185374.8689783
+produce message:(key=b'1554185371.8102946' msg size=4096) to topic: topic2 at time: 1554185375.018389
+Receive message: (key=b'1554185371.8426673' msg size=8192) from topic: topic1 at time: 1554185375.0187254
+produce message:(key=b'1554185371.8426673' msg size=8192) to topic: topic2 at time: 1554185375.0875657
+Receive message: (key=b'1554185371.8790255' msg size=16384) from topic: topic1 at time: 1554185375.087794
+produce message:(key=b'1554185371.8790255' msg size=16384) to topic: topic2 at time: 1554185375.1424735
+Receive message: (key=b'1554185371.9299502' msg size=32768) from topic: topic1 at time: 1554185375.142686
+produce message:(key=b'1554185371.9299502' msg size=32768) to topic: topic2 at time: 1554185375.3495061
+Receive message: (key=b'1554185372.1277094' msg size=65536) from topic: topic1 at time: 1554185375.3498151
+produce message:(key=b'1554185372.1277094' msg size=65536) to topic: topic2 at time: 1554185375.5174532
+Receive message: (key=b'1554185372.252667' msg size=131072) from topic: topic1 at time: 1554185375.5178428
+produce message:(key=b'1554185372.252667' msg size=131072) to topic: topic2 at time: 1554185375.7872515
+Receive message: (key=b'1554185372.5113826' msg size=262144) from topic: topic1 at time: 1554185375.787712
+produce message:(key=b'1554185372.5113826' msg size=262144) to topic: topic2 at time: 1554185376.1644907
+Receive message: (key=b'1554185372.9559886' msg size=524288) from topic: topic1 at time: 1554185376.165014
+produce message:(key=b'1554185372.9559886' msg size=524288) to topic: topic2 at time: 1554185377.0263069
+Receive message: (key=b'1554185373.739716' msg size=1) from topic: topic1 at time: 1554185377.026738
+produce message:(key=b'1554185373.739716' msg size=1) to topic: topic2 at time: 1554185377.0585961
+Receive message: (key=b'1554185373.7863383' msg size=2) from topic: topic1 at time: 1554185377.0587537
+produce message:(key=b'1554185373.7863383' msg size=2) to topic: topic2 at time: 1554185377.090383
+Receive message: (key=b'1554185373.8267436' msg size=4) from topic: topic1 at time: 1554185377.0906053
+produce message:(key=b'1554185373.8267436' msg size=4) to topic: topic2 at time: 1554185377.225617
+Receive message: (key=b'1554185373.8598535' msg size=8) from topic: topic1 at time: 1554185377.225934
+produce message:(key=b'1554185373.8598535' msg size=8) to topic: topic2 at time: 1554185377.3007584
+Receive message: (key=b'1554185373.8943436' msg size=16) from topic: topic1 at time: 1554185377.301059
+produce message:(key=b'1554185373.8943436' msg size=16) to topic: topic2 at time: 1554185377.3765724
+Receive message: (key=b'1554185373.9299853' msg size=32) from topic: topic1 at time: 1554185377.3768795
+produce message:(key=b'1554185373.9299853' msg size=32) to topic: topic2 at time: 1554185377.4103968
+Receive message: (key=b'1554185373.9658282' msg size=64) from topic: topic1 at time: 1554185377.410739
+produce message:(key=b'1554185373.9658282' msg size=64) to topic: topic2 at time: 1554185377.443837
+Receive message: (key=b'1554185373.997785' msg size=128) from topic: topic1 at time: 1554185377.4441574
+produce message:(key=b'1554185373.997785' msg size=128) to topic: topic2 at time: 1554185377.4803584
+Receive message: (key=b'1554185374.029666' msg size=256) from topic: topic1 at time: 1554185377.4805694
+produce message:(key=b'1554185374.029666' msg size=256) to topic: topic2 at time: 1554185377.5262296
+Receive message: (key=b'1554185374.0616393' msg size=512) from topic: topic1 at time: 1554185377.5264058
+produce message:(key=b'1554185374.0616393' msg size=512) to topic: topic2 at time: 1554185377.570289
+Receive message: (key=b'1554185374.0935478' msg size=1024) from topic: topic1 at time: 1554185377.57046
+produce message:(key=b'1554185374.0935478' msg size=1024) to topic: topic2 at time: 1554185377.6094508
+Receive message: (key=b'1554185374.1256158' msg size=2048) from topic: topic1 at time: 1554185377.609648
+produce message:(key=b'1554185374.1256158' msg size=2048) to topic: topic2 at time: 1554185377.6418006
+Receive message: (key=b'1554185374.1621861' msg size=4096) from topic: topic1 at time: 1554185377.6421096
+produce message:(key=b'1554185374.1621861' msg size=4096) to topic: topic2 at time: 1554185377.7326615
+Receive message: (key=b'1554185374.2592018' msg size=8192) from topic: topic1 at time: 1554185377.7328951
+produce message:(key=b'1554185374.2592018' msg size=8192) to topic: topic2 at time: 1554185377.7777262
+Receive message: (key=b'1554185374.3687656' msg size=16384) from topic: topic1 at time: 1554185377.777897
+produce message:(key=b'1554185374.3687656' msg size=16384) to topic: topic2 at time: 1554185377.831629
+Receive message: (key=b'1554185374.4201171' msg size=32768) from topic: topic1 at time: 1554185377.8319001
+produce message:(key=b'1554185374.4201171' msg size=32768) to topic: topic2 at time: 1554185378.0570843
+Receive message: (key=b'1554185374.6400986' msg size=65536) from topic: topic1 at time: 1554185378.0574267
+produce message:(key=b'1554185374.6400986' msg size=65536) to topic: topic2 at time: 1554185378.2218843
+Receive message: (key=b'1554185374.796426' msg size=131072) from topic: topic1 at time: 1554185378.2223585
+produce message:(key=b'1554185374.796426' msg size=131072) to topic: topic2 at time: 1554185378.5097432
+Receive message: (key=b'1554185375.0777261' msg size=262144) from topic: topic1 at time: 1554185378.510248
+produce message:(key=b'1554185375.0777261' msg size=262144) to topic: topic2 at time: 1554185378.90279
+Receive message: (key=b'1554185375.5145323' msg size=524288) from topic: topic1 at time: 1554185378.903405
+produce message:(key=b'1554185375.5145323' msg size=524288) to topic: topic2 at time: 1554185379.698073
+Receive message: (key=b'1554185376.260812' msg size=1) from topic: topic1 at time: 1554185379.6984565
+produce message:(key=b'1554185376.260812' msg size=1) to topic: topic2 at time: 1554185379.7301486
+Receive message: (key=b'1554185376.3021803' msg size=2) from topic: topic1 at time: 1554185379.730303
+produce message:(key=b'1554185376.3021803' msg size=2) to topic: topic2 at time: 1554185379.7760315
+Receive message: (key=b'1554185376.3413744' msg size=4) from topic: topic1 at time: 1554185379.7762542
+produce message:(key=b'1554185376.3413744' msg size=4) to topic: topic2 at time: 1554185379.8231056
+Receive message: (key=b'1554185376.3855035' msg size=8) from topic: topic1 at time: 1554185379.823365
+produce message:(key=b'1554185376.3855035' msg size=8) to topic: topic2 at time: 1554185379.8550436
+Receive message: (key=b'1554185376.4307332' msg size=16) from topic: topic1 at time: 1554185379.855312
+produce message:(key=b'1554185376.4307332' msg size=16) to topic: topic2 at time: 1554185379.8925016
+Receive message: (key=b'1554185376.4736457' msg size=32) from topic: topic1 at time: 1554185379.8928
+produce message:(key=b'1554185376.4736457' msg size=32) to topic: topic2 at time: 1554185379.9254293
+Receive message: (key=b'1554185376.5218093' msg size=64) from topic: topic1 at time: 1554185379.9256644
+produce message:(key=b'1554185376.5218093' msg size=64) to topic: topic2 at time: 1554185379.9572752
+Receive message: (key=b'1554185376.5644417' msg size=128) from topic: topic1 at time: 1554185379.9574933
+produce message:(key=b'1554185376.5644417' msg size=128) to topic: topic2 at time: 1554185380.050028
+Receive message: (key=b'1554185376.6036487' msg size=256) from topic: topic1 at time: 1554185380.0503385
+produce message:(key=b'1554185376.6036487' msg size=256) to topic: topic2 at time: 1554185380.0912986
+Receive message: (key=b'1554185376.6466506' msg size=512) from topic: topic1 at time: 1554185380.0914586
+produce message:(key=b'1554185376.6466506' msg size=512) to topic: topic2 at time: 1554185380.1304643
+Receive message: (key=b'1554185376.6910028' msg size=1024) from topic: topic1 at time: 1554185380.1306171
+produce message:(key=b'1554185376.6910028' msg size=1024) to topic: topic2 at time: 1554185380.1664617
+Receive message: (key=b'1554185376.7302842' msg size=2048) from topic: topic1 at time: 1554185380.166668
+produce message:(key=b'1554185376.7302842' msg size=2048) to topic: topic2 at time: 1554185380.2999432
+Receive message: (key=b'1554185376.7621343' msg size=4096) from topic: topic1 at time: 1554185380.3003697
+produce message:(key=b'1554185376.7621343' msg size=4096) to topic: topic2 at time: 1554185380.3425317
+Receive message: (key=b'1554185376.881272' msg size=8192) from topic: topic1 at time: 1554185380.3427823
+produce message:(key=b'1554185376.881272' msg size=8192) to topic: topic2 at time: 1554185380.3929164
+Receive message: (key=b'1554185377.0221179' msg size=16384) from topic: topic1 at time: 1554185380.3932025
+produce message:(key=b'1554185377.0221179' msg size=16384) to topic: topic2 at time: 1554185380.4509661
+Receive message: (key=b'1554185377.0767784' msg size=32768) from topic: topic1 at time: 1554185380.451357
+produce message:(key=b'1554185377.0767784' msg size=32768) to topic: topic2 at time: 1554185380.659848
+Receive message: (key=b'1554185377.2909262' msg size=65536) from topic: topic1 at time: 1554185380.6602714
+produce message:(key=b'1554185377.2909262' msg size=65536) to topic: topic2 at time: 1554185380.8240578
+Receive message: (key=b'1554185377.4256136' msg size=131072) from topic: topic1 at time: 1554185380.8244133
+produce message:(key=b'1554185377.4256136' msg size=131072) to topic: topic2 at time: 1554185381.0963225
+Receive message: (key=b'1554185377.725362' msg size=262144) from topic: topic1 at time: 1554185381.096775
+produce message:(key=b'1554185377.725362' msg size=262144) to topic: topic2 at time: 1554185381.4720376
+Receive message: (key=b'1554185378.1292365' msg size=524288) from topic: topic1 at time: 1554185381.4726489
+produce message:(key=b'1554185378.1292365' msg size=524288) to topic: topic2 at time: 1554185382.3491137
+Receive message: (key=b'1554185378.883816' msg size=1) from topic: topic1 at time: 1554185382.3495314
+produce message:(key=b'1554185378.883816' msg size=1) to topic: topic2 at time: 1554185382.3815088
+Receive message: (key=b'1554185378.9294543' msg size=2) from topic: topic1 at time: 1554185382.3816276
+produce message:(key=b'1554185378.9294543' msg size=2) to topic: topic2 at time: 1554185382.4137363
+Receive message: (key=b'1554185378.9721432' msg size=4) from topic: topic1 at time: 1554185382.413916
+produce message:(key=b'1554185378.9721432' msg size=4) to topic: topic2 at time: 1554185382.4830902
+Receive message: (key=b'1554185379.0151145' msg size=8) from topic: topic1 at time: 1554185382.4833784
+produce message:(key=b'1554185379.0151145' msg size=8) to topic: topic2 at time: 1554185382.6117
+Receive message: (key=b'1554185379.0587187' msg size=16) from topic: topic1 at time: 1554185382.6119955
+produce message:(key=b'1554185379.0587187' msg size=16) to topic: topic2 at time: 1554185382.6436567
+Receive message: (key=b'1554185379.1021104' msg size=32) from topic: topic1 at time: 1554185382.6439106
+produce message:(key=b'1554185379.1021104' msg size=32) to topic: topic2 at time: 1554185382.6754682
+Receive message: (key=b'1554185379.1485853' msg size=64) from topic: topic1 at time: 1554185382.675655
+produce message:(key=b'1554185379.1485853' msg size=64) to topic: topic2 at time: 1554185382.70735
+Receive message: (key=b'1554185379.1939304' msg size=128) from topic: topic1 at time: 1554185382.7075279
+produce message:(key=b'1554185379.1939304' msg size=128) to topic: topic2 at time: 1554185382.7505536
+Receive message: (key=b'1554185379.2403362' msg size=256) from topic: topic1 at time: 1554185382.7508194
+produce message:(key=b'1554185379.2403362' msg size=256) to topic: topic2 at time: 1554185382.8843842
+Receive message: (key=b'1554185379.2868605' msg size=512) from topic: topic1 at time: 1554185382.8847048
+produce message:(key=b'1554185379.2868605' msg size=512) to topic: topic2 at time: 1554185383.0193496
+Receive message: (key=b'1554185379.3197305' msg size=1024) from topic: topic1 at time: 1554185383.0196419
+produce message:(key=b'1554185379.3197305' msg size=1024) to topic: topic2 at time: 1554185383.1551356
+Receive message: (key=b'1554185379.351485' msg size=2048) from topic: topic1 at time: 1554185383.155447
+produce message:(key=b'1554185379.351485' msg size=2048) to topic: topic2 at time: 1554185383.2888727
+Receive message: (key=b'1554185379.3836007' msg size=4096) from topic: topic1 at time: 1554185383.2892334
+produce message:(key=b'1554185379.3836007' msg size=4096) to topic: topic2 at time: 1554185383.4225702
+Receive message: (key=b'1554185379.4392953' msg size=8192) from topic: topic1 at time: 1554185383.4228597
+produce message:(key=b'1554185379.4392953' msg size=8192) to topic: topic2 at time: 1554185383.5594387
+Receive message: (key=b'1554185379.5758314' msg size=16384) from topic: topic1 at time: 1554185383.5598183
+produce message:(key=b'1554185379.5758314' msg size=16384) to topic: topic2 at time: 1554185383.6203296
+Receive message: (key=b'1554185379.6361098' msg size=32768) from topic: topic1 at time: 1554185383.6205432
+produce message:(key=b'1554185379.6361098' msg size=32768) to topic: topic2 at time: 1554185383.8511457
+Receive message: (key=b'1554185379.8901744' msg size=65536) from topic: topic1 at time: 1554185383.851455
+produce message:(key=b'1554185379.8901744' msg size=65536) to topic: topic2 at time: 1554185383.9991016
+Receive message: (key=b'1554185380.0377667' msg size=131072) from topic: topic1 at time: 1554185383.9994783
+produce message:(key=b'1554185380.0377667' msg size=131072) to topic: topic2 at time: 1554185384.412495
+Receive message: (key=b'1554185380.3124661' msg size=262144) from topic: topic1 at time: 1554185384.4130363
+produce message:(key=b'1554185380.3124661' msg size=262144) to topic: topic2 at time: 1554185384.7875838
+Receive message: (key=b'1554185380.7468226' msg size=524288) from topic: topic1 at time: 1554185384.7881162
+produce message:(key=b'1554185380.7468226' msg size=524288) to topic: topic2 at time: 1554185385.5040243
+Receive message: (key=b'1554185390.1854367' msg size=32) from topic: topic1 at time: 1554185390.213072
+produce message:(key=b'1554185390.1854367' msg size=32) to topic: topic2 at time: 1554185390.245056
+Receive message: (key=b'1554185390.2178595' msg size=32) from topic: topic1 at time: 1554185390.2453315
+produce message:(key=b'1554185390.2178595' msg size=32) to topic: topic2 at time: 1554185390.2933788
+Receive message: (key=b'1554185390.2499917' msg size=32) from topic: topic1 at time: 1554185390.2936857
+produce message:(key=b'1554185390.2499917' msg size=32) to topic: topic2 at time: 1554185390.3262327
+Receive message: (key=b'1554185390.2816706' msg size=32) from topic: topic1 at time: 1554185390.326454
+produce message:(key=b'1554185390.2816706' msg size=32) to topic: topic2 at time: 1554185390.3589962
+Receive message: (key=b'1554185390.3146381' msg size=32) from topic: topic1 at time: 1554185390.359235
+produce message:(key=b'1554185390.3146381' msg size=32) to topic: topic2 at time: 1554185390.492
+Receive message: (key=b'1554185394.9649868' msg size=32) from topic: topic1 at time: 1554185394.9922397
+produce message:(key=b'1554185394.9649868' msg size=32) to topic: topic2 at time: 1554185395.1412468
+Receive message: (key=b'1554185394.9972713' msg size=32) from topic: topic1 at time: 1554185395.1415524
+produce message:(key=b'1554185394.9972713' msg size=32) to topic: topic2 at time: 1554185395.1739984
+Receive message: (key=b'1554185395.029232' msg size=32) from topic: topic1 at time: 1554185395.1742516
+produce message:(key=b'1554185395.029232' msg size=32) to topic: topic2 at time: 1554185395.2084754
+Receive message: (key=b'1554185395.1611714' msg size=32) from topic: topic1 at time: 1554185395.2088194
+produce message:(key=b'1554185395.1611714' msg size=32) to topic: topic2 at time: 1554185395.2412848
+Receive message: (key=b'1554185395.196623' msg size=32) from topic: topic1 at time: 1554185395.241451
+produce message:(key=b'1554185395.196623' msg size=32) to topic: topic2 at time: 1554185395.374038
+Receive message: (key=b'1554185400.0087793' msg size=32) from topic: topic1 at time: 1554185400.0364156
+produce message:(key=b'1554185400.0087793' msg size=32) to topic: topic2 at time: 1554185400.0859172
+Receive message: (key=b'1554185400.041439' msg size=32) from topic: topic1 at time: 1554185400.086244
+produce message:(key=b'1554185400.041439' msg size=32) to topic: topic2 at time: 1554185400.1269436
+Receive message: (key=b'1554185400.0736434' msg size=32) from topic: topic1 at time: 1554185400.127238
+produce message:(key=b'1554185400.0736434' msg size=32) to topic: topic2 at time: 1554185400.1592612
+Receive message: (key=b'1554185400.1057186' msg size=32) from topic: topic1 at time: 1554185400.1595666
+produce message:(key=b'1554185400.1057186' msg size=32) to topic: topic2 at time: 1554185400.1969976
+Receive message: (key=b'1554185400.148681' msg size=32) from topic: topic1 at time: 1554185400.19732
+produce message:(key=b'1554185400.148681' msg size=32) to topic: topic2 at time: 1554185400.2292259
+Receive message: (key=b'1554185405.0419567' msg size=32) from topic: topic1 at time: 1554185405.5578651
+produce message:(key=b'1554185405.0419567' msg size=32) to topic: topic2 at time: 1554185405.5899632
+Receive message: (key=b'1554185405.0752997' msg size=32) from topic: topic1 at time: 1554185405.590257
+produce message:(key=b'1554185405.0752997' msg size=32) to topic: topic2 at time: 1554185405.7063327
+Receive message: (key=b'1554185405.1081195' msg size=32) from topic: topic1 at time: 1554185405.7066581
+produce message:(key=b'1554185405.1081195' msg size=32) to topic: topic2 at time: 1554185405.8391445
+Receive message: (key=b'1554185405.1398292' msg size=32) from topic: topic1 at time: 1554185405.8394725
+produce message:(key=b'1554185405.1398292' msg size=32) to topic: topic2 at time: 1554185405.9720106
+Receive message: (key=b'1554185405.1719785' msg size=32) from topic: topic1 at time: 1554185405.9723454
+produce message:(key=b'1554185405.1719785' msg size=32) to topic: topic2 at time: 1554185406.1057243
+Receive message: (key=b'1554185410.062459' msg size=32) from topic: topic1 at time: 1554185412.3533342
+produce message:(key=b'1554185410.062459' msg size=32) to topic: topic2 at time: 1554185412.3902938
+Receive message: (key=b'1554185410.0946794' msg size=32) from topic: topic1 at time: 1554185412.3904483
+produce message:(key=b'1554185410.0946794' msg size=32) to topic: topic2 at time: 1554185412.4220986
+Receive message: (key=b'1554185410.1264822' msg size=32) from topic: topic1 at time: 1554185412.4223943
+produce message:(key=b'1554185410.1264822' msg size=32) to topic: topic2 at time: 1554185412.4626007
+Receive message: (key=b'1554185410.158028' msg size=32) from topic: topic1 at time: 1554185412.4627812
+produce message:(key=b'1554185410.158028' msg size=32) to topic: topic2 at time: 1554185412.494523
+Receive message: (key=b'1554185410.189731' msg size=32) from topic: topic1 at time: 1554185412.4946203
+produce message:(key=b'1554185410.189731' msg size=32) to topic: topic2 at time: 1554185412.526338
+Receive message: (key=b'1554185414.7108288' msg size=32) from topic: topic1 at time: 1554185415.2537453
+produce message:(key=b'1554185414.7108288' msg size=32) to topic: topic2 at time: 1554185415.285907
+Receive message: (key=b'1554185414.7429278' msg size=32) from topic: topic1 at time: 1554185415.2861204
+produce message:(key=b'1554185414.7429278' msg size=32) to topic: topic2 at time: 1554185415.403416
+Receive message: (key=b'1554185414.7748098' msg size=32) from topic: topic1 at time: 1554185415.4037516
+produce message:(key=b'1554185414.7748098' msg size=32) to topic: topic2 at time: 1554185415.537442
+Receive message: (key=b'1554185414.8067832' msg size=32) from topic: topic1 at time: 1554185415.5377438
+produce message:(key=b'1554185414.8067832' msg size=32) to topic: topic2 at time: 1554185415.5695703
+Receive message: (key=b'1554185414.8456664' msg size=32) from topic: topic1 at time: 1554185415.5697222
+produce message:(key=b'1554185414.8456664' msg size=32) to topic: topic2 at time: 1554185415.6014838
+Receive message: (key=b'1554185419.5341847' msg size=32) from topic: topic1 at time: 1554185420.0539906
+produce message:(key=b'1554185419.5341847' msg size=32) to topic: topic2 at time: 1554185420.0862498
+Receive message: (key=b'1554185419.5663383' msg size=32) from topic: topic1 at time: 1554185420.086552
+produce message:(key=b'1554185419.5663383' msg size=32) to topic: topic2 at time: 1554185420.2030425
+Receive message: (key=b'1554185419.5982165' msg size=32) from topic: topic1 at time: 1554185420.2033482
+produce message:(key=b'1554185419.5982165' msg size=32) to topic: topic2 at time: 1554185420.3367124
+Receive message: (key=b'1554185419.6298492' msg size=32) from topic: topic1 at time: 1554185420.3370006
+produce message:(key=b'1554185419.6298492' msg size=32) to topic: topic2 at time: 1554185420.6046553
+Receive message: (key=b'1554185419.6614356' msg size=32) from topic: topic1 at time: 1554185420.6049845
+produce message:(key=b'1554185419.6614356' msg size=32) to topic: topic2 at time: 1554185420.737069
+Receive message: (key=b'1554185424.5577717' msg size=32) from topic: topic1 at time: 1554185427.610884
+produce message:(key=b'1554185424.5577717' msg size=32) to topic: topic2 at time: 1554185427.6430318
+Receive message: (key=b'1554185424.8267844' msg size=32) from topic: topic1 at time: 1554185427.6431808
+produce message:(key=b'1554185424.8267844' msg size=32) to topic: topic2 at time: 1554185427.6747227
+Receive message: (key=b'1554185424.9286242' msg size=32) from topic: topic1 at time: 1554185427.6748226
+produce message:(key=b'1554185424.9286242' msg size=32) to topic: topic2 at time: 1554185427.718541
+Receive message: (key=b'1554185424.9604278' msg size=32) from topic: topic1 at time: 1554185427.7187428
+produce message:(key=b'1554185424.9604278' msg size=32) to topic: topic2 at time: 1554185427.750569
+Receive message: (key=b'1554185424.9921598' msg size=32) from topic: topic1 at time: 1554185427.7507474
+produce message:(key=b'1554185424.9921598' msg size=32) to topic: topic2 at time: 1554185428.149836
+Receive message: (key=b'1554185430.1448622' msg size=32) from topic: topic1 at time: 1554185430.7739217
+produce message:(key=b'1554185430.1448622' msg size=32) to topic: topic2 at time: 1554185430.8059464
+Receive message: (key=b'1554185430.177211' msg size=32) from topic: topic1 at time: 1554185430.806143
+produce message:(key=b'1554185430.177211' msg size=32) to topic: topic2 at time: 1554185430.9227061
+Receive message: (key=b'1554185430.2196548' msg size=32) from topic: topic1 at time: 1554185430.923012
+produce message:(key=b'1554185430.2196548' msg size=32) to topic: topic2 at time: 1554185431.0564268
+Receive message: (key=b'1554185430.4946265' msg size=32) from topic: topic1 at time: 1554185431.0567274
+produce message:(key=b'1554185430.4946265' msg size=32) to topic: topic2 at time: 1554185431.189057
+Receive message: (key=b'1554185430.5610006' msg size=32) from topic: topic1 at time: 1554185431.1893594
+produce message:(key=b'1554185430.5610006' msg size=32) to topic: topic2 at time: 1554185431.26056
+Receive message: (key=b'1554185435.9581764' msg size=32) from topic: topic1 at time: 1554185436.4058044
+produce message:(key=b'1554185435.9581764' msg size=32) to topic: topic2 at time: 1554185436.4379606
+Receive message: (key=b'1554185435.990427' msg size=32) from topic: topic1 at time: 1554185436.4381843
+produce message:(key=b'1554185435.990427' msg size=32) to topic: topic2 at time: 1554185436.4710665
+Receive message: (key=b'1554185436.262658' msg size=32) from topic: topic1 at time: 1554185436.4712493
+produce message:(key=b'1554185436.262658' msg size=32) to topic: topic2 at time: 1554185436.7901194
+Receive message: (key=b'1554185436.3643687' msg size=32) from topic: topic1 at time: 1554185436.7904234
+produce message:(key=b'1554185436.3643687' msg size=32) to topic: topic2 at time: 1554185436.902942
+Receive message: (key=b'1554185436.4595795' msg size=32) from topic: topic1 at time: 1554185436.9622183
+produce message:(key=b'1554185436.4595795' msg size=32) to topic: topic2 at time: 1554185436.994404
+Receive message: (key=b'1554185441.617252' msg size=32) from topic: topic1 at time: 1554185441.724166
+produce message:(key=b'1554185441.617252' msg size=32) to topic: topic2 at time: 1554185441.756269
+Receive message: (key=b'1554185441.6499164' msg size=32) from topic: topic1 at time: 1554185441.7870102
+produce message:(key=b'1554185441.6499164' msg size=32) to topic: topic2 at time: 1554185441.8189
+Receive message: (key=b'1554185441.6819944' msg size=32) from topic: topic1 at time: 1554185441.8191915
+produce message:(key=b'1554185441.6819944' msg size=32) to topic: topic2 at time: 1554185441.8510895
+Receive message: (key=b'1554185441.7140493' msg size=32) from topic: topic1 at time: 1554185441.8513947
+produce message:(key=b'1554185441.7140493' msg size=32) to topic: topic2 at time: 1554185441.8836076
+Receive message: (key=b'1554185441.7777028' msg size=32) from topic: topic1 at time: 1554185441.8838763
+produce message:(key=b'1554185441.7777028' msg size=32) to topic: topic2 at time: 1554185441.9506392
+Receive message: (key=b'1554185459.8661683' msg size=32) from topic: topic1 at time: 1554185460.6192005
+produce message:(key=b'1554185459.8661683' msg size=32) to topic: topic2 at time: 1554185460.6510768
+Receive message: (key=b'1554185460.8995306' msg size=32) from topic: topic1 at time: 1554185462.7321336
+produce message:(key=b'1554185460.8995306' msg size=32) to topic: topic2 at time: 1554185462.7639563
+Receive message: (key=b'1554185461.9329007' msg size=32) from topic: topic1 at time: 1554185462.7642202
+produce message:(key=b'1554185461.9329007' msg size=32) to topic: topic2 at time: 1554185462.7960632
+Receive message: (key=b'1554185462.9661307' msg size=32) from topic: topic1 at time: 1554185462.9955719
+produce message:(key=b'1554185462.9661307' msg size=32) to topic: topic2 at time: 1554185463.0273688
+Receive message: (key=b'1554185463.999555' msg size=32) from topic: topic1 at time: 1554185464.0268424
+produce message:(key=b'1554185463.999555' msg size=32) to topic: topic2 at time: 1554185464.0587294
+Receive message: (key=b'1554185465.0330145' msg size=32) from topic: topic1 at time: 1554185465.060401
+produce message:(key=b'1554185465.0330145' msg size=32) to topic: topic2 at time: 1554185465.0923145
+Receive message: (key=b'1554185466.066533' msg size=32) from topic: topic1 at time: 1554185466.0937407
+produce message:(key=b'1554185466.066533' msg size=32) to topic: topic2 at time: 1554185466.125707
+Receive message: (key=b'1554185467.0999196' msg size=32) from topic: topic1 at time: 1554185468.610818
+produce message:(key=b'1554185467.0999196' msg size=32) to topic: topic2 at time: 1554185468.6424963
+Receive message: (key=b'1554185468.1334574' msg size=32) from topic: topic1 at time: 1554185468.642669
+produce message:(key=b'1554185468.1334574' msg size=32) to topic: topic2 at time: 1554185468.6740544
+Receive message: (key=b'1554185469.1667852' msg size=32) from topic: topic1 at time: 1554185469.619451
+produce message:(key=b'1554185469.1667852' msg size=32) to topic: topic2 at time: 1554185469.6518176
+Receive message: (key=b'1554185470.2000792' msg size=32) from topic: topic1 at time: 1554185472.619577
+produce message:(key=b'1554185470.2000792' msg size=32) to topic: topic2 at time: 1554185472.6516588
+Receive message: (key=b'1554185471.2332568' msg size=32) from topic: topic1 at time: 1554185472.651855
+produce message:(key=b'1554185471.2332568' msg size=32) to topic: topic2 at time: 1554185472.6837027
+Receive message: (key=b'1554185472.266634' msg size=32) from topic: topic1 at time: 1554185472.6838694
+produce message:(key=b'1554185472.266634' msg size=32) to topic: topic2 at time: 1554185472.7156959
+Receive message: (key=b'1554185473.2999105' msg size=32) from topic: topic1 at time: 1554185473.611062
+produce message:(key=b'1554185473.2999105' msg size=32) to topic: topic2 at time: 1554185473.6427891
+Receive message: (key=b'1554185474.333257' msg size=32) from topic: topic1 at time: 1554185475.61948
+produce message:(key=b'1554185474.333257' msg size=32) to topic: topic2 at time: 1554185475.651362
+Receive message: (key=b'1554185475.3665175' msg size=32) from topic: topic1 at time: 1554185475.6514883
+produce message:(key=b'1554185475.3665175' msg size=32) to topic: topic2 at time: 1554185475.683297
+Receive message: (key=b'1554185476.3998458' msg size=32) from topic: topic1 at time: 1554185478.6107845
+produce message:(key=b'1554185476.3998458' msg size=32) to topic: topic2 at time: 1554185478.6425374
+Receive message: (key=b'1554185477.4342172' msg size=32) from topic: topic1 at time: 1554185478.6427314
+produce message:(key=b'1554185477.4342172' msg size=32) to topic: topic2 at time: 1554185478.6742942
+Receive message: (key=b'1554185478.4675145' msg size=32) from topic: topic1 at time: 1554185478.6744647
+produce message:(key=b'1554185478.4675145' msg size=32) to topic: topic2 at time: 1554185478.706003
+Receive message: (key=b'1554185479.5006816' msg size=32) from topic: topic1 at time: 1554185481.6194665
+produce message:(key=b'1554185479.5006816' msg size=32) to topic: topic2 at time: 1554185481.6512249
+Receive message: (key=b'1554185480.5338533' msg size=32) from topic: topic1 at time: 1554185481.6514063
+produce message:(key=b'1554185480.5338533' msg size=32) to topic: topic2 at time: 1554185481.6830413
+Receive message: (key=b'1554185481.5669599' msg size=32) from topic: topic1 at time: 1554185481.6832116
+produce message:(key=b'1554185481.5669599' msg size=32) to topic: topic2 at time: 1554185481.7148826
+Receive message: (key=b'1554185482.600127' msg size=32) from topic: topic1 at time: 1554185483.6109457
+produce message:(key=b'1554185482.600127' msg size=32) to topic: topic2 at time: 1554185483.6426811
+Receive message: (key=b'1554185483.6336257' msg size=32) from topic: topic1 at time: 1554185483.6605842
+produce message:(key=b'1554185483.6336257' msg size=32) to topic: topic2 at time: 1554185483.6923287
+Receive message: (key=b'1554185484.6667442' msg size=32) from topic: topic1 at time: 1554185484.6938353
+produce message:(key=b'1554185484.6667442' msg size=32) to topic: topic2 at time: 1554185484.7258382
+Receive message: (key=b'1554185485.700594' msg size=32) from topic: topic1 at time: 1554185485.7276545
+produce message:(key=b'1554185485.700594' msg size=32) to topic: topic2 at time: 1554185485.7594888
+Receive message: (key=b'1554185486.7339063' msg size=32) from topic: topic1 at time: 1554185487.6197677
+produce message:(key=b'1554185486.7339063' msg size=32) to topic: topic2 at time: 1554185487.6514935
+Receive message: (key=b'1554185487.7671406' msg size=32) from topic: topic1 at time: 1554185487.8764014
+produce message:(key=b'1554185487.7671406' msg size=32) to topic: topic2 at time: 1554185487.9083843
+Receive message: (key=b'1554185488.8002543' msg size=32) from topic: topic1 at time: 1554185488.8274083
+produce message:(key=b'1554185488.8002543' msg size=32) to topic: topic2 at time: 1554185488.8592763
+Receive message: (key=b'1554185489.8337452' msg size=32) from topic: topic1 at time: 1554185490.619796
+produce message:(key=b'1554185489.8337452' msg size=32) to topic: topic2 at time: 1554185490.65168
+Receive message: (key=b'1554185490.8669436' msg size=32) from topic: topic1 at time: 1554185491.0365214
+produce message:(key=b'1554185490.8669436' msg size=32) to topic: topic2 at time: 1554185491.068418
+Receive message: (key=b'1554185491.900054' msg size=32) from topic: topic1 at time: 1554185493.6111293
+produce message:(key=b'1554185491.900054' msg size=32) to topic: topic2 at time: 1554185493.6428607
+Receive message: (key=b'1554185492.933342' msg size=32) from topic: topic1 at time: 1554185493.6429892
+produce message:(key=b'1554185492.933342' msg size=32) to topic: topic2 at time: 1554185493.6746786
+Receive message: (key=b'1554185493.9665709' msg size=32) from topic: topic1 at time: 1554185494.0924397
+produce message:(key=b'1554185493.9665709' msg size=32) to topic: topic2 at time: 1554185494.1242018
+Receive message: (key=b'1554185494.999796' msg size=32) from topic: topic1 at time: 1554185496.6199808
+produce message:(key=b'1554185494.999796' msg size=32) to topic: topic2 at time: 1554185496.651871
+Receive message: (key=b'1554185496.0331407' msg size=32) from topic: topic1 at time: 1554185496.6519759
+produce message:(key=b'1554185496.0331407' msg size=32) to topic: topic2 at time: 1554185496.6838086
+Receive message: (key=b'1554185497.0663288' msg size=32) from topic: topic1 at time: 1554185497.104284
+produce message:(key=b'1554185497.0663288' msg size=32) to topic: topic2 at time: 1554185497.1362145
+Receive message: (key=b'1554185498.0995812' msg size=32) from topic: topic1 at time: 1554185498.611341
+produce message:(key=b'1554185498.0995812' msg size=32) to topic: topic2 at time: 1554185498.6430137
+Receive message: (key=b'1554185499.1327088' msg size=32) from topic: topic1 at time: 1554185499.1599104
+produce message:(key=b'1554185499.1327088' msg size=32) to topic: topic2 at time: 1554185499.1918747
+Receive message: (key=b'1554185500.1660004' msg size=32) from topic: topic1 at time: 1554185500.1932354
+produce message:(key=b'1554185500.1660004' msg size=32) to topic: topic2 at time: 1554185500.2250073
+Receive message: (key=b'1554185501.1994138' msg size=32) from topic: topic1 at time: 1554185502.6200867
+produce message:(key=b'1554185501.1994138' msg size=32) to topic: topic2 at time: 1554185502.6519566
+Receive message: (key=b'1554185502.2327962' msg size=32) from topic: topic1 at time: 1554185502.6520925
+produce message:(key=b'1554185502.2327962' msg size=32) to topic: topic2 at time: 1554185502.683657
+Receive message: (key=b'1554185503.266117' msg size=32) from topic: topic1 at time: 1554185503.6113951
+produce message:(key=b'1554185503.266117' msg size=32) to topic: topic2 at time: 1554185503.6429625
+Receive message: (key=b'1554185504.2993023' msg size=32) from topic: topic1 at time: 1554185505.6201096
+produce message:(key=b'1554185504.2993023' msg size=32) to topic: topic2 at time: 1554185505.6521773
+Receive message: (key=b'1554185505.332431' msg size=32) from topic: topic1 at time: 1554185505.6523674
+produce message:(key=b'1554185505.332431' msg size=32) to topic: topic2 at time: 1554185505.684248
+Receive message: (key=b'1554185506.3662827' msg size=32) from topic: topic1 at time: 1554185508.6114979
+produce message:(key=b'1554185506.3662827' msg size=32) to topic: topic2 at time: 1554185508.6434026
+Receive message: (key=b'1554185507.3994367' msg size=32) from topic: topic1 at time: 1554185508.6435483
+produce message:(key=b'1554185507.3994367' msg size=32) to topic: topic2 at time: 1554185508.6753247
+Receive message: (key=b'1554185508.433253' msg size=32) from topic: topic1 at time: 1554185508.6755097
+produce message:(key=b'1554185508.433253' msg size=32) to topic: topic2 at time: 1554185508.707177
+Receive message: (key=b'1554185509.4664347' msg size=32) from topic: topic1 at time: 1554185511.6201477
+produce message:(key=b'1554185509.4664347' msg size=32) to topic: topic2 at time: 1554185511.6517901
+Receive message: (key=b'1554185510.4995594' msg size=32) from topic: topic1 at time: 1554185511.6519184
+produce message:(key=b'1554185510.4995594' msg size=32) to topic: topic2 at time: 1554185511.6833482
+Receive message: (key=b'1554185511.5326715' msg size=32) from topic: topic1 at time: 1554185511.6836257
+produce message:(key=b'1554185511.5326715' msg size=32) to topic: topic2 at time: 1554185511.7152214
+Receive message: (key=b'1554185512.0654495' msg size=32) from topic: topic1 at time: 1554185512.0924842
+produce message:(key=b'1554185512.0654495' msg size=32) to topic: topic2 at time: 1554185512.1244373
+Receive message: (key=b'1554185512.5982642' msg size=32) from topic: topic1 at time: 1554185513.6116004
+produce message:(key=b'1554185512.5982642' msg size=32) to topic: topic2 at time: 1554185513.643247
+Receive message: (key=b'1554185513.1308432' msg size=32) from topic: topic1 at time: 1554185513.643445
+produce message:(key=b'1554185513.1308432' msg size=32) to topic: topic2 at time: 1554185513.6750364
+Receive message: (key=b'1554185513.6635728' msg size=32) from topic: topic1 at time: 1554185513.6902616
+produce message:(key=b'1554185513.6635728' msg size=32) to topic: topic2 at time: 1554185513.721881
+Receive message: (key=b'1554185514.1960673' msg size=32) from topic: topic1 at time: 1554185514.2447867
+produce message:(key=b'1554185514.1960673' msg size=32) to topic: topic2 at time: 1554185514.2767165
+Receive message: (key=b'1554185514.7287376' msg size=32) from topic: topic1 at time: 1554185515.1165257
+produce message:(key=b'1554185514.7287376' msg size=32) to topic: topic2 at time: 1554185515.1483138
+Receive message: (key=b'1554185515.2614148' msg size=32) from topic: topic1 at time: 1554185515.6284115
+produce message:(key=b'1554185515.2614148' msg size=32) to topic: topic2 at time: 1554185515.6601713
+Receive message: (key=b'1554185515.7938895' msg size=32) from topic: topic1 at time: 1554185516.140618
+produce message:(key=b'1554185515.7938895' msg size=32) to topic: topic2 at time: 1554185516.1723118
+Receive message: (key=b'1554185516.3264036' msg size=32) from topic: topic1 at time: 1554185517.6201096
+produce message:(key=b'1554185516.3264036' msg size=32) to topic: topic2 at time: 1554185517.65187
+Receive message: (key=b'1554185516.8590834' msg size=32) from topic: topic1 at time: 1554185517.652051
+produce message:(key=b'1554185516.8590834' msg size=32) to topic: topic2 at time: 1554185517.6835911
+Receive message: (key=b'1554185517.3917446' msg size=32) from topic: topic1 at time: 1554185517.6837513
+produce message:(key=b'1554185517.3917446' msg size=32) to topic: topic2 at time: 1554185517.7153049
+Receive message: (key=b'1554185517.9245563' msg size=32) from topic: topic1 at time: 1554185518.032489
+produce message:(key=b'1554185517.9245563' msg size=32) to topic: topic2 at time: 1554185518.064279
+Receive message: (key=b'1554185518.457245' msg size=32) from topic: topic1 at time: 1554185518.5084562
+produce message:(key=b'1554185518.457245' msg size=32) to topic: topic2 at time: 1554185518.540465
+Receive message: (key=b'1554185518.9899025' msg size=32) from topic: topic1 at time: 1554185520.6199887
+produce message:(key=b'1554185518.9899025' msg size=32) to topic: topic2 at time: 1554185520.6518662
+Receive message: (key=b'1554185519.522452' msg size=32) from topic: topic1 at time: 1554185520.6520827
+produce message:(key=b'1554185519.522452' msg size=32) to topic: topic2 at time: 1554185520.683924
+Receive message: (key=b'1554185520.0551298' msg size=32) from topic: topic1 at time: 1554185520.6841152
+produce message:(key=b'1554185520.0551298' msg size=32) to topic: topic2 at time: 1554185520.715916
+Receive message: (key=b'1554185520.5878744' msg size=32) from topic: topic1 at time: 1554185520.7161129
+produce message:(key=b'1554185520.5878744' msg size=32) to topic: topic2 at time: 1554185520.7479753
+Receive message: (key=b'1554185521.1205454' msg size=32) from topic: topic1 at time: 1554185523.6118228
+produce message:(key=b'1554185521.1205454' msg size=32) to topic: topic2 at time: 1554185523.6438234
+Receive message: (key=b'1554185521.653906' msg size=32) from topic: topic1 at time: 1554185523.6440516
+produce message:(key=b'1554185521.653906' msg size=32) to topic: topic2 at time: 1554185523.6758063
+Receive message: (key=b'1554185522.1866698' msg size=32) from topic: topic1 at time: 1554185523.6759987
+produce message:(key=b'1554185522.1866698' msg size=32) to topic: topic2 at time: 1554185523.7084067
+Receive message: (key=b'1554185522.7194526' msg size=32) from topic: topic1 at time: 1554185523.7086148
+produce message:(key=b'1554185522.7194526' msg size=32) to topic: topic2 at time: 1554185523.740402
+Receive message: (key=b'1554185523.2522154' msg size=32) from topic: topic1 at time: 1554185523.7405877
+produce message:(key=b'1554185523.2522154' msg size=32) to topic: topic2 at time: 1554185523.7723746
+Receive message: (key=b'1554185523.7849817' msg size=32) from topic: topic1 at time: 1554185523.8118799
+produce message:(key=b'1554185523.7849817' msg size=32) to topic: topic2 at time: 1554185523.844548
+Receive message: (key=b'1554185524.317618' msg size=32) from topic: topic1 at time: 1554185526.6202064
+produce message:(key=b'1554185524.317618' msg size=32) to topic: topic2 at time: 1554185526.6519916
+Receive message: (key=b'1554185524.8503668' msg size=32) from topic: topic1 at time: 1554185526.6521227
+produce message:(key=b'1554185524.8503668' msg size=32) to topic: topic2 at time: 1554185526.6836457
+Receive message: (key=b'1554185525.3831413' msg size=32) from topic: topic1 at time: 1554185526.6838098
+produce message:(key=b'1554185525.3831413' msg size=32) to topic: topic2 at time: 1554185526.715582
+Receive message: (key=b'1554185525.9161184' msg size=32) from topic: topic1 at time: 1554185526.7157717
+produce message:(key=b'1554185525.9161184' msg size=32) to topic: topic2 at time: 1554185526.7475696
+Receive message: (key=b'1554185526.4488366' msg size=32) from topic: topic1 at time: 1554185526.7477145
+produce message:(key=b'1554185526.4488366' msg size=32) to topic: topic2 at time: 1554185526.7794335
+Receive message: (key=b'1554185526.9815183' msg size=32) from topic: topic1 at time: 1554185528.6117754
+produce message:(key=b'1554185526.9815183' msg size=32) to topic: topic2 at time: 1554185528.6436055
+Receive message: (key=b'1554185527.5142298' msg size=32) from topic: topic1 at time: 1554185528.6437955
+produce message:(key=b'1554185527.5142298' msg size=32) to topic: topic2 at time: 1554185528.6753733
+Receive message: (key=b'1554185528.0472796' msg size=32) from topic: topic1 at time: 1554185528.6755304
+produce message:(key=b'1554185528.0472796' msg size=32) to topic: topic2 at time: 1554185528.7072499
+Receive message: (key=b'1554185528.5799496' msg size=32) from topic: topic1 at time: 1554185528.7074156
+produce message:(key=b'1554185528.5799496' msg size=32) to topic: topic2 at time: 1554185528.7391288
+Receive message: (key=b'1554185529.113976' msg size=32) from topic: topic1 at time: 1554185529.6204615
+produce message:(key=b'1554185529.113976' msg size=32) to topic: topic2 at time: 1554185529.6523652
+Receive message: (key=b'1554185529.6466975' msg size=32) from topic: topic1 at time: 1554185529.6733768
+produce message:(key=b'1554185529.6466975' msg size=32) to topic: topic2 at time: 1554185529.705268
+Receive message: (key=b'1554185530.1791797' msg size=32) from topic: topic1 at time: 1554185533.7227764
+produce message:(key=b'1554185530.1791797' msg size=32) to topic: topic2 at time: 1554185533.7556198
+Receive message: (key=b'1554185530.711929' msg size=32) from topic: topic1 at time: 1554185533.7558203
+produce message:(key=b'1554185530.711929' msg size=32) to topic: topic2 at time: 1554185533.7874584
+Receive message: (key=b'1554185531.2447948' msg size=32) from topic: topic1 at time: 1554185533.7876534
+produce message:(key=b'1554185531.2447948' msg size=32) to topic: topic2 at time: 1554185533.8192916
+Receive message: (key=b'1554185531.7774084' msg size=32) from topic: topic1 at time: 1554185533.8194802
+produce message:(key=b'1554185531.7774084' msg size=32) to topic: topic2 at time: 1554185533.8510642
+Receive message: (key=b'1554185532.3102288' msg size=32) from topic: topic1 at time: 1554185533.8512576
+produce message:(key=b'1554185532.3102288' msg size=32) to topic: topic2 at time: 1554185533.8828115
+Receive message: (key=b'1554185532.8431013' msg size=32) from topic: topic1 at time: 1554185533.8829947
+produce message:(key=b'1554185532.8431013' msg size=32) to topic: topic2 at time: 1554185533.9145947
+Receive message: (key=b'1554185533.3757818' msg size=32) from topic: topic1 at time: 1554185533.9147644
+produce message:(key=b'1554185533.3757818' msg size=32) to topic: topic2 at time: 1554185533.946212
+Receive message: (key=b'1554185533.9085255' msg size=32) from topic: topic1 at time: 1554185533.9662497
+produce message:(key=b'1554185533.9085255' msg size=32) to topic: topic2 at time: 1554185533.997879
+Receive message: (key=b'1554185534.4411225' msg size=32) from topic: topic1 at time: 1554185535.4841855
+produce message:(key=b'1554185534.4411225' msg size=32) to topic: topic2 at time: 1554185535.5159755
+Receive message: (key=b'1554185534.9737072' msg size=32) from topic: topic1 at time: 1554185535.516226
+produce message:(key=b'1554185534.9737072' msg size=32) to topic: topic2 at time: 1554185535.5490575
+Receive message: (key=b'1554185535.5064938' msg size=32) from topic: topic1 at time: 1554185535.5491934
+produce message:(key=b'1554185535.5064938' msg size=32) to topic: topic2 at time: 1554185535.5818536
+Receive message: (key=b'1554185536.0390875' msg size=32) from topic: topic1 at time: 1554185536.4805675
+produce message:(key=b'1554185536.0390875' msg size=32) to topic: topic2 at time: 1554185536.5123112
+Receive message: (key=b'1554185536.571849' msg size=32) from topic: topic1 at time: 1554185536.5987294
+produce message:(key=b'1554185536.571849' msg size=32) to topic: topic2 at time: 1554185536.6305213
+Receive message: (key=b'1554185537.104514' msg size=32) from topic: topic1 at time: 1554185537.4874632
+produce message:(key=b'1554185537.104514' msg size=32) to topic: topic2 at time: 1554185537.5193968
+Receive message: (key=b'1554185537.637267' msg size=32) from topic: topic1 at time: 1554185537.9006448
+produce message:(key=b'1554185537.637267' msg size=32) to topic: topic2 at time: 1554185537.9325712
+Receive message: (key=b'1554185538.1699202' msg size=32) from topic: topic1 at time: 1554185538.4955516
+produce message:(key=b'1554185538.1699202' msg size=32) to topic: topic2 at time: 1554185538.5274937
+Receive message: (key=b'1554185538.4521942' msg size=32) from topic: topic1 at time: 1554185538.5277202
+produce message:(key=b'1554185538.4521942' msg size=32) to topic: topic2 at time: 1554185538.5595536
+Receive message: (key=b'1554185538.7345572' msg size=32) from topic: topic1 at time: 1554185539.4692347
+produce message:(key=b'1554185538.7345572' msg size=32) to topic: topic2 at time: 1554185539.5015721
+Receive message: (key=b'1554185539.0168307' msg size=32) from topic: topic1 at time: 1554185539.5017517
+produce message:(key=b'1554185539.0168307' msg size=32) to topic: topic2 at time: 1554185539.5335455
+Receive message: (key=b'1554185539.2992663' msg size=32) from topic: topic1 at time: 1554185539.5337234
+produce message:(key=b'1554185539.2992663' msg size=32) to topic: topic2 at time: 1554185539.5654588
+Receive message: (key=b'1554185539.5816581' msg size=32) from topic: topic1 at time: 1554185539.6315038
+produce message:(key=b'1554185539.5816581' msg size=32) to topic: topic2 at time: 1554185539.6635437
+Receive message: (key=b'1554185539.8640628' msg size=32) from topic: topic1 at time: 1554185540.0524697
+produce message:(key=b'1554185539.8640628' msg size=32) to topic: topic2 at time: 1554185540.0849037
+Receive message: (key=b'1554185540.146516' msg size=32) from topic: topic1 at time: 1554185540.173399
+produce message:(key=b'1554185540.146516' msg size=32) to topic: topic2 at time: 1554185540.2052782
+Receive message: (key=b'1554185540.4290833' msg size=32) from topic: topic1 at time: 1554185540.468135
+produce message:(key=b'1554185540.4290833' msg size=32) to topic: topic2 at time: 1554185540.5001693
+Receive message: (key=b'1554185540.7116137' msg size=32) from topic: topic1 at time: 1554185541.4682891
+produce message:(key=b'1554185540.7116137' msg size=32) to topic: topic2 at time: 1554185541.5000584
+Receive message: (key=b'1554185540.9939747' msg size=32) from topic: topic1 at time: 1554185541.500226
+produce message:(key=b'1554185540.9939747' msg size=32) to topic: topic2 at time: 1554185541.532008
+Receive message: (key=b'1554185541.2763057' msg size=32) from topic: topic1 at time: 1554185541.5321522
+produce message:(key=b'1554185541.2763057' msg size=32) to topic: topic2 at time: 1554185541.5638604
+Receive message: (key=b'1554185541.5587506' msg size=32) from topic: topic1 at time: 1554185541.5855472
+produce message:(key=b'1554185541.5587506' msg size=32) to topic: topic2 at time: 1554185541.6172895
+Receive message: (key=b'1554185541.841199' msg size=32) from topic: topic1 at time: 1554185541.970492
+produce message:(key=b'1554185541.841199' msg size=32) to topic: topic2 at time: 1554185542.0022569
+Receive message: (key=b'1554185542.1240427' msg size=32) from topic: topic1 at time: 1554185542.4681702
+produce message:(key=b'1554185542.1240427' msg size=32) to topic: topic2 at time: 1554185542.500321
+Receive message: (key=b'1554185542.4078052' msg size=32) from topic: topic1 at time: 1554185542.5004408
+produce message:(key=b'1554185542.4078052' msg size=32) to topic: topic2 at time: 1554185542.532221
+Receive message: (key=b'1554185542.6905918' msg size=32) from topic: topic1 at time: 1554185543.4869566
+produce message:(key=b'1554185542.6905918' msg size=32) to topic: topic2 at time: 1554185543.518727
+Receive message: (key=b'1554185542.972853' msg size=32) from topic: topic1 at time: 1554185543.5189056
+produce message:(key=b'1554185542.972853' msg size=32) to topic: topic2 at time: 1554185543.5505807
+Receive message: (key=b'1554185543.255482' msg size=32) from topic: topic1 at time: 1554185543.550751
+produce message:(key=b'1554185543.255482' msg size=32) to topic: topic2 at time: 1554185543.5821948
+Receive message: (key=b'1554185543.5388613' msg size=32) from topic: topic1 at time: 1554185543.5823667
+produce message:(key=b'1554185543.5388613' msg size=32) to topic: topic2 at time: 1554185543.6138687
+Receive message: (key=b'1554185543.8211694' msg size=32) from topic: topic1 at time: 1554185544.486124
+produce message:(key=b'1554185543.8211694' msg size=32) to topic: topic2 at time: 1554185544.5179849
+Receive message: (key=b'1554185544.103702' msg size=32) from topic: topic1 at time: 1554185544.5182018
+produce message:(key=b'1554185544.103702' msg size=32) to topic: topic2 at time: 1554185544.550202
+Receive message: (key=b'1554185544.386256' msg size=32) from topic: topic1 at time: 1554185544.5503738
+produce message:(key=b'1554185544.386256' msg size=32) to topic: topic2 at time: 1554185544.5822082
+Receive message: (key=b'1554185544.6686137' msg size=32) from topic: topic1 at time: 1554185544.6955175
+produce message:(key=b'1554185544.6686137' msg size=32) to topic: topic2 at time: 1554185544.7273428
+Receive message: (key=b'1554185544.950998' msg size=32) from topic: topic1 at time: 1554185545.164553
+produce message:(key=b'1554185544.950998' msg size=32) to topic: topic2 at time: 1554185545.1962664
+Receive message: (key=b'1554185545.2333412' msg size=32) from topic: topic1 at time: 1554185545.2600286
+produce message:(key=b'1554185545.2333412' msg size=32) to topic: topic2 at time: 1554185545.2916443
+Receive message: (key=b'1554185545.5157266' msg size=32) from topic: topic1 at time: 1554185545.5426579
+produce message:(key=b'1554185545.5157266' msg size=32) to topic: topic2 at time: 1554185545.5743985
+Receive message: (key=b'1554185545.7981741' msg size=32) from topic: topic1 at time: 1554185545.8250926
+produce message:(key=b'1554185545.7981741' msg size=32) to topic: topic2 at time: 1554185545.8568003
+Receive message: (key=b'1554185546.0807905' msg size=32) from topic: topic1 at time: 1554185546.28451
+produce message:(key=b'1554185546.0807905' msg size=32) to topic: topic2 at time: 1554185546.3162704
+Receive message: (key=b'1554185546.3634257' msg size=32) from topic: topic1 at time: 1554185546.3901877
+produce message:(key=b'1554185546.3634257' msg size=32) to topic: topic2 at time: 1554185546.421903
+Receive message: (key=b'1554185546.6460342' msg size=32) from topic: topic1 at time: 1554185547.4681966
+produce message:(key=b'1554185546.6460342' msg size=32) to topic: topic2 at time: 1554185547.499977
+Receive message: (key=b'1554185546.9286058' msg size=32) from topic: topic1 at time: 1554185547.5001829
+produce message:(key=b'1554185546.9286058' msg size=32) to topic: topic2 at time: 1554185547.5315888
+Receive message: (key=b'1554185547.2109144' msg size=32) from topic: topic1 at time: 1554185547.5317497
+produce message:(key=b'1554185547.2109144' msg size=32) to topic: topic2 at time: 1554185547.5632446
+Receive message: (key=b'1554185547.493318' msg size=32) from topic: topic1 at time: 1554185547.5633438
+produce message:(key=b'1554185547.493318' msg size=32) to topic: topic2 at time: 1554185547.5948179
+Receive message: (key=b'1554185547.7756174' msg size=32) from topic: topic1 at time: 1554185548.4680579
+produce message:(key=b'1554185547.7756174' msg size=32) to topic: topic2 at time: 1554185548.4997556
+Receive message: (key=b'1554185548.05798' msg size=32) from topic: topic1 at time: 1554185548.4999235
+produce message:(key=b'1554185548.05798' msg size=32) to topic: topic2 at time: 1554185548.53165
+Receive message: (key=b'1554185548.3404987' msg size=32) from topic: topic1 at time: 1554185548.5318184
+produce message:(key=b'1554185548.3404987' msg size=32) to topic: topic2 at time: 1554185548.563375
+Receive message: (key=b'1554185548.6229563' msg size=32) from topic: topic1 at time: 1554185548.6496522
+produce message:(key=b'1554185548.6229563' msg size=32) to topic: topic2 at time: 1554185548.6813083
+Receive message: (key=b'1554185548.905281' msg size=32) from topic: topic1 at time: 1554185549.4681437
+produce message:(key=b'1554185548.905281' msg size=32) to topic: topic2 at time: 1554185549.4999905
+Receive message: (key=b'1554185549.1877856' msg size=32) from topic: topic1 at time: 1554185549.5001693
+produce message:(key=b'1554185549.1877856' msg size=32) to topic: topic2 at time: 1554185549.5319173
+Receive message: (key=b'1554185549.4702044' msg size=32) from topic: topic1 at time: 1554185549.5320892
+produce message:(key=b'1554185549.4702044' msg size=32) to topic: topic2 at time: 1554185549.563732
+Receive message: (key=b'1554185549.7525659' msg size=32) from topic: topic1 at time: 1554185549.77942
+produce message:(key=b'1554185549.7525659' msg size=32) to topic: topic2 at time: 1554185549.811248
+Receive message: (key=b'1554185550.0350146' msg size=32) from topic: topic1 at time: 1554185550.4681368
+produce message:(key=b'1554185550.0350146' msg size=32) to topic: topic2 at time: 1554185550.5057983
+Receive message: (key=b'1554185550.3176382' msg size=32) from topic: topic1 at time: 1554185550.5059412
+produce message:(key=b'1554185550.3176382' msg size=32) to topic: topic2 at time: 1554185550.5376143
+Receive message: (key=b'1554185550.6000903' msg size=32) from topic: topic1 at time: 1554185550.6316762
+produce message:(key=b'1554185550.6000903' msg size=32) to topic: topic2 at time: 1554185550.663556
+Receive message: (key=b'1554185550.8823142' msg size=32) from topic: topic1 at time: 1554185550.9091828
+produce message:(key=b'1554185550.8823142' msg size=32) to topic: topic2 at time: 1554185550.9411473
+Receive message: (key=b'1554185551.164775' msg size=32) from topic: topic1 at time: 1554185551.46808
+produce message:(key=b'1554185551.164775' msg size=32) to topic: topic2 at time: 1554185551.7180467
+Receive message: (key=b'1554185551.4472065' msg size=32) from topic: topic1 at time: 1554185551.7182567
+produce message:(key=b'1554185551.4472065' msg size=32) to topic: topic2 at time: 1554185551.7500753
+Receive message: (key=b'1554185551.7296648' msg size=32) from topic: topic1 at time: 1554185551.7562757
+produce message:(key=b'1554185551.7296648' msg size=32) to topic: topic2 at time: 1554185551.7878764
+Receive message: (key=b'1554185552.012034' msg size=32) from topic: topic1 at time: 1554185552.4680152
+produce message:(key=b'1554185552.012034' msg size=32) to topic: topic2 at time: 1554185552.4999352
+Receive message: (key=b'1554185552.2945282' msg size=32) from topic: topic1 at time: 1554185552.5000598
+produce message:(key=b'1554185552.2945282' msg size=32) to topic: topic2 at time: 1554185552.531831
+Receive message: (key=b'1554185552.451884' msg size=32) from topic: topic1 at time: 1554185552.5319774
+produce message:(key=b'1554185552.451884' msg size=32) to topic: topic2 at time: 1554185552.5637167
+Receive message: (key=b'1554185552.6090086' msg size=32) from topic: topic1 at time: 1554185553.4680572
+produce message:(key=b'1554185552.6090086' msg size=32) to topic: topic2 at time: 1554185553.5000272
+Receive message: (key=b'1554185552.766145' msg size=32) from topic: topic1 at time: 1554185553.5001755
+produce message:(key=b'1554185552.766145' msg size=32) to topic: topic2 at time: 1554185553.5320208
+Receive message: (key=b'1554185552.9233017' msg size=32) from topic: topic1 at time: 1554185553.5321403
+produce message:(key=b'1554185552.9233017' msg size=32) to topic: topic2 at time: 1554185553.5638034
+Receive message: (key=b'1554185553.080575' msg size=32) from topic: topic1 at time: 1554185553.5639136
+produce message:(key=b'1554185553.080575' msg size=32) to topic: topic2 at time: 1554185553.5963757
+Receive message: (key=b'1554185553.2379625' msg size=32) from topic: topic1 at time: 1554185553.5965066
+produce message:(key=b'1554185553.2379625' msg size=32) to topic: topic2 at time: 1554185553.6280527
+Receive message: (key=b'1554185553.395099' msg size=32) from topic: topic1 at time: 1554185553.6282682
+produce message:(key=b'1554185553.395099' msg size=32) to topic: topic2 at time: 1554185553.6783419
+Receive message: (key=b'1554185553.5521817' msg size=32) from topic: topic1 at time: 1554185553.678476
+produce message:(key=b'1554185553.5521817' msg size=32) to topic: topic2 at time: 1554185553.7100189
+Receive message: (key=b'1554185553.7112522' msg size=32) from topic: topic1 at time: 1554185553.7665079
+produce message:(key=b'1554185553.7112522' msg size=32) to topic: topic2 at time: 1554185553.7983284
+Receive message: (key=b'1554185553.8683152' msg size=32) from topic: topic1 at time: 1554185553.8951712
+produce message:(key=b'1554185553.8683152' msg size=32) to topic: topic2 at time: 1554185553.9269774
+Receive message: (key=b'1554185554.0257561' msg size=32) from topic: topic1 at time: 1554185554.0587242
+produce message:(key=b'1554185554.0257561' msg size=32) to topic: topic2 at time: 1554185554.09041
+Receive message: (key=b'1554185554.1830144' msg size=32) from topic: topic1 at time: 1554185554.467918
+produce message:(key=b'1554185554.1830144' msg size=32) to topic: topic2 at time: 1554185554.4996665
+Receive message: (key=b'1554185554.3400953' msg size=32) from topic: topic1 at time: 1554185554.4997706
+produce message:(key=b'1554185554.3400953' msg size=32) to topic: topic2 at time: 1554185554.5311375
+Receive message: (key=b'1554185554.497392' msg size=32) from topic: topic1 at time: 1554185554.5312603
+produce message:(key=b'1554185554.497392' msg size=32) to topic: topic2 at time: 1554185554.5628357
+Receive message: (key=b'1554185554.6547003' msg size=32) from topic: topic1 at time: 1554185554.7764647
+produce message:(key=b'1554185554.6547003' msg size=32) to topic: topic2 at time: 1554185554.8081837
+Receive message: (key=b'1554185554.8119113' msg size=32) from topic: topic1 at time: 1554185554.8385928
+produce message:(key=b'1554185554.8119113' msg size=32) to topic: topic2 at time: 1554185554.8703675
+Receive message: (key=b'1554185554.9692235' msg size=32) from topic: topic1 at time: 1554185556.4682336
+produce message:(key=b'1554185554.9692235' msg size=32) to topic: topic2 at time: 1554185556.4999921
+Receive message: (key=b'1554185555.126614' msg size=32) from topic: topic1 at time: 1554185556.500126
+produce message:(key=b'1554185555.126614' msg size=32) to topic: topic2 at time: 1554185556.5317879
+Receive message: (key=b'1554185555.283839' msg size=32) from topic: topic1 at time: 1554185556.5319262
+produce message:(key=b'1554185555.283839' msg size=32) to topic: topic2 at time: 1554185556.5635004
+Receive message: (key=b'1554185555.4412363' msg size=32) from topic: topic1 at time: 1554185556.5636227
+produce message:(key=b'1554185555.4412363' msg size=32) to topic: topic2 at time: 1554185556.5950058
+Receive message: (key=b'1554185555.5990155' msg size=32) from topic: topic1 at time: 1554185556.5950954
+produce message:(key=b'1554185555.5990155' msg size=32) to topic: topic2 at time: 1554185556.626709
+Receive message: (key=b'1554185555.7560964' msg size=32) from topic: topic1 at time: 1554185556.6268284
+produce message:(key=b'1554185555.7560964' msg size=32) to topic: topic2 at time: 1554185556.6590927
+Receive message: (key=b'1554185555.914486' msg size=32) from topic: topic1 at time: 1554185556.6592464
+produce message:(key=b'1554185555.914486' msg size=32) to topic: topic2 at time: 1554185556.690915
+Receive message: (key=b'1554185556.071699' msg size=32) from topic: topic1 at time: 1554185556.691102
+produce message:(key=b'1554185556.071699' msg size=32) to topic: topic2 at time: 1554185556.72813
+Receive message: (key=b'1554185556.228831' msg size=32) from topic: topic1 at time: 1554185556.7283912
+produce message:(key=b'1554185556.228831' msg size=32) to topic: topic2 at time: 1554185556.7609017
+Receive message: (key=b'1554185556.3860927' msg size=32) from topic: topic1 at time: 1554185556.7610044
+produce message:(key=b'1554185556.3860927' msg size=32) to topic: topic2 at time: 1554185556.7950382
+Receive message: (key=b'1554185556.543355' msg size=32) from topic: topic1 at time: 1554185556.795153
+produce message:(key=b'1554185556.543355' msg size=32) to topic: topic2 at time: 1554185556.8268826
+Receive message: (key=b'1554185556.7005434' msg size=32) from topic: topic1 at time: 1554185556.8270662
+produce message:(key=b'1554185556.7005434' msg size=32) to topic: topic2 at time: 1554185556.8587987
+Receive message: (key=b'1554185556.8577123' msg size=32) from topic: topic1 at time: 1554185556.9185007
+produce message:(key=b'1554185556.8577123' msg size=32) to topic: topic2 at time: 1554185556.9502864
+Receive message: (key=b'1554185557.014925' msg size=32) from topic: topic1 at time: 1554185557.0419223
+produce message:(key=b'1554185557.014925' msg size=32) to topic: topic2 at time: 1554185557.0738413
+Receive message: (key=b'1554185557.172481' msg size=32) from topic: topic1 at time: 1554185557.2966666
+produce message:(key=b'1554185557.172481' msg size=32) to topic: topic2 at time: 1554185557.3284411
+Receive message: (key=b'1554185557.329778' msg size=32) from topic: topic1 at time: 1554185557.3563714
+produce message:(key=b'1554185557.329778' msg size=32) to topic: topic2 at time: 1554185557.3880584
+Receive message: (key=b'1554185557.4869597' msg size=32) from topic: topic1 at time: 1554185558.1420686
+produce message:(key=b'1554185557.4869597' msg size=32) to topic: topic2 at time: 1554185558.1738396
+Receive message: (key=b'1554185557.6443465' msg size=32) from topic: topic1 at time: 1554185558.1740086
+produce message:(key=b'1554185557.6443465' msg size=32) to topic: topic2 at time: 1554185558.2058675
+Receive message: (key=b'1554185557.801428' msg size=32) from topic: topic1 at time: 1554185558.2060373
+produce message:(key=b'1554185557.801428' msg size=32) to topic: topic2 at time: 1554185558.3164058
+Receive message: (key=b'1554185557.9586096' msg size=32) from topic: topic1 at time: 1554185558.3167255
+produce message:(key=b'1554185557.9586096' msg size=32) to topic: topic2 at time: 1554185558.4520018
+Receive message: (key=b'1554185558.1158464' msg size=32) from topic: topic1 at time: 1554185558.4522893
+produce message:(key=b'1554185558.1158464' msg size=32) to topic: topic2 at time: 1554185558.4838457
+Receive message: (key=b'1554185558.2729294' msg size=32) from topic: topic1 at time: 1554185558.4840553
+produce message:(key=b'1554185558.2729294' msg size=32) to topic: topic2 at time: 1554185558.6127074
+Receive message: (key=b'1554185558.4305317' msg size=32) from topic: topic1 at time: 1554185558.6130252
+produce message:(key=b'1554185558.4305317' msg size=32) to topic: topic2 at time: 1554185558.6447701
+Receive message: (key=b'1554185558.587672' msg size=32) from topic: topic1 at time: 1554185558.6449332
+produce message:(key=b'1554185558.587672' msg size=32) to topic: topic2 at time: 1554185558.6765637
+Receive message: (key=b'1554185558.7446363' msg size=32) from topic: topic1 at time: 1554185559.6208947
+produce message:(key=b'1554185558.7446363' msg size=32) to topic: topic2 at time: 1554185559.6530206
+Receive message: (key=b'1554185558.9019144' msg size=32) from topic: topic1 at time: 1554185559.6532035
+produce message:(key=b'1554185558.9019144' msg size=32) to topic: topic2 at time: 1554185559.7350268
+Receive message: (key=b'1554185559.0597577' msg size=32) from topic: topic1 at time: 1554185559.7353501
+produce message:(key=b'1554185559.0597577' msg size=32) to topic: topic2 at time: 1554185559.868663
+Receive message: (key=b'1554185559.2169936' msg size=32) from topic: topic1 at time: 1554185559.8689523
+produce message:(key=b'1554185559.2169936' msg size=32) to topic: topic2 at time: 1554185559.9028425
+Receive message: (key=b'1554185559.374138' msg size=32) from topic: topic1 at time: 1554185559.903071
+produce message:(key=b'1554185559.374138' msg size=32) to topic: topic2 at time: 1554185560.0365155
+Receive message: (key=b'1554185559.534466' msg size=32) from topic: topic1 at time: 1554185560.0368423
+produce message:(key=b'1554185559.534466' msg size=32) to topic: topic2 at time: 1554185560.0697315
+Receive message: (key=b'1554185559.6917074' msg size=32) from topic: topic1 at time: 1554185560.0700388
+produce message:(key=b'1554185559.6917074' msg size=32) to topic: topic2 at time: 1554185560.102024
+Receive message: (key=b'1554185559.8489985' msg size=32) from topic: topic1 at time: 1554185560.102341
+produce message:(key=b'1554185559.8489985' msg size=32) to topic: topic2 at time: 1554185560.20311
+Receive message: (key=b'1554185560.005941' msg size=32) from topic: topic1 at time: 1554185560.2034354
+produce message:(key=b'1554185560.005941' msg size=32) to topic: topic2 at time: 1554185560.2361887
+Receive message: (key=b'1554185560.1633294' msg size=32) from topic: topic1 at time: 1554185560.236431
+produce message:(key=b'1554185560.1633294' msg size=32) to topic: topic2 at time: 1554185560.2680676
+Receive message: (key=b'1554185560.2579372' msg size=32) from topic: topic1 at time: 1554185560.284387
+produce message:(key=b'1554185560.2579372' msg size=32) to topic: topic2 at time: 1554185560.3161318
+Receive message: (key=b'1554185560.3522668' msg size=32) from topic: topic1 at time: 1554185560.3791232
+produce message:(key=b'1554185560.3522668' msg size=32) to topic: topic2 at time: 1554185560.410802
+Receive message: (key=b'1554185560.4469385' msg size=32) from topic: topic1 at time: 1554185560.4737885
+produce message:(key=b'1554185560.4469385' msg size=32) to topic: topic2 at time: 1554185560.5057218
+Receive message: (key=b'1554185560.5416703' msg size=32) from topic: topic1 at time: 1554185560.5686457
+produce message:(key=b'1554185560.5416703' msg size=32) to topic: topic2 at time: 1554185560.601351
+Receive message: (key=b'1554185560.6366155' msg size=32) from topic: topic1 at time: 1554185560.663351
+produce message:(key=b'1554185560.6366155' msg size=32) to topic: topic2 at time: 1554185560.6951952
+Receive message: (key=b'1554185560.7313647' msg size=32) from topic: topic1 at time: 1554185560.7581713
+produce message:(key=b'1554185560.7313647' msg size=32) to topic: topic2 at time: 1554185560.790176
+Receive message: (key=b'1554185560.826092' msg size=32) from topic: topic1 at time: 1554185560.853075
+produce message:(key=b'1554185560.826092' msg size=32) to topic: topic2 at time: 1554185560.8851178
+Receive message: (key=b'1554185560.9210029' msg size=32) from topic: topic1 at time: 1554185560.947913
+produce message:(key=b'1554185560.9210029' msg size=32) to topic: topic2 at time: 1554185560.9799435
+Receive message: (key=b'1554185561.0157914' msg size=32) from topic: topic1 at time: 1554185561.0427654
+produce message:(key=b'1554185561.0157914' msg size=32) to topic: topic2 at time: 1554185561.0747085
+Receive message: (key=b'1554185561.1106734' msg size=32) from topic: topic1 at time: 1554185561.137678
+produce message:(key=b'1554185561.1106734' msg size=32) to topic: topic2 at time: 1554185561.1695952
+Receive message: (key=b'1554185561.2056208' msg size=32) from topic: topic1 at time: 1554185561.2325802
+produce message:(key=b'1554185561.2056208' msg size=32) to topic: topic2 at time: 1554185561.2645955
+Receive message: (key=b'1554185561.3004148' msg size=32) from topic: topic1 at time: 1554185561.3273354
+produce message:(key=b'1554185561.3004148' msg size=32) to topic: topic2 at time: 1554185561.3592696
+Receive message: (key=b'1554185561.3952336' msg size=32) from topic: topic1 at time: 1554185561.4222088
+produce message:(key=b'1554185561.3952336' msg size=32) to topic: topic2 at time: 1554185561.5332813
+Receive message: (key=b'1554185561.4900987' msg size=32) from topic: topic1 at time: 1554185561.5335608
+produce message:(key=b'1554185561.4900987' msg size=32) to topic: topic2 at time: 1554185561.6284704
+Receive message: (key=b'1554185561.584944' msg size=32) from topic: topic1 at time: 1554185561.628732
+produce message:(key=b'1554185561.584944' msg size=32) to topic: topic2 at time: 1554185561.6605005
+Receive message: (key=b'1554185561.679895' msg size=32) from topic: topic1 at time: 1554185561.706797
+produce message:(key=b'1554185561.679895' msg size=32) to topic: topic2 at time: 1554185561.738823
+Receive message: (key=b'1554185561.7748108' msg size=32) from topic: topic1 at time: 1554185561.801754
+produce message:(key=b'1554185561.7748108' msg size=32) to topic: topic2 at time: 1554185561.833781
+Receive message: (key=b'1554185561.8696744' msg size=32) from topic: topic1 at time: 1554185561.8967154
+produce message:(key=b'1554185561.8696744' msg size=32) to topic: topic2 at time: 1554185561.9285722
+Receive message: (key=b'1554185561.96467' msg size=32) from topic: topic1 at time: 1554185561.991626
+produce message:(key=b'1554185561.96467' msg size=32) to topic: topic2 at time: 1554185562.023529
+Receive message: (key=b'1554185562.0594993' msg size=32) from topic: topic1 at time: 1554185562.0864854
+produce message:(key=b'1554185562.0594993' msg size=32) to topic: topic2 at time: 1554185562.1184704
+Receive message: (key=b'1554185562.1544178' msg size=32) from topic: topic1 at time: 1554185562.1815171
+produce message:(key=b'1554185562.1544178' msg size=32) to topic: topic2 at time: 1554185562.293117
+Receive message: (key=b'1554185562.2494562' msg size=32) from topic: topic1 at time: 1554185562.2934124
+produce message:(key=b'1554185562.2494562' msg size=32) to topic: topic2 at time: 1554185562.3882093
+Receive message: (key=b'1554185562.3444536' msg size=32) from topic: topic1 at time: 1554185562.388632
+produce message:(key=b'1554185562.3444536' msg size=32) to topic: topic2 at time: 1554185562.4832702
+Receive message: (key=b'1554185562.4395' msg size=32) from topic: topic1 at time: 1554185562.4835515
+produce message:(key=b'1554185562.4395' msg size=32) to topic: topic2 at time: 1554185562.5154061
+Receive message: (key=b'1554185562.5345457' msg size=32) from topic: topic1 at time: 1554185562.5614524
+produce message:(key=b'1554185562.5345457' msg size=32) to topic: topic2 at time: 1554185562.5934324
+Receive message: (key=b'1554185562.6293511' msg size=32) from topic: topic1 at time: 1554185562.6562524
+produce message:(key=b'1554185562.6293511' msg size=32) to topic: topic2 at time: 1554185562.6882668
+Receive message: (key=b'1554185562.7241478' msg size=32) from topic: topic1 at time: 1554185562.7512474
+produce message:(key=b'1554185562.7241478' msg size=32) to topic: topic2 at time: 1554185562.7831943
+Receive message: (key=b'1554185562.819152' msg size=32) from topic: topic1 at time: 1554185562.8462162
+produce message:(key=b'1554185562.819152' msg size=32) to topic: topic2 at time: 1554185562.9580593
+Receive message: (key=b'1554185562.9142215' msg size=32) from topic: topic1 at time: 1554185562.958386
+produce message:(key=b'1554185562.9142215' msg size=32) to topic: topic2 at time: 1554185563.0527258
+Receive message: (key=b'1554185563.0090222' msg size=32) from topic: topic1 at time: 1554185563.0530193
+produce message:(key=b'1554185563.0090222' msg size=32) to topic: topic2 at time: 1554185563.1479893
+Receive message: (key=b'1554185563.1039896' msg size=32) from topic: topic1 at time: 1554185563.1482909
+produce message:(key=b'1554185563.1039896' msg size=32) to topic: topic2 at time: 1554185563.2427475
+Receive message: (key=b'1554185563.199014' msg size=32) from topic: topic1 at time: 1554185563.243026
+produce message:(key=b'1554185563.199014' msg size=32) to topic: topic2 at time: 1554185563.3377051
+Receive message: (key=b'1554185563.294012' msg size=32) from topic: topic1 at time: 1554185563.3380067
+produce message:(key=b'1554185563.294012' msg size=32) to topic: topic2 at time: 1554185563.4325058
+Receive message: (key=b'1554185563.3889713' msg size=32) from topic: topic1 at time: 1554185563.4328246
+produce message:(key=b'1554185563.3889713' msg size=32) to topic: topic2 at time: 1554185563.527733
+Receive message: (key=b'1554185563.4838943' msg size=32) from topic: topic1 at time: 1554185563.528082
+produce message:(key=b'1554185563.4838943' msg size=32) to topic: topic2 at time: 1554185563.6124601
+Receive message: (key=b'1554185563.5790014' msg size=32) from topic: topic1 at time: 1554185563.6127408
+produce message:(key=b'1554185563.5790014' msg size=32) to topic: topic2 at time: 1554185563.6444695
+Receive message: (key=b'1554185563.6738904' msg size=32) from topic: topic1 at time: 1554185563.7008388
+produce message:(key=b'1554185563.6738904' msg size=32) to topic: topic2 at time: 1554185563.7328498
+Receive message: (key=b'1554185563.7686708' msg size=32) from topic: topic1 at time: 1554185563.7957516
+produce message:(key=b'1554185563.7686708' msg size=32) to topic: topic2 at time: 1554185563.8276951
+Receive message: (key=b'1554185563.863908' msg size=32) from topic: topic1 at time: 1554185563.89114
+produce message:(key=b'1554185563.863908' msg size=32) to topic: topic2 at time: 1554185563.9231057
+Receive message: (key=b'1554185563.9590507' msg size=32) from topic: topic1 at time: 1554185563.9860466
+produce message:(key=b'1554185563.9590507' msg size=32) to topic: topic2 at time: 1554185564.0180326
+Receive message: (key=b'1554185564.0539' msg size=32) from topic: topic1 at time: 1554185564.0808468
+produce message:(key=b'1554185564.0539' msg size=32) to topic: topic2 at time: 1554185564.1131139
+Receive message: (key=b'1554185564.1487744' msg size=32) from topic: topic1 at time: 1554185564.175711
+produce message:(key=b'1554185564.1487744' msg size=32) to topic: topic2 at time: 1554185564.2076635
+Receive message: (key=b'1554185564.2437887' msg size=32) from topic: topic1 at time: 1554185564.2707553
+produce message:(key=b'1554185564.2437887' msg size=32) to topic: topic2 at time: 1554185564.3027763
+Receive message: (key=b'1554185564.3387187' msg size=32) from topic: topic1 at time: 1554185564.3657057
+produce message:(key=b'1554185564.3387187' msg size=32) to topic: topic2 at time: 1554185564.3976989
+Receive message: (key=b'1554185564.4336944' msg size=32) from topic: topic1 at time: 1554185564.4605386
+produce message:(key=b'1554185564.4336944' msg size=32) to topic: topic2 at time: 1554185564.4925494
+Receive message: (key=b'1554185564.5284045' msg size=32) from topic: topic1 at time: 1554185564.5554886
+produce message:(key=b'1554185564.5284045' msg size=32) to topic: topic2 at time: 1554185564.5875351
+Receive message: (key=b'1554185564.6232429' msg size=32) from topic: topic1 at time: 1554185564.6501145
+produce message:(key=b'1554185564.6232429' msg size=32) to topic: topic2 at time: 1554185564.6820962
+Receive message: (key=b'1554185564.7179215' msg size=32) from topic: topic1 at time: 1554185564.744834
+produce message:(key=b'1554185564.7179215' msg size=32) to topic: topic2 at time: 1554185564.776814
+Receive message: (key=b'1554185564.8126318' msg size=32) from topic: topic1 at time: 1554185564.8396454
+produce message:(key=b'1554185564.8126318' msg size=32) to topic: topic2 at time: 1554185564.8715386
+Receive message: (key=b'1554185564.9074965' msg size=32) from topic: topic1 at time: 1554185564.934423
+produce message:(key=b'1554185564.9074965' msg size=32) to topic: topic2 at time: 1554185564.9663239
+Receive message: (key=b'1554185564.9712856' msg size=32) from topic: topic1 at time: 1554185564.9981854
+produce message:(key=b'1554185564.9712856' msg size=32) to topic: topic2 at time: 1554185565.0303774
+Receive message: (key=b'1554185565.034972' msg size=32) from topic: topic1 at time: 1554185565.0621326
+produce message:(key=b'1554185565.034972' msg size=32) to topic: topic2 at time: 1554185565.0941863
+Receive message: (key=b'1554185565.0987709' msg size=32) from topic: topic1 at time: 1554185565.1258326
+produce message:(key=b'1554185565.0987709' msg size=32) to topic: topic2 at time: 1554185565.1579936
+Receive message: (key=b'1554185565.162421' msg size=32) from topic: topic1 at time: 1554185565.1894786
+produce message:(key=b'1554185565.162421' msg size=32) to topic: topic2 at time: 1554185565.221597
+Receive message: (key=b'1554185565.2260807' msg size=32) from topic: topic1 at time: 1554185565.2527761
+produce message:(key=b'1554185565.2260807' msg size=32) to topic: topic2 at time: 1554185565.2847893
+Receive message: (key=b'1554185565.2892442' msg size=32) from topic: topic1 at time: 1554185565.315982
+produce message:(key=b'1554185565.2892442' msg size=32) to topic: topic2 at time: 1554185565.347961
+Receive message: (key=b'1554185565.3526802' msg size=32) from topic: topic1 at time: 1554185565.379487
+produce message:(key=b'1554185565.3526802' msg size=32) to topic: topic2 at time: 1554185565.4113884
+Receive message: (key=b'1554185565.4161594' msg size=32) from topic: topic1 at time: 1554185565.4431636
+produce message:(key=b'1554185565.4161594' msg size=32) to topic: topic2 at time: 1554185565.47519
+Receive message: (key=b'1554185565.479937' msg size=32) from topic: topic1 at time: 1554185565.5068583
+produce message:(key=b'1554185565.479937' msg size=32) to topic: topic2 at time: 1554185565.5868554
+Receive message: (key=b'1554185565.5434594' msg size=32) from topic: topic1 at time: 1554185565.587166
+produce message:(key=b'1554185565.5434594' msg size=32) to topic: topic2 at time: 1554185565.6208613
+Receive message: (key=b'1554185565.6068861' msg size=32) from topic: topic1 at time: 1554185565.6333673
+produce message:(key=b'1554185565.6068861' msg size=32) to topic: topic2 at time: 1554185565.6651175
+Receive message: (key=b'1554185565.670313' msg size=32) from topic: topic1 at time: 1554185565.6970582
+produce message:(key=b'1554185565.670313' msg size=32) to topic: topic2 at time: 1554185565.7771204
+Receive message: (key=b'1554185565.7336602' msg size=32) from topic: topic1 at time: 1554185565.7774389
+produce message:(key=b'1554185565.7336602' msg size=32) to topic: topic2 at time: 1554185565.809339
+Receive message: (key=b'1554185565.7971556' msg size=32) from topic: topic1 at time: 1554185565.8238006
+produce message:(key=b'1554185565.7971556' msg size=32) to topic: topic2 at time: 1554185565.8556266
+Receive message: (key=b'1554185565.8603144' msg size=32) from topic: topic1 at time: 1554185565.8871953
+produce message:(key=b'1554185565.8603144' msg size=32) to topic: topic2 at time: 1554185565.919159
+Receive message: (key=b'1554185565.9237955' msg size=32) from topic: topic1 at time: 1554185565.9505024
+produce message:(key=b'1554185565.9237955' msg size=32) to topic: topic2 at time: 1554185566.03083
+Receive message: (key=b'1554185565.9872787' msg size=32) from topic: topic1 at time: 1554185566.031142
+produce message:(key=b'1554185565.9872787' msg size=32) to topic: topic2 at time: 1554185566.0629299
+Receive message: (key=b'1554185566.0507517' msg size=32) from topic: topic1 at time: 1554185566.0775173
+produce message:(key=b'1554185566.0507517' msg size=32) to topic: topic2 at time: 1554185566.10952
+Receive message: (key=b'1554185566.1140664' msg size=32) from topic: topic1 at time: 1554185566.1411765
+produce message:(key=b'1554185566.1140664' msg size=32) to topic: topic2 at time: 1554185566.1731808
+Receive message: (key=b'1554185566.1777725' msg size=32) from topic: topic1 at time: 1554185566.2047117
+produce message:(key=b'1554185566.1777725' msg size=32) to topic: topic2 at time: 1554185566.2364979
+Receive message: (key=b'1554185566.24137' msg size=32) from topic: topic1 at time: 1554185566.2682104
+produce message:(key=b'1554185566.24137' msg size=32) to topic: topic2 at time: 1554185566.3483977
+Receive message: (key=b'1554185566.3049195' msg size=32) from topic: topic1 at time: 1554185566.348645
+produce message:(key=b'1554185566.3049195' msg size=32) to topic: topic2 at time: 1554185566.411492
+Receive message: (key=b'1554185566.3683782' msg size=32) from topic: topic1 at time: 1554185566.4117699
+produce message:(key=b'1554185566.3683782' msg size=32) to topic: topic2 at time: 1554185566.4750226
+Receive message: (key=b'1554185566.4318626' msg size=32) from topic: topic1 at time: 1554185566.4753144
+produce message:(key=b'1554185566.4318626' msg size=32) to topic: topic2 at time: 1554185566.5385914
+Receive message: (key=b'1554185566.4951677' msg size=32) from topic: topic1 at time: 1554185566.5388913
+produce message:(key=b'1554185566.4951677' msg size=32) to topic: topic2 at time: 1554185566.6017573
+Receive message: (key=b'1554185566.5585365' msg size=32) from topic: topic1 at time: 1554185566.602009
+produce message:(key=b'1554185566.5585365' msg size=32) to topic: topic2 at time: 1554185566.6651838
+Receive message: (key=b'1554185566.6219177' msg size=32) from topic: topic1 at time: 1554185566.665441
+produce message:(key=b'1554185566.6219177' msg size=32) to topic: topic2 at time: 1554185566.6973135
+Receive message: (key=b'1554185566.685386' msg size=32) from topic: topic1 at time: 1554185566.7120788
+produce message:(key=b'1554185566.685386' msg size=32) to topic: topic2 at time: 1554185566.7919512
+Receive message: (key=b'1554185566.7486522' msg size=32) from topic: topic1 at time: 1554185566.7923381
+produce message:(key=b'1554185566.7486522' msg size=32) to topic: topic2 at time: 1554185566.8243272
+Receive message: (key=b'1554185566.8122456' msg size=32) from topic: topic1 at time: 1554185566.8390932
+produce message:(key=b'1554185566.8122456' msg size=32) to topic: topic2 at time: 1554185566.919225
+Receive message: (key=b'1554185566.875753' msg size=32) from topic: topic1 at time: 1554185566.9194622
+produce message:(key=b'1554185566.875753' msg size=32) to topic: topic2 at time: 1554185566.9511232
+Receive message: (key=b'1554185566.9394598' msg size=32) from topic: topic1 at time: 1554185566.9659991
+produce message:(key=b'1554185566.9394598' msg size=32) to topic: topic2 at time: 1554185567.0462074
+Receive message: (key=b'1554185567.0027835' msg size=32) from topic: topic1 at time: 1554185567.0465212
+produce message:(key=b'1554185567.0027835' msg size=32) to topic: topic2 at time: 1554185567.109678
+Receive message: (key=b'1554185567.0662086' msg size=32) from topic: topic1 at time: 1554185567.110006
+produce message:(key=b'1554185567.0662086' msg size=32) to topic: topic2 at time: 1554185567.1729958
+Receive message: (key=b'1554185567.1296515' msg size=32) from topic: topic1 at time: 1554185567.1731966
+produce message:(key=b'1554185567.1296515' msg size=32) to topic: topic2 at time: 1554185567.2048898
+Receive message: (key=b'1554185567.1931198' msg size=32) from topic: topic1 at time: 1554185567.2198198
+produce message:(key=b'1554185567.1931198' msg size=32) to topic: topic2 at time: 1554185567.3010688
+Receive message: (key=b'1554185567.2574909' msg size=32) from topic: topic1 at time: 1554185567.301364
+produce message:(key=b'1554185567.2574909' msg size=32) to topic: topic2 at time: 1554185567.3331218
+Receive message: (key=b'1554185567.3211179' msg size=32) from topic: topic1 at time: 1554185567.3477511
+produce message:(key=b'1554185567.3211179' msg size=32) to topic: topic2 at time: 1554185567.379597
+Receive message: (key=b'1554185567.384938' msg size=32) from topic: topic1 at time: 1554185567.4116004
+produce message:(key=b'1554185567.384938' msg size=32) to topic: topic2 at time: 1554185567.4435632
+Receive message: (key=b'1554185567.448274' msg size=32) from topic: topic1 at time: 1554185567.4750783
+produce message:(key=b'1554185567.448274' msg size=32) to topic: topic2 at time: 1554185567.5553727
+Receive message: (key=b'1554185567.5117664' msg size=32) from topic: topic1 at time: 1554185567.555713
+produce message:(key=b'1554185567.5117664' msg size=32) to topic: topic2 at time: 1554185567.6188624
+Receive message: (key=b'1554185567.5753376' msg size=32) from topic: topic1 at time: 1554185567.6191068
+produce message:(key=b'1554185567.5753376' msg size=32) to topic: topic2 at time: 1554185567.6821723
+Receive message: (key=b'1554185567.6388257' msg size=32) from topic: topic1 at time: 1554185567.682514
+produce message:(key=b'1554185567.6388257' msg size=32) to topic: topic2 at time: 1554185567.7457294
+Receive message: (key=b'1554185567.70221' msg size=32) from topic: topic1 at time: 1554185567.7460325
+produce message:(key=b'1554185567.70221' msg size=32) to topic: topic2 at time: 1554185567.7825294
+Receive message: (key=b'1554185567.7656956' msg size=32) from topic: topic1 at time: 1554185567.7924657
+produce message:(key=b'1554185567.7656956' msg size=32) to topic: topic2 at time: 1554185567.8244786
+Receive message: (key=b'1554185567.8291688' msg size=32) from topic: topic1 at time: 1554185567.8576965
+produce message:(key=b'1554185567.8291688' msg size=32) to topic: topic2 at time: 1554185567.8897142
+Receive message: (key=b'1554185567.89254' msg size=32) from topic: topic1 at time: 1554185567.9194942
+produce message:(key=b'1554185567.89254' msg size=32) to topic: topic2 at time: 1554185567.951471
+Receive message: (key=b'1554185567.9561129' msg size=32) from topic: topic1 at time: 1554185567.9831476
+produce message:(key=b'1554185567.9561129' msg size=32) to topic: topic2 at time: 1554185568.0152318
+Receive message: (key=b'1554185568.0196848' msg size=32) from topic: topic1 at time: 1554185568.0465722
+produce message:(key=b'1554185568.0196848' msg size=32) to topic: topic2 at time: 1554185568.0784733
+Receive message: (key=b'1554185568.083552' msg size=32) from topic: topic1 at time: 1554185568.6122968
+produce message:(key=b'1554185568.083552' msg size=32) to topic: topic2 at time: 1554185568.643962
+Receive message: (key=b'1554185568.247377' msg size=32) from topic: topic1 at time: 1554185568.6441925
+produce message:(key=b'1554185568.247377' msg size=32) to topic: topic2 at time: 1554185568.6756659
+Receive message: (key=b'1554185568.2952101' msg size=32) from topic: topic1 at time: 1554185568.6758826
+produce message:(key=b'1554185568.2952101' msg size=32) to topic: topic2 at time: 1554185568.7184672
+Receive message: (key=b'1554185568.3430483' msg size=32) from topic: topic1 at time: 1554185568.718786
+produce message:(key=b'1554185568.3430483' msg size=32) to topic: topic2 at time: 1554185568.7505965
+Receive message: (key=b'1554185568.3909726' msg size=32) from topic: topic1 at time: 1554185568.750907
+produce message:(key=b'1554185568.3909726' msg size=32) to topic: topic2 at time: 1554185568.7826626
+Receive message: (key=b'1554185568.4387553' msg size=32) from topic: topic1 at time: 1554185568.7828562
+produce message:(key=b'1554185568.4387553' msg size=32) to topic: topic2 at time: 1554185568.8155699
+Receive message: (key=b'1554185568.486401' msg size=32) from topic: topic1 at time: 1554185568.8157818
+produce message:(key=b'1554185568.486401' msg size=32) to topic: topic2 at time: 1554185568.8635979
+Receive message: (key=b'1554185568.534179' msg size=32) from topic: topic1 at time: 1554185568.8639207
+produce message:(key=b'1554185568.534179' msg size=32) to topic: topic2 at time: 1554185568.8956227
+Receive message: (key=b'1554185568.5819159' msg size=32) from topic: topic1 at time: 1554185568.895828
+produce message:(key=b'1554185568.5819159' msg size=32) to topic: topic2 at time: 1554185568.9595218
+Receive message: (key=b'1554185568.6296937' msg size=32) from topic: topic1 at time: 1554185568.9597225
+produce message:(key=b'1554185568.6296937' msg size=32) to topic: topic2 at time: 1554185569.0071394
+Receive message: (key=b'1554185568.677283' msg size=32) from topic: topic1 at time: 1554185569.0073915
+produce message:(key=b'1554185568.677283' msg size=32) to topic: topic2 at time: 1554185569.0387766
+Receive message: (key=b'1554185568.725086' msg size=32) from topic: topic1 at time: 1554185569.038907
+produce message:(key=b'1554185568.725086' msg size=32) to topic: topic2 at time: 1554185569.0704165
+Receive message: (key=b'1554185568.772775' msg size=32) from topic: topic1 at time: 1554185569.070554
+produce message:(key=b'1554185568.772775' msg size=32) to topic: topic2 at time: 1554185569.102086
+Receive message: (key=b'1554185568.820418' msg size=32) from topic: topic1 at time: 1554185569.1023574
+produce message:(key=b'1554185568.820418' msg size=32) to topic: topic2 at time: 1554185569.1501446
+Receive message: (key=b'1554185568.8682804' msg size=32) from topic: topic1 at time: 1554185569.150554
+produce message:(key=b'1554185568.8682804' msg size=32) to topic: topic2 at time: 1554185569.1979268
+Receive message: (key=b'1554185568.9161365' msg size=32) from topic: topic1 at time: 1554185569.1982107
+produce message:(key=b'1554185568.9161365' msg size=32) to topic: topic2 at time: 1554185569.2454615
+Receive message: (key=b'1554185568.9641986' msg size=32) from topic: topic1 at time: 1554185569.2457366
+produce message:(key=b'1554185568.9641986' msg size=32) to topic: topic2 at time: 1554185569.293493
+Receive message: (key=b'1554185569.0118883' msg size=32) from topic: topic1 at time: 1554185569.293728
+produce message:(key=b'1554185569.0118883' msg size=32) to topic: topic2 at time: 1554185569.341313
+Receive message: (key=b'1554185569.0594234' msg size=32) from topic: topic1 at time: 1554185569.3415926
+produce message:(key=b'1554185569.0594234' msg size=32) to topic: topic2 at time: 1554185569.3888958
+Receive message: (key=b'1554185569.107205' msg size=32) from topic: topic1 at time: 1554185569.3891134
+produce message:(key=b'1554185569.107205' msg size=32) to topic: topic2 at time: 1554185569.420885
+Receive message: (key=b'1554185569.1547425' msg size=32) from topic: topic1 at time: 1554185569.421031
+produce message:(key=b'1554185569.1547425' msg size=32) to topic: topic2 at time: 1554185569.453435
+Receive message: (key=b'1554185569.2024403' msg size=32) from topic: topic1 at time: 1554185569.4536002
+produce message:(key=b'1554185569.2024403' msg size=32) to topic: topic2 at time: 1554185569.485356
+Receive message: (key=b'1554185569.2502706' msg size=32) from topic: topic1 at time: 1554185569.4856215
+produce message:(key=b'1554185569.2502706' msg size=32) to topic: topic2 at time: 1554185569.5319114
+Receive message: (key=b'1554185569.2981539' msg size=32) from topic: topic1 at time: 1554185569.532189
+produce message:(key=b'1554185569.2981539' msg size=32) to topic: topic2 at time: 1554185569.5796597
+Receive message: (key=b'1554185569.346038' msg size=32) from topic: topic1 at time: 1554185569.5800025
+produce message:(key=b'1554185569.346038' msg size=32) to topic: topic2 at time: 1554185569.627355
+Receive message: (key=b'1554185569.3937745' msg size=32) from topic: topic1 at time: 1554185569.6276093
+produce message:(key=b'1554185569.3937745' msg size=32) to topic: topic2 at time: 1554185569.6592195
+Receive message: (key=b'1554185569.4414048' msg size=32) from topic: topic1 at time: 1554185569.6593757
+produce message:(key=b'1554185569.4414048' msg size=32) to topic: topic2 at time: 1554185569.6916873
+Receive message: (key=b'1554185569.4888818' msg size=32) from topic: topic1 at time: 1554185569.6918557
+produce message:(key=b'1554185569.4888818' msg size=32) to topic: topic2 at time: 1554185569.7235956
+Receive message: (key=b'1554185569.5365741' msg size=32) from topic: topic1 at time: 1554185569.7238293
+produce message:(key=b'1554185569.5365741' msg size=32) to topic: topic2 at time: 1554185569.7699113
+Receive message: (key=b'1554185569.584172' msg size=32) from topic: topic1 at time: 1554185569.7701795
+produce message:(key=b'1554185569.584172' msg size=32) to topic: topic2 at time: 1554185569.8176184
+Receive message: (key=b'1554185569.6318145' msg size=32) from topic: topic1 at time: 1554185569.8179183
+produce message:(key=b'1554185569.6318145' msg size=32) to topic: topic2 at time: 1554185569.865426
+Receive message: (key=b'1554185569.679252' msg size=32) from topic: topic1 at time: 1554185569.8657532
+produce message:(key=b'1554185569.679252' msg size=32) to topic: topic2 at time: 1554185569.9128814
+Receive message: (key=b'1554185569.7267156' msg size=32) from topic: topic1 at time: 1554185569.9131575
+produce message:(key=b'1554185569.7267156' msg size=32) to topic: topic2 at time: 1554185569.960687
+Receive message: (key=b'1554185569.774384' msg size=32) from topic: topic1 at time: 1554185569.9610887
+produce message:(key=b'1554185569.774384' msg size=32) to topic: topic2 at time: 1554185570.0083115
+Receive message: (key=b'1554185569.822208' msg size=32) from topic: topic1 at time: 1554185570.0085537
+produce message:(key=b'1554185569.822208' msg size=32) to topic: topic2 at time: 1554185570.056435
+Receive message: (key=b'1554185569.869927' msg size=32) from topic: topic1 at time: 1554185570.056733
+produce message:(key=b'1554185569.869927' msg size=32) to topic: topic2 at time: 1554185570.1043196
+Receive message: (key=b'1554185569.9176848' msg size=32) from topic: topic1 at time: 1554185570.1045997
+produce message:(key=b'1554185569.9176848' msg size=32) to topic: topic2 at time: 1554185570.1519692
+Receive message: (key=b'1554185569.9653928' msg size=32) from topic: topic1 at time: 1554185570.1521568
+produce message:(key=b'1554185569.9653928' msg size=32) to topic: topic2 at time: 1554185570.2001815
+Receive message: (key=b'1554185570.0129638' msg size=32) from topic: topic1 at time: 1554185570.200515
+produce message:(key=b'1554185570.0129638' msg size=32) to topic: topic2 at time: 1554185570.2475626
+Receive message: (key=b'1554185570.0607486' msg size=32) from topic: topic1 at time: 1554185570.2477732
+produce message:(key=b'1554185570.0607486' msg size=32) to topic: topic2 at time: 1554185570.2795231
+Receive message: (key=b'1554185570.1087844' msg size=32) from topic: topic1 at time: 1554185570.2796955
+produce message:(key=b'1554185570.1087844' msg size=32) to topic: topic2 at time: 1554185570.3431995
+Receive message: (key=b'1554185570.1567702' msg size=32) from topic: topic1 at time: 1554185570.3434892
+produce message:(key=b'1554185570.1567702' msg size=32) to topic: topic2 at time: 1554185570.391433
+Receive message: (key=b'1554185570.2045562' msg size=32) from topic: topic1 at time: 1554185570.391628
+produce message:(key=b'1554185570.2045562' msg size=32) to topic: topic2 at time: 1554185570.439364
+Receive message: (key=b'1554185570.252303' msg size=32) from topic: topic1 at time: 1554185570.4396157
+produce message:(key=b'1554185570.252303' msg size=32) to topic: topic2 at time: 1554185570.4877365
+Receive message: (key=b'1554185570.2999952' msg size=32) from topic: topic1 at time: 1554185570.488136
+produce message:(key=b'1554185570.2999952' msg size=32) to topic: topic2 at time: 1554185570.5197892
+Receive message: (key=b'1554185570.3478537' msg size=32) from topic: topic1 at time: 1554185570.519974
+produce message:(key=b'1554185570.3478537' msg size=32) to topic: topic2 at time: 1554185570.5834148
+Receive message: (key=b'1554185570.3958073' msg size=32) from topic: topic1 at time: 1554185570.5836778
+produce message:(key=b'1554185570.3958073' msg size=32) to topic: topic2 at time: 1554185570.6311066
+Receive message: (key=b'1554185570.443976' msg size=32) from topic: topic1 at time: 1554185570.631379
+produce message:(key=b'1554185570.443976' msg size=32) to topic: topic2 at time: 1554185570.6716661
+Receive message: (key=b'1554185570.4919524' msg size=32) from topic: topic1 at time: 1554185570.6719704
+produce message:(key=b'1554185570.4919524' msg size=32) to topic: topic2 at time: 1554185570.7113922
+Receive message: (key=b'1554185570.5400171' msg size=32) from topic: topic1 at time: 1554185570.711619
+produce message:(key=b'1554185570.5400171' msg size=32) to topic: topic2 at time: 1554185570.7513957
+Receive message: (key=b'1554185570.5879223' msg size=32) from topic: topic1 at time: 1554185570.7516136
+produce message:(key=b'1554185570.5879223' msg size=32) to topic: topic2 at time: 1554185570.791222
+Receive message: (key=b'1554185570.6281106' msg size=32) from topic: topic1 at time: 1554185570.7915087
+produce message:(key=b'1554185570.6281106' msg size=32) to topic: topic2 at time: 1554185570.8310814
+Receive message: (key=b'1554185570.6681914' msg size=32) from topic: topic1 at time: 1554185570.8312945
+produce message:(key=b'1554185570.6681914' msg size=32) to topic: topic2 at time: 1554185570.8709407
+Receive message: (key=b'1554185570.7080944' msg size=32) from topic: topic1 at time: 1554185570.8711863
+produce message:(key=b'1554185570.7080944' msg size=32) to topic: topic2 at time: 1554185570.9108932
+Receive message: (key=b'1554185570.7479527' msg size=32) from topic: topic1 at time: 1554185570.911187
+produce message:(key=b'1554185570.7479527' msg size=32) to topic: topic2 at time: 1554185570.9506938
+Receive message: (key=b'1554185570.787855' msg size=32) from topic: topic1 at time: 1554185570.9509509
+produce message:(key=b'1554185570.787855' msg size=32) to topic: topic2 at time: 1554185570.9903805
+Receive message: (key=b'1554185570.827913' msg size=32) from topic: topic1 at time: 1554185570.9906085
+produce message:(key=b'1554185570.827913' msg size=32) to topic: topic2 at time: 1554185571.022316
+Receive message: (key=b'1554185570.867792' msg size=32) from topic: topic1 at time: 1554185571.022607
+produce message:(key=b'1554185570.867792' msg size=32) to topic: topic2 at time: 1554185571.1623354
+Receive message: (key=b'1554185570.9076378' msg size=32) from topic: topic1 at time: 1554185571.1627061
+produce message:(key=b'1554185570.9076378' msg size=32) to topic: topic2 at time: 1554185571.1954436
+Receive message: (key=b'1554185570.947417' msg size=32) from topic: topic1 at time: 1554185571.1957433
+produce message:(key=b'1554185570.947417' msg size=32) to topic: topic2 at time: 1554185571.2281952
+Receive message: (key=b'1554185570.9871712' msg size=32) from topic: topic1 at time: 1554185571.2285056
+produce message:(key=b'1554185570.9871712' msg size=32) to topic: topic2 at time: 1554185571.2826982
+Receive message: (key=b'1554185571.0273142' msg size=32) from topic: topic1 at time: 1554185571.28301
+produce message:(key=b'1554185571.0273142' msg size=32) to topic: topic2 at time: 1554185571.3228493
+Receive message: (key=b'1554185571.183524' msg size=32) from topic: topic1 at time: 1554185571.3231666
+produce message:(key=b'1554185571.183524' msg size=32) to topic: topic2 at time: 1554185571.3627188
+Receive message: (key=b'1554185571.223282' msg size=32) from topic: topic1 at time: 1554185571.36302
+produce message:(key=b'1554185571.223282' msg size=32) to topic: topic2 at time: 1554185571.402271
+Receive message: (key=b'1554185571.279527' msg size=32) from topic: topic1 at time: 1554185571.4025114
+produce message:(key=b'1554185571.279527' msg size=32) to topic: topic2 at time: 1554185571.4420097
+Receive message: (key=b'1554185571.3194854' msg size=32) from topic: topic1 at time: 1554185571.4422307
+produce message:(key=b'1554185571.3194854' msg size=32) to topic: topic2 at time: 1554185571.4818778
+Receive message: (key=b'1554185571.3591924' msg size=32) from topic: topic1 at time: 1554185571.4822185
+produce message:(key=b'1554185571.3591924' msg size=32) to topic: topic2 at time: 1554185571.521952
+Receive message: (key=b'1554185571.399126' msg size=32) from topic: topic1 at time: 1554185571.5222108
+produce message:(key=b'1554185571.399126' msg size=32) to topic: topic2 at time: 1554185571.5618782
+Receive message: (key=b'1554185571.4388983' msg size=32) from topic: topic1 at time: 1554185571.562183
+produce message:(key=b'1554185571.4388983' msg size=32) to topic: topic2 at time: 1554185571.601701
+Receive message: (key=b'1554185571.4787874' msg size=32) from topic: topic1 at time: 1554185571.602008
+produce message:(key=b'1554185571.4787874' msg size=32) to topic: topic2 at time: 1554185571.633734
+Receive message: (key=b'1554185571.5185897' msg size=32) from topic: topic1 at time: 1554185571.633921
+produce message:(key=b'1554185571.5185897' msg size=32) to topic: topic2 at time: 1554185571.6655161
+Receive message: (key=b'1554185571.55857' msg size=32) from topic: topic1 at time: 1554185571.6657488
+produce message:(key=b'1554185571.55857' msg size=32) to topic: topic2 at time: 1554185571.7215378
+Receive message: (key=b'1554185571.59839' msg size=32) from topic: topic1 at time: 1554185571.7218118
+produce message:(key=b'1554185571.59839' msg size=32) to topic: topic2 at time: 1554185571.761238
+Receive message: (key=b'1554185571.6383348' msg size=32) from topic: topic1 at time: 1554185571.7614481
+produce message:(key=b'1554185571.6383348' msg size=32) to topic: topic2 at time: 1554185571.7930017
+Receive message: (key=b'1554185571.6782277' msg size=32) from topic: topic1 at time: 1554185571.7931666
+produce message:(key=b'1554185571.6782277' msg size=32) to topic: topic2 at time: 1554185571.8250332
+Receive message: (key=b'1554185571.718187' msg size=32) from topic: topic1 at time: 1554185571.8253074
+produce message:(key=b'1554185571.718187' msg size=32) to topic: topic2 at time: 1554185571.881284
+Receive message: (key=b'1554185571.7580595' msg size=32) from topic: topic1 at time: 1554185571.8816009
+produce message:(key=b'1554185571.7580595' msg size=32) to topic: topic2 at time: 1554185571.92125
+Receive message: (key=b'1554185571.798145' msg size=32) from topic: topic1 at time: 1554185571.9215117
+produce message:(key=b'1554185571.798145' msg size=32) to topic: topic2 at time: 1554185571.9624538
+Receive message: (key=b'1554185571.8384056' msg size=32) from topic: topic1 at time: 1554185571.9627218
+produce message:(key=b'1554185571.8384056' msg size=32) to topic: topic2 at time: 1554185572.0019479
+Receive message: (key=b'1554185571.8782525' msg size=32) from topic: topic1 at time: 1554185572.002268
+produce message:(key=b'1554185571.8782525' msg size=32) to topic: topic2 at time: 1554185572.041066
+Receive message: (key=b'1554185571.9184322' msg size=32) from topic: topic1 at time: 1554185572.0413527
+produce message:(key=b'1554185571.9184322' msg size=32) to topic: topic2 at time: 1554185572.082725
+Receive message: (key=b'1554185571.9581654' msg size=32) from topic: topic1 at time: 1554185572.0830073
+produce message:(key=b'1554185571.9581654' msg size=32) to topic: topic2 at time: 1554185572.1230986
+Receive message: (key=b'1554185571.9978971' msg size=32) from topic: topic1 at time: 1554185572.1234066
+produce message:(key=b'1554185571.9978971' msg size=32) to topic: topic2 at time: 1554185572.1604242
+Receive message: (key=b'1554185572.0377781' msg size=32) from topic: topic1 at time: 1554185572.1607194
+produce message:(key=b'1554185572.0377781' msg size=32) to topic: topic2 at time: 1554185572.2002604
+Receive message: (key=b'1554185572.0775387' msg size=32) from topic: topic1 at time: 1554185572.200534
+produce message:(key=b'1554185572.0775387' msg size=32) to topic: topic2 at time: 1554185572.23988
+Receive message: (key=b'1554185572.1174772' msg size=32) from topic: topic1 at time: 1554185572.2402043
+produce message:(key=b'1554185572.1174772' msg size=32) to topic: topic2 at time: 1554185572.2798586
+Receive message: (key=b'1554185572.1573308' msg size=32) from topic: topic1 at time: 1554185572.2801614
+produce message:(key=b'1554185572.1573308' msg size=32) to topic: topic2 at time: 1554185572.3118103
+Receive message: (key=b'1554185572.1970434' msg size=32) from topic: topic1 at time: 1554185572.3120797
+produce message:(key=b'1554185572.1970434' msg size=32) to topic: topic2 at time: 1554185572.3595724
+Receive message: (key=b'1554185572.2368236' msg size=32) from topic: topic1 at time: 1554185572.3598707
+produce message:(key=b'1554185572.2368236' msg size=32) to topic: topic2 at time: 1554185572.399301
+Receive message: (key=b'1554185572.2766879' msg size=32) from topic: topic1 at time: 1554185572.399598
+produce message:(key=b'1554185572.2766879' msg size=32) to topic: topic2 at time: 1554185572.4318006
+Receive message: (key=b'1554185572.3165298' msg size=32) from topic: topic1 at time: 1554185572.4320297
+produce message:(key=b'1554185572.3165298' msg size=32) to topic: topic2 at time: 1554185572.4636083
+Receive message: (key=b'1554185572.3563566' msg size=32) from topic: topic1 at time: 1554185572.4638753
+produce message:(key=b'1554185572.3563566' msg size=32) to topic: topic2 at time: 1554185572.5189652
+Receive message: (key=b'1554185572.3963776' msg size=32) from topic: topic1 at time: 1554185572.5192914
+produce message:(key=b'1554185572.3963776' msg size=32) to topic: topic2 at time: 1554185572.5591636
+Receive message: (key=b'1554185572.4360435' msg size=32) from topic: topic1 at time: 1554185572.5593908
+produce message:(key=b'1554185572.4360435' msg size=32) to topic: topic2 at time: 1554185572.5990815
+Receive message: (key=b'1554185572.4758794' msg size=32) from topic: topic1 at time: 1554185572.5993242
+produce message:(key=b'1554185572.4758794' msg size=32) to topic: topic2 at time: 1554185572.6392999
+Receive message: (key=b'1554185572.515849' msg size=32) from topic: topic1 at time: 1554185572.6396165
+produce message:(key=b'1554185572.515849' msg size=32) to topic: topic2 at time: 1554185572.6794696
+Receive message: (key=b'1554185572.55583' msg size=32) from topic: topic1 at time: 1554185572.679757
+produce message:(key=b'1554185572.55583' msg size=32) to topic: topic2 at time: 1554185572.719014
+Receive message: (key=b'1554185572.5959682' msg size=32) from topic: topic1 at time: 1554185572.7192292
+produce message:(key=b'1554185572.5959682' msg size=32) to topic: topic2 at time: 1554185572.7592876
+Receive message: (key=b'1554185572.6358962' msg size=32) from topic: topic1 at time: 1554185572.7595801
+produce message:(key=b'1554185572.6358962' msg size=32) to topic: topic2 at time: 1554185572.795175
+Receive message: (key=b'1554185572.6759915' msg size=32) from topic: topic1 at time: 1554185572.7954795
+produce message:(key=b'1554185572.6759915' msg size=32) to topic: topic2 at time: 1554185572.8308082
+Receive message: (key=b'1554185572.7160962' msg size=32) from topic: topic1 at time: 1554185572.8310246
+produce message:(key=b'1554185572.7160962' msg size=32) to topic: topic2 at time: 1554185572.866702
+Receive message: (key=b'1554185572.751992' msg size=32) from topic: topic1 at time: 1554185572.866977
+produce message:(key=b'1554185572.751992' msg size=32) to topic: topic2 at time: 1554185572.9022481
+Receive message: (key=b'1554185572.7878518' msg size=32) from topic: topic1 at time: 1554185572.9025154
+produce message:(key=b'1554185572.7878518' msg size=32) to topic: topic2 at time: 1554185572.9380457
+Receive message: (key=b'1554185572.823784' msg size=32) from topic: topic1 at time: 1554185572.9382823
+produce message:(key=b'1554185572.823784' msg size=32) to topic: topic2 at time: 1554185572.9738703
+Receive message: (key=b'1554185572.8595753' msg size=32) from topic: topic1 at time: 1554185572.9741538
+produce message:(key=b'1554185572.8595753' msg size=32) to topic: topic2 at time: 1554185573.0096986
+Receive message: (key=b'1554185572.8953245' msg size=32) from topic: topic1 at time: 1554185573.010019
+produce message:(key=b'1554185572.8953245' msg size=32) to topic: topic2 at time: 1554185573.0454535
+Receive message: (key=b'1554185572.9311275' msg size=32) from topic: topic1 at time: 1554185573.0457604
+produce message:(key=b'1554185572.9311275' msg size=32) to topic: topic2 at time: 1554185573.0814981
+Receive message: (key=b'1554185572.966845' msg size=32) from topic: topic1 at time: 1554185573.0816936
+produce message:(key=b'1554185572.966845' msg size=32) to topic: topic2 at time: 1554185573.117831
+Receive message: (key=b'1554185573.0026243' msg size=32) from topic: topic1 at time: 1554185573.118138
+produce message:(key=b'1554185573.0026243' msg size=32) to topic: topic2 at time: 1554185573.1538758
+Receive message: (key=b'1554185573.0386274' msg size=32) from topic: topic1 at time: 1554185573.1541972
+produce message:(key=b'1554185573.0386274' msg size=32) to topic: topic2 at time: 1554185573.189548
+Receive message: (key=b'1554185573.074478' msg size=32) from topic: topic1 at time: 1554185573.1898391
+produce message:(key=b'1554185573.074478' msg size=32) to topic: topic2 at time: 1554185573.2214284
+Receive message: (key=b'1554185573.1105373' msg size=32) from topic: topic1 at time: 1554185573.2216969
+produce message:(key=b'1554185573.1105373' msg size=32) to topic: topic2 at time: 1554185573.2611065
+Receive message: (key=b'1554185573.146442' msg size=32) from topic: topic1 at time: 1554185573.2613935
+produce message:(key=b'1554185573.146442' msg size=32) to topic: topic2 at time: 1554185573.296975
+Receive message: (key=b'1554185573.1824791' msg size=32) from topic: topic1 at time: 1554185573.297185
+produce message:(key=b'1554185573.1824791' msg size=32) to topic: topic2 at time: 1554185573.332833
+Receive message: (key=b'1554185573.2182217' msg size=32) from topic: topic1 at time: 1554185573.3331356
+produce message:(key=b'1554185573.2182217' msg size=32) to topic: topic2 at time: 1554185573.368731
+Receive message: (key=b'1554185573.2540786' msg size=32) from topic: topic1 at time: 1554185573.369012
+produce message:(key=b'1554185573.2540786' msg size=32) to topic: topic2 at time: 1554185573.40455
+Receive message: (key=b'1554185573.2899115' msg size=32) from topic: topic1 at time: 1554185573.4048803
+produce message:(key=b'1554185573.2899115' msg size=32) to topic: topic2 at time: 1554185573.44079
+Receive message: (key=b'1554185573.3258176' msg size=32) from topic: topic1 at time: 1554185573.4410758
+produce message:(key=b'1554185573.3258176' msg size=32) to topic: topic2 at time: 1554185573.4767673
+Receive message: (key=b'1554185573.3615692' msg size=32) from topic: topic1 at time: 1554185573.476982
+produce message:(key=b'1554185573.3615692' msg size=32) to topic: topic2 at time: 1554185573.512615
+Receive message: (key=b'1554185573.3978152' msg size=32) from topic: topic1 at time: 1554185573.5129197
+produce message:(key=b'1554185573.3978152' msg size=32) to topic: topic2 at time: 1554185573.5485268
+Receive message: (key=b'1554185573.4337058' msg size=32) from topic: topic1 at time: 1554185573.5487754
+produce message:(key=b'1554185573.4337058' msg size=32) to topic: topic2 at time: 1554185573.584659
+Receive message: (key=b'1554185573.469743' msg size=32) from topic: topic1 at time: 1554185573.5849953
+produce message:(key=b'1554185573.469743' msg size=32) to topic: topic2 at time: 1554185573.6165566
+Receive message: (key=b'1554185573.5055351' msg size=32) from topic: topic1 at time: 1554185573.6168008
+produce message:(key=b'1554185573.5055351' msg size=32) to topic: topic2 at time: 1554185573.6484678
+Receive message: (key=b'1554185573.5416586' msg size=32) from topic: topic1 at time: 1554185573.6486676
+produce message:(key=b'1554185573.5416586' msg size=32) to topic: topic2 at time: 1554185573.692326
+Receive message: (key=b'1554185573.5776415' msg size=32) from topic: topic1 at time: 1554185573.6925914
+produce message:(key=b'1554185573.5776415' msg size=32) to topic: topic2 at time: 1554185573.728294
+Receive message: (key=b'1554185573.6134906' msg size=32) from topic: topic1 at time: 1554185573.7286274
+produce message:(key=b'1554185573.6134906' msg size=32) to topic: topic2 at time: 1554185573.7638743
+Receive message: (key=b'1554185573.6494033' msg size=32) from topic: topic1 at time: 1554185573.7641375
+produce message:(key=b'1554185573.6494033' msg size=32) to topic: topic2 at time: 1554185573.80415
+Receive message: (key=b'1554185573.6853683' msg size=32) from topic: topic1 at time: 1554185573.8044276
+produce message:(key=b'1554185573.6853683' msg size=32) to topic: topic2 at time: 1554185573.8361495
+Receive message: (key=b'1554185573.7211401' msg size=32) from topic: topic1 at time: 1554185573.836447
+produce message:(key=b'1554185573.7211401' msg size=32) to topic: topic2 at time: 1554185573.876306
+Receive message: (key=b'1554185573.761089' msg size=32) from topic: topic1 at time: 1554185573.8766382
+produce message:(key=b'1554185573.761089' msg size=32) to topic: topic2 at time: 1554185573.912325
+Receive message: (key=b'1554185573.7971869' msg size=32) from topic: topic1 at time: 1554185573.9125884
+produce message:(key=b'1554185573.7971869' msg size=32) to topic: topic2 at time: 1554185573.9481213
+Receive message: (key=b'1554185573.833289' msg size=32) from topic: topic1 at time: 1554185573.9484303
+produce message:(key=b'1554185573.833289' msg size=32) to topic: topic2 at time: 1554185573.9839451
+Receive message: (key=b'1554185573.869368' msg size=32) from topic: topic1 at time: 1554185573.9842148
+produce message:(key=b'1554185573.869368' msg size=32) to topic: topic2 at time: 1554185574.019786
+Receive message: (key=b'1554185573.9052455' msg size=32) from topic: topic1 at time: 1554185574.020081
+produce message:(key=b'1554185573.9052455' msg size=32) to topic: topic2 at time: 1554185574.056204
+Receive message: (key=b'1554185573.9410362' msg size=32) from topic: topic1 at time: 1554185574.0564885
+produce message:(key=b'1554185573.9410362' msg size=32) to topic: topic2 at time: 1554185574.0919163
+Receive message: (key=b'1554185573.9768448' msg size=32) from topic: topic1 at time: 1554185574.0922198
+produce message:(key=b'1554185573.9768448' msg size=32) to topic: topic2 at time: 1554185574.1278543
+Receive message: (key=b'1554185574.012925' msg size=32) from topic: topic1 at time: 1554185574.1281748
+produce message:(key=b'1554185574.012925' msg size=32) to topic: topic2 at time: 1554185574.1638503
+Receive message: (key=b'1554185574.0489259' msg size=32) from topic: topic1 at time: 1554185574.164165
+produce message:(key=b'1554185574.0489259' msg size=32) to topic: topic2 at time: 1554185574.1997817
+Receive message: (key=b'1554185574.0847945' msg size=32) from topic: topic1 at time: 1554185574.200067
+produce message:(key=b'1554185574.0847945' msg size=32) to topic: topic2 at time: 1554185574.235638
+Receive message: (key=b'1554185574.1209605' msg size=32) from topic: topic1 at time: 1554185574.235947
+produce message:(key=b'1554185574.1209605' msg size=32) to topic: topic2 at time: 1554185574.2715263
+Receive message: (key=b'1554185574.156762' msg size=32) from topic: topic1 at time: 1554185574.2718263
+produce message:(key=b'1554185574.156762' msg size=32) to topic: topic2 at time: 1554185574.3072402
+Receive message: (key=b'1554185574.192704' msg size=32) from topic: topic1 at time: 1554185574.3075125
+produce message:(key=b'1554185574.192704' msg size=32) to topic: topic2 at time: 1554185574.339102
+Receive message: (key=b'1554185574.2286413' msg size=32) from topic: topic1 at time: 1554185574.3394148
+produce message:(key=b'1554185574.2286413' msg size=32) to topic: topic2 at time: 1554185574.3808215
+Receive message: (key=b'1554185574.2644575' msg size=32) from topic: topic1 at time: 1554185574.3811276
+produce message:(key=b'1554185574.2644575' msg size=32) to topic: topic2 at time: 1554185574.4164255
+Receive message: (key=b'1554185574.3005667' msg size=32) from topic: topic1 at time: 1554185574.416634
+produce message:(key=b'1554185574.3005667' msg size=32) to topic: topic2 at time: 1554185574.452184
+Receive message: (key=b'1554185574.3379269' msg size=32) from topic: topic1 at time: 1554185574.4525185
+produce message:(key=b'1554185574.3379269' msg size=32) to topic: topic2 at time: 1554185574.4880896
+Receive message: (key=b'1554185574.3736637' msg size=32) from topic: topic1 at time: 1554185574.4883926
+produce message:(key=b'1554185574.3736637' msg size=32) to topic: topic2 at time: 1554185574.5238664
+Receive message: (key=b'1554185574.409466' msg size=32) from topic: topic1 at time: 1554185574.524129
+produce message:(key=b'1554185574.409466' msg size=32) to topic: topic2 at time: 1554185574.621439
+Receive message: (key=b'1554185574.4451437' msg size=32) from topic: topic1 at time: 1554185574.6217237
+produce message:(key=b'1554185574.4451437' msg size=32) to topic: topic2 at time: 1554185574.6551344
+Receive message: (key=b'1554185574.4808486' msg size=32) from topic: topic1 at time: 1554185574.6553125
+produce message:(key=b'1554185574.4808486' msg size=32) to topic: topic2 at time: 1554185574.686982
