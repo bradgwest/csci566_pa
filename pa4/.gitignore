@@ -1,4 +1,4 @@
 kafka*
 __pyche__
 test.*
-.aws/
+.aws/credential/key1.pem
