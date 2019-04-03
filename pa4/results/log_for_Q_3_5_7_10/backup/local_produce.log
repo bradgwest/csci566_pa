@@ -1,0 +1,720 @@
+Start running experiment
+Start running experiment for question 3 >>>>>>
+id = 1554185368.2888446 size = 1
+produce message:(key=1554185368.2888446 msg size=1) to topic: topic1 at time: 1554185368.5952811
+id = 1554185368.5955527 size = 2
+produce message:(key=1554185368.5955527 msg size=2) to topic: topic1 at time: 1554185368.6275618
+id = 1554185368.6276898 size = 4
+produce message:(key=1554185368.6276898 msg size=4) to topic: topic1 at time: 1554185368.6594632
+id = 1554185368.659594 size = 8
+produce message:(key=1554185368.659594 msg size=8) to topic: topic1 at time: 1554185368.6913538
+id = 1554185368.6914983 size = 16
+produce message:(key=1554185368.6914983 msg size=16) to topic: topic1 at time: 1554185368.7232869
+id = 1554185368.7234106 size = 32
+produce message:(key=1554185368.7234106 msg size=32) to topic: topic1 at time: 1554185368.755185
+id = 1554185368.7554064 size = 64
+produce message:(key=1554185368.7554064 msg size=64) to topic: topic1 at time: 1554185368.7871225
+id = 1554185368.78724 size = 128
+produce message:(key=1554185368.78724 msg size=128) to topic: topic1 at time: 1554185368.8190172
+id = 1554185368.8191357 size = 256
+produce message:(key=1554185368.8191357 msg size=256) to topic: topic1 at time: 1554185368.8509977
+id = 1554185368.8512437 size = 512
+produce message:(key=1554185368.8512437 msg size=512) to topic: topic1 at time: 1554185368.9288476
+id = 1554185368.9290097 size = 1024
+produce message:(key=1554185368.9290097 msg size=1024) to topic: topic1 at time: 1554185368.9606042
+id = 1554185368.9607394 size = 2048
+produce message:(key=1554185368.9607394 msg size=2048) to topic: topic1 at time: 1554185368.992561
+id = 1554185368.9926894 size = 4096
+produce message:(key=1554185368.9926894 msg size=4096) to topic: topic1 at time: 1554185369.0623448
+id = 1554185369.062507 size = 8192
+produce message:(key=1554185369.062507 msg size=8192) to topic: topic1 at time: 1554185369.2000308
+id = 1554185369.2002277 size = 16384
+produce message:(key=1554185369.2002277 msg size=16384) to topic: topic1 at time: 1554185369.3412535
+id = 1554185369.3414888 size = 32768
+produce message:(key=1554185369.3414888 msg size=32768) to topic: topic1 at time: 1554185369.5392656
+id = 1554185369.539499 size = 65536
+produce message:(key=1554185369.539499 msg size=65536) to topic: topic1 at time: 1554185369.6967492
+id = 1554185369.6970296 size = 131072
+produce message:(key=1554185369.6970296 msg size=131072) to topic: topic1 at time: 1554185369.9358683
+id = 1554185369.9361055 size = 262144
+produce message:(key=1554185369.9361055 msg size=262144) to topic: topic1 at time: 1554185370.402625
+id = 1554185370.4028752 size = 524288
+produce message:(key=1554185370.4028752 msg size=524288) to topic: topic1 at time: 1554185371.2023325
+id = 1554185371.2026467 size = 1
+produce message:(key=1554185371.2026467 msg size=1) to topic: topic1 at time: 1554185371.3358717
+id = 1554185371.33612 size = 2
+produce message:(key=1554185371.33612 msg size=2) to topic: topic1 at time: 1554185371.469159
+id = 1554185371.4692895 size = 4
+produce message:(key=1554185371.4692895 msg size=4) to topic: topic1 at time: 1554185371.501213
+id = 1554185371.501401 size = 8
+produce message:(key=1554185371.501401 msg size=8) to topic: topic1 at time: 1554185371.5331683
+id = 1554185371.533284 size = 16
+produce message:(key=1554185371.533284 msg size=16) to topic: topic1 at time: 1554185371.5651155
+id = 1554185371.56524 size = 32
+produce message:(key=1554185371.56524 msg size=32) to topic: topic1 at time: 1554185371.5975692
+id = 1554185371.59768 size = 64
+produce message:(key=1554185371.59768 msg size=64) to topic: topic1 at time: 1554185371.6294973
+id = 1554185371.6297364 size = 128
+produce message:(key=1554185371.6297364 msg size=128) to topic: topic1 at time: 1554185371.6813896
+id = 1554185371.681547 size = 256
+produce message:(key=1554185371.681547 msg size=256) to topic: topic1 at time: 1554185371.7132764
+id = 1554185371.7134125 size = 512
+produce message:(key=1554185371.7134125 msg size=512) to topic: topic1 at time: 1554185371.7450647
+id = 1554185371.7452028 size = 1024
+produce message:(key=1554185371.7452028 msg size=1024) to topic: topic1 at time: 1554185371.7784686
+id = 1554185371.7786067 size = 2048
+produce message:(key=1554185371.7786067 msg size=2048) to topic: topic1 at time: 1554185371.8101559
+id = 1554185371.8102946 size = 4096
+produce message:(key=1554185371.8102946 msg size=4096) to topic: topic1 at time: 1554185371.8425112
+id = 1554185371.8426673 size = 8192
+produce message:(key=1554185371.8426673 msg size=8192) to topic: topic1 at time: 1554185371.87879
+id = 1554185371.8790255 size = 16384
+produce message:(key=1554185371.8790255 msg size=16384) to topic: topic1 at time: 1554185371.9298074
+id = 1554185371.9299502 size = 32768
+produce message:(key=1554185371.9299502 msg size=32768) to topic: topic1 at time: 1554185372.127538
+id = 1554185372.1277094 size = 65536
+produce message:(key=1554185372.1277094 msg size=65536) to topic: topic1 at time: 1554185372.2525122
+id = 1554185372.252667 size = 131072
+produce message:(key=1554185372.252667 msg size=131072) to topic: topic1 at time: 1554185372.5111659
+id = 1554185372.5113826 size = 262144
+produce message:(key=1554185372.5113826 msg size=262144) to topic: topic1 at time: 1554185372.9557564
+id = 1554185372.9559886 size = 524288
+produce message:(key=1554185372.9559886 msg size=524288) to topic: topic1 at time: 1554185373.7394657
+id = 1554185373.739716 size = 1
+produce message:(key=1554185373.739716 msg size=1) to topic: topic1 at time: 1554185373.7862093
+id = 1554185373.7863383 size = 2
+produce message:(key=1554185373.7863383 msg size=2) to topic: topic1 at time: 1554185373.82662
+id = 1554185373.8267436 size = 4
+produce message:(key=1554185373.8267436 msg size=4) to topic: topic1 at time: 1554185373.8597105
+id = 1554185373.8598535 size = 8
+produce message:(key=1554185373.8598535 msg size=8) to topic: topic1 at time: 1554185373.8942118
+id = 1554185373.8943436 size = 16
+produce message:(key=1554185373.8943436 msg size=16) to topic: topic1 at time: 1554185373.929866
+id = 1554185373.9299853 size = 32
+produce message:(key=1554185373.9299853 msg size=32) to topic: topic1 at time: 1554185373.9655948
+id = 1554185373.9658282 size = 64
+produce message:(key=1554185373.9658282 msg size=64) to topic: topic1 at time: 1554185373.9976568
+id = 1554185373.997785 size = 128
+produce message:(key=1554185373.997785 msg size=128) to topic: topic1 at time: 1554185374.0295486
+id = 1554185374.029666 size = 256
+produce message:(key=1554185374.029666 msg size=256) to topic: topic1 at time: 1554185374.0614755
+id = 1554185374.0616393 size = 512
+produce message:(key=1554185374.0616393 msg size=512) to topic: topic1 at time: 1554185374.0934012
+id = 1554185374.0935478 size = 1024
+produce message:(key=1554185374.0935478 msg size=1024) to topic: topic1 at time: 1554185374.1254287
+id = 1554185374.1256158 size = 2048
+produce message:(key=1554185374.1256158 msg size=2048) to topic: topic1 at time: 1554185374.1619484
+id = 1554185374.1621861 size = 4096
+produce message:(key=1554185374.1621861 msg size=4096) to topic: topic1 at time: 1554185374.2589524
+id = 1554185374.2592018 size = 8192
+produce message:(key=1554185374.2592018 msg size=8192) to topic: topic1 at time: 1554185374.3685338
+id = 1554185374.3687656 size = 16384
+produce message:(key=1554185374.3687656 msg size=16384) to topic: topic1 at time: 1554185374.41996
+id = 1554185374.4201171 size = 32768
+produce message:(key=1554185374.4201171 msg size=32768) to topic: topic1 at time: 1554185374.6398368
+id = 1554185374.6400986 size = 65536
+produce message:(key=1554185374.6400986 msg size=65536) to topic: topic1 at time: 1554185374.7961898
+id = 1554185374.796426 size = 131072
+produce message:(key=1554185374.796426 msg size=131072) to topic: topic1 at time: 1554185375.077479
+id = 1554185375.0777261 size = 262144
+produce message:(key=1554185375.0777261 msg size=262144) to topic: topic1 at time: 1554185375.5141733
+id = 1554185375.5145323 size = 524288
+produce message:(key=1554185375.5145323 msg size=524288) to topic: topic1 at time: 1554185376.2604752
+id = 1554185376.260812 size = 1
+produce message:(key=1554185376.260812 msg size=1) to topic: topic1 at time: 1554185376.3020337
+id = 1554185376.3021803 size = 2
+produce message:(key=1554185376.3021803 msg size=2) to topic: topic1 at time: 1554185376.3412657
+id = 1554185376.3413744 size = 4
+produce message:(key=1554185376.3413744 msg size=4) to topic: topic1 at time: 1554185376.385392
+id = 1554185376.3855035 size = 8
+produce message:(key=1554185376.3855035 msg size=8) to topic: topic1 at time: 1554185376.4306
+id = 1554185376.4307332 size = 16
+produce message:(key=1554185376.4307332 msg size=16) to topic: topic1 at time: 1554185376.4735262
+id = 1554185376.4736457 size = 32
+produce message:(key=1554185376.4736457 msg size=32) to topic: topic1 at time: 1554185376.5216873
+id = 1554185376.5218093 size = 64
+produce message:(key=1554185376.5218093 msg size=64) to topic: topic1 at time: 1554185376.564322
+id = 1554185376.5644417 size = 128
+produce message:(key=1554185376.5644417 msg size=128) to topic: topic1 at time: 1554185376.603511
+id = 1554185376.6036487 size = 256
+produce message:(key=1554185376.6036487 msg size=256) to topic: topic1 at time: 1554185376.6465166
+id = 1554185376.6466506 size = 512
+produce message:(key=1554185376.6466506 msg size=512) to topic: topic1 at time: 1554185376.6907692
+id = 1554185376.6910028 size = 1024
+produce message:(key=1554185376.6910028 msg size=1024) to topic: topic1 at time: 1554185376.7301664
+id = 1554185376.7302842 size = 2048
+produce message:(key=1554185376.7302842 msg size=2048) to topic: topic1 at time: 1554185376.7620142
+id = 1554185376.7621343 size = 4096
+produce message:(key=1554185376.7621343 msg size=4096) to topic: topic1 at time: 1554185376.8811052
+id = 1554185376.881272 size = 8192
+produce message:(key=1554185376.881272 msg size=8192) to topic: topic1 at time: 1554185377.0218678
+id = 1554185377.0221179 size = 16384
+produce message:(key=1554185377.0221179 msg size=16384) to topic: topic1 at time: 1554185377.0766146
+id = 1554185377.0767784 size = 32768
+produce message:(key=1554185377.0767784 msg size=32768) to topic: topic1 at time: 1554185377.2906885
+id = 1554185377.2909262 size = 65536
+produce message:(key=1554185377.2909262 msg size=65536) to topic: topic1 at time: 1554185377.425348
+id = 1554185377.4256136 size = 131072
+produce message:(key=1554185377.4256136 msg size=131072) to topic: topic1 at time: 1554185377.7251322
+id = 1554185377.725362 size = 262144
+produce message:(key=1554185377.725362 msg size=262144) to topic: topic1 at time: 1554185378.128979
+id = 1554185378.1292365 size = 524288
+produce message:(key=1554185378.1292365 msg size=524288) to topic: topic1 at time: 1554185378.8835816
+id = 1554185378.883816 size = 1
+produce message:(key=1554185378.883816 msg size=1) to topic: topic1 at time: 1554185378.9292731
+id = 1554185378.9294543 size = 2
+produce message:(key=1554185378.9294543 msg size=2) to topic: topic1 at time: 1554185378.9720218
+id = 1554185378.9721432 size = 4
+produce message:(key=1554185378.9721432 msg size=4) to topic: topic1 at time: 1554185379.0149999
+id = 1554185379.0151145 size = 8
+produce message:(key=1554185379.0151145 msg size=8) to topic: topic1 at time: 1554185379.0583897
+id = 1554185379.0587187 size = 16
+produce message:(key=1554185379.0587187 msg size=16) to topic: topic1 at time: 1554185379.1019778
+id = 1554185379.1021104 size = 32
+produce message:(key=1554185379.1021104 msg size=32) to topic: topic1 at time: 1554185379.148456
+id = 1554185379.1485853 size = 64
+produce message:(key=1554185379.1485853 msg size=64) to topic: topic1 at time: 1554185379.193681
+id = 1554185379.1939304 size = 128
+produce message:(key=1554185379.1939304 msg size=128) to topic: topic1 at time: 1554185379.240164
+id = 1554185379.2403362 size = 256
+produce message:(key=1554185379.2403362 msg size=256) to topic: topic1 at time: 1554185379.2867217
+id = 1554185379.2868605 size = 512
+produce message:(key=1554185379.2868605 msg size=512) to topic: topic1 at time: 1554185379.3196018
+id = 1554185379.3197305 size = 1024
+produce message:(key=1554185379.3197305 msg size=1024) to topic: topic1 at time: 1554185379.3513591
+id = 1554185379.351485 size = 2048
+produce message:(key=1554185379.351485 msg size=2048) to topic: topic1 at time: 1554185379.3834503
+id = 1554185379.3836007 size = 4096
+produce message:(key=1554185379.3836007 msg size=4096) to topic: topic1 at time: 1554185379.4391434
+id = 1554185379.4392953 size = 8192
+produce message:(key=1554185379.4392953 msg size=8192) to topic: topic1 at time: 1554185379.5756106
+id = 1554185379.5758314 size = 16384
+produce message:(key=1554185379.5758314 msg size=16384) to topic: topic1 at time: 1554185379.6359677
+id = 1554185379.6361098 size = 32768
+produce message:(key=1554185379.6361098 msg size=32768) to topic: topic1 at time: 1554185379.8899086
+id = 1554185379.8901744 size = 65536
+produce message:(key=1554185379.8901744 msg size=65536) to topic: topic1 at time: 1554185380.0375667
+id = 1554185380.0377667 size = 131072
+produce message:(key=1554185380.0377667 msg size=131072) to topic: topic1 at time: 1554185380.3122153
+id = 1554185380.3124661 size = 262144
+produce message:(key=1554185380.3124661 msg size=262144) to topic: topic1 at time: 1554185380.7465992
+id = 1554185380.7468226 size = 524288
+produce message:(key=1554185380.7468226 msg size=524288) to topic: topic1 at time: 1554185381.4818
+Start running experiment for question 5 >>>>>>
+loss setting = 0.0
+produce message:(key=1554185390.1854367 msg size=32) to topic: topic1 at time: 1554185390.2176118
+produce message:(key=1554185390.2178595 msg size=32) to topic: topic1 at time: 1554185390.2498722
+produce message:(key=1554185390.2499917 msg size=32) to topic: topic1 at time: 1554185390.281541
+produce message:(key=1554185390.2816706 msg size=32) to topic: topic1 at time: 1554185390.3144581
+produce message:(key=1554185390.3146381 msg size=32) to topic: topic1 at time: 1554185390.346098
+loss setting = 0.2
+produce message:(key=1554185394.9649868 msg size=32) to topic: topic1 at time: 1554185394.9969714
+produce message:(key=1554185394.9972713 msg size=32) to topic: topic1 at time: 1554185395.0289488
+produce message:(key=1554185395.029232 msg size=32) to topic: topic1 at time: 1554185395.1609359
+produce message:(key=1554185395.1611714 msg size=32) to topic: topic1 at time: 1554185395.1964865
+produce message:(key=1554185395.196623 msg size=32) to topic: topic1 at time: 1554185395.2279327
+loss setting = 0.4
+produce message:(key=1554185400.0087793 msg size=32) to topic: topic1 at time: 1554185400.0411499
+produce message:(key=1554185400.041439 msg size=32) to topic: topic1 at time: 1554185400.0733688
+produce message:(key=1554185400.0736434 msg size=32) to topic: topic1 at time: 1554185400.1055286
+produce message:(key=1554185400.1057186 msg size=32) to topic: topic1 at time: 1554185400.1485522
+produce message:(key=1554185400.148681 msg size=32) to topic: topic1 at time: 1554185400.18025
+loss setting = 0.6000000000000001
+produce message:(key=1554185405.0419567 msg size=32) to topic: topic1 at time: 1554185405.075022
+produce message:(key=1554185405.0752997 msg size=32) to topic: topic1 at time: 1554185405.1078782
+produce message:(key=1554185405.1081195 msg size=32) to topic: topic1 at time: 1554185405.1396136
+produce message:(key=1554185405.1398292 msg size=32) to topic: topic1 at time: 1554185405.1717336
+produce message:(key=1554185405.1719785 msg size=32) to topic: topic1 at time: 1554185405.2039003
+loss setting = 0.8
+produce message:(key=1554185410.062459 msg size=32) to topic: topic1 at time: 1554185410.0944247
+produce message:(key=1554185410.0946794 msg size=32) to topic: topic1 at time: 1554185410.12633
+produce message:(key=1554185410.1264822 msg size=32) to topic: topic1 at time: 1554185410.157894
+produce message:(key=1554185410.158028 msg size=32) to topic: topic1 at time: 1554185410.1895769
+produce message:(key=1554185410.189731 msg size=32) to topic: topic1 at time: 1554185410.222174
+loss setting = 1.0
+produce message:(key=1554185414.7108288 msg size=32) to topic: topic1 at time: 1554185414.7426705
+produce message:(key=1554185414.7429278 msg size=32) to topic: topic1 at time: 1554185414.774692
+produce message:(key=1554185414.7748098 msg size=32) to topic: topic1 at time: 1554185414.806664
+produce message:(key=1554185414.8067832 msg size=32) to topic: topic1 at time: 1554185414.8454714
+produce message:(key=1554185414.8456664 msg size=32) to topic: topic1 at time: 1554185414.8774385
+loss setting = 1.2000000000000002
+produce message:(key=1554185419.5341847 msg size=32) to topic: topic1 at time: 1554185419.5660672
+produce message:(key=1554185419.5663383 msg size=32) to topic: topic1 at time: 1554185419.598043
+produce message:(key=1554185419.5982165 msg size=32) to topic: topic1 at time: 1554185419.6296985
+produce message:(key=1554185419.6298492 msg size=32) to topic: topic1 at time: 1554185419.6612654
+produce message:(key=1554185419.6614356 msg size=32) to topic: topic1 at time: 1554185419.6930242
+loss setting = 1.4000000000000001
+produce message:(key=1554185424.5577717 msg size=32) to topic: topic1 at time: 1554185424.8264616
+produce message:(key=1554185424.8267844 msg size=32) to topic: topic1 at time: 1554185424.9283195
+produce message:(key=1554185424.9286242 msg size=32) to topic: topic1 at time: 1554185424.9602985
+produce message:(key=1554185424.9604278 msg size=32) to topic: topic1 at time: 1554185424.9920008
+produce message:(key=1554185424.9921598 msg size=32) to topic: topic1 at time: 1554185425.0237098
+loss setting = 1.6
+produce message:(key=1554185430.1448622 msg size=32) to topic: topic1 at time: 1554185430.1769495
+produce message:(key=1554185430.177211 msg size=32) to topic: topic1 at time: 1554185430.219489
+produce message:(key=1554185430.2196548 msg size=32) to topic: topic1 at time: 1554185430.4943995
+produce message:(key=1554185430.4946265 msg size=32) to topic: topic1 at time: 1554185430.5608187
+produce message:(key=1554185430.5610006 msg size=32) to topic: topic1 at time: 1554185430.59288
+loss setting = 1.8
+produce message:(key=1554185435.9581764 msg size=32) to topic: topic1 at time: 1554185435.9901724
+produce message:(key=1554185435.990427 msg size=32) to topic: topic1 at time: 1554185436.2623694
+produce message:(key=1554185436.262658 msg size=32) to topic: topic1 at time: 1554185436.3641787
+produce message:(key=1554185436.3643687 msg size=32) to topic: topic1 at time: 1554185436.4593658
+produce message:(key=1554185436.4595795 msg size=32) to topic: topic1 at time: 1554185436.4917114
+loss setting = 2.0
+produce message:(key=1554185441.617252 msg size=32) to topic: topic1 at time: 1554185441.649654
+produce message:(key=1554185441.6499164 msg size=32) to topic: topic1 at time: 1554185441.6818666
+produce message:(key=1554185441.6819944 msg size=32) to topic: topic1 at time: 1554185441.7138987
+produce message:(key=1554185441.7140493 msg size=32) to topic: topic1 at time: 1554185441.7775054
+produce message:(key=1554185441.7777028 msg size=32) to topic: topic1 at time: 1554185441.8096688
+Start running experiment for question 10 >>>>>>
+produce message:(key=1554185459.8661683 msg size=32) to topic: topic1 at time: 1554185459.8981338
+produce message:(key=1554185460.8995306 msg size=32) to topic: topic1 at time: 1554185460.9315128
+produce message:(key=1554185461.9329007 msg size=32) to topic: topic1 at time: 1554185461.964744
+produce message:(key=1554185462.9661307 msg size=32) to topic: topic1 at time: 1554185462.9981976
+produce message:(key=1554185463.999555 msg size=32) to topic: topic1 at time: 1554185464.0316582
+produce message:(key=1554185465.0330145 msg size=32) to topic: topic1 at time: 1554185465.0651135
+produce message:(key=1554185466.066533 msg size=32) to topic: topic1 at time: 1554185466.0985618
+produce message:(key=1554185467.0999196 msg size=32) to topic: topic1 at time: 1554185467.1321154
+produce message:(key=1554185468.1334574 msg size=32) to topic: topic1 at time: 1554185468.165369
+produce message:(key=1554185469.1667852 msg size=32) to topic: topic1 at time: 1554185469.1987395
+produce message:(key=1554185470.2000792 msg size=32) to topic: topic1 at time: 1554185470.2319288
+produce message:(key=1554185471.2332568 msg size=32) to topic: topic1 at time: 1554185471.2652617
+produce message:(key=1554185472.266634 msg size=32) to topic: topic1 at time: 1554185472.2985346
+produce message:(key=1554185473.2999105 msg size=32) to topic: topic1 at time: 1554185473.331862
+produce message:(key=1554185474.333257 msg size=32) to topic: topic1 at time: 1554185474.3651698
+produce message:(key=1554185475.3665175 msg size=32) to topic: topic1 at time: 1554185475.3984776
+produce message:(key=1554185476.3998458 msg size=32) to topic: topic1 at time: 1554185476.4328759
+produce message:(key=1554185477.4342172 msg size=32) to topic: topic1 at time: 1554185477.4661624
+produce message:(key=1554185478.4675145 msg size=32) to topic: topic1 at time: 1554185478.4993207
+produce message:(key=1554185479.5006816 msg size=32) to topic: topic1 at time: 1554185479.53251
+produce message:(key=1554185480.5338533 msg size=32) to topic: topic1 at time: 1554185480.565631
+produce message:(key=1554185481.5669599 msg size=32) to topic: topic1 at time: 1554185481.5987885
+produce message:(key=1554185482.600127 msg size=32) to topic: topic1 at time: 1554185482.6321864
+produce message:(key=1554185483.6336257 msg size=32) to topic: topic1 at time: 1554185483.66546
+produce message:(key=1554185484.6667442 msg size=32) to topic: topic1 at time: 1554185484.6992407
+produce message:(key=1554185485.700594 msg size=32) to topic: topic1 at time: 1554185485.7325466
+produce message:(key=1554185486.7339063 msg size=32) to topic: topic1 at time: 1554185486.7658043
+produce message:(key=1554185487.7671406 msg size=32) to topic: topic1 at time: 1554185487.7989056
+produce message:(key=1554185488.8002543 msg size=32) to topic: topic1 at time: 1554185488.832362
+produce message:(key=1554185489.8337452 msg size=32) to topic: topic1 at time: 1554185489.865591
+produce message:(key=1554185490.8669436 msg size=32) to topic: topic1 at time: 1554185490.8986971
+produce message:(key=1554185491.900054 msg size=32) to topic: topic1 at time: 1554185491.9320536
+produce message:(key=1554185492.933342 msg size=32) to topic: topic1 at time: 1554185492.9652035
+produce message:(key=1554185493.9665709 msg size=32) to topic: topic1 at time: 1554185493.9984033
+produce message:(key=1554185494.999796 msg size=32) to topic: topic1 at time: 1554185495.0316808
+produce message:(key=1554185496.0331407 msg size=32) to topic: topic1 at time: 1554185496.064984
+produce message:(key=1554185497.0663288 msg size=32) to topic: topic1 at time: 1554185497.0982587
+produce message:(key=1554185498.0995812 msg size=32) to topic: topic1 at time: 1554185498.1313305
+produce message:(key=1554185499.1327088 msg size=32) to topic: topic1 at time: 1554185499.1646814
+produce message:(key=1554185500.1660004 msg size=32) to topic: topic1 at time: 1554185500.1980534
+produce message:(key=1554185501.1994138 msg size=32) to topic: topic1 at time: 1554185501.231453
+produce message:(key=1554185502.2327962 msg size=32) to topic: topic1 at time: 1554185502.2647805
+produce message:(key=1554185503.266117 msg size=32) to topic: topic1 at time: 1554185503.297948
+produce message:(key=1554185504.2993023 msg size=32) to topic: topic1 at time: 1554185504.3311005
+produce message:(key=1554185505.332431 msg size=32) to topic: topic1 at time: 1554185505.3649087
+produce message:(key=1554185506.3662827 msg size=32) to topic: topic1 at time: 1554185506.3980947
+produce message:(key=1554185507.3994367 msg size=32) to topic: topic1 at time: 1554185507.431895
+produce message:(key=1554185508.433253 msg size=32) to topic: topic1 at time: 1554185508.4651082
+produce message:(key=1554185509.4664347 msg size=32) to topic: topic1 at time: 1554185509.498234
+produce message:(key=1554185510.4995594 msg size=32) to topic: topic1 at time: 1554185510.5313144
+produce message:(key=1554185511.5326715 msg size=32) to topic: topic1 at time: 1554185511.564557
+produce message:(key=1554185512.0654495 msg size=32) to topic: topic1 at time: 1554185512.0974236
+produce message:(key=1554185512.5982642 msg size=32) to topic: topic1 at time: 1554185512.6299994
+produce message:(key=1554185513.1308432 msg size=32) to topic: topic1 at time: 1554185513.162735
+produce message:(key=1554185513.6635728 msg size=32) to topic: topic1 at time: 1554185513.6952765
+produce message:(key=1554185514.1960673 msg size=32) to topic: topic1 at time: 1554185514.2278705
+produce message:(key=1554185514.7287376 msg size=32) to topic: topic1 at time: 1554185514.7605746
+produce message:(key=1554185515.2614148 msg size=32) to topic: topic1 at time: 1554185515.293089
+produce message:(key=1554185515.7938895 msg size=32) to topic: topic1 at time: 1554185515.8255932
+produce message:(key=1554185516.3264036 msg size=32) to topic: topic1 at time: 1554185516.3582492
+produce message:(key=1554185516.8590834 msg size=32) to topic: topic1 at time: 1554185516.8908484
+produce message:(key=1554185517.3917446 msg size=32) to topic: topic1 at time: 1554185517.4237201
+produce message:(key=1554185517.9245563 msg size=32) to topic: topic1 at time: 1554185517.9563563
+produce message:(key=1554185518.457245 msg size=32) to topic: topic1 at time: 1554185518.4890714
+produce message:(key=1554185518.9899025 msg size=32) to topic: topic1 at time: 1554185519.0216076
+produce message:(key=1554185519.522452 msg size=32) to topic: topic1 at time: 1554185519.554281
+produce message:(key=1554185520.0551298 msg size=32) to topic: topic1 at time: 1554185520.0870395
+produce message:(key=1554185520.5878744 msg size=32) to topic: topic1 at time: 1554185520.6197288
+produce message:(key=1554185521.1205454 msg size=32) to topic: topic1 at time: 1554185521.1530268
+produce message:(key=1554185521.653906 msg size=32) to topic: topic1 at time: 1554185521.6858194
+produce message:(key=1554185522.1866698 msg size=32) to topic: topic1 at time: 1554185522.218571
+produce message:(key=1554185522.7194526 msg size=32) to topic: topic1 at time: 1554185522.751372
+produce message:(key=1554185523.2522154 msg size=32) to topic: topic1 at time: 1554185523.2841737
+produce message:(key=1554185523.7849817 msg size=32) to topic: topic1 at time: 1554185523.8167934
+produce message:(key=1554185524.317618 msg size=32) to topic: topic1 at time: 1554185524.3494692
+produce message:(key=1554185524.8503668 msg size=32) to topic: topic1 at time: 1554185524.88229
+produce message:(key=1554185525.3831413 msg size=32) to topic: topic1 at time: 1554185525.4151666
+produce message:(key=1554185525.9161184 msg size=32) to topic: topic1 at time: 1554185525.947973
+produce message:(key=1554185526.4488366 msg size=32) to topic: topic1 at time: 1554185526.4806318
+produce message:(key=1554185526.9815183 msg size=32) to topic: topic1 at time: 1554185527.0134206
+produce message:(key=1554185527.5142298 msg size=32) to topic: topic1 at time: 1554185527.5463831
+produce message:(key=1554185528.0472796 msg size=32) to topic: topic1 at time: 1554185528.079106
+produce message:(key=1554185528.5799496 msg size=32) to topic: topic1 at time: 1554185528.6130602
+produce message:(key=1554185529.113976 msg size=32) to topic: topic1 at time: 1554185529.1458435
+produce message:(key=1554185529.6466975 msg size=32) to topic: topic1 at time: 1554185529.6783595
+produce message:(key=1554185530.1791797 msg size=32) to topic: topic1 at time: 1554185530.2110808
+produce message:(key=1554185530.711929 msg size=32) to topic: topic1 at time: 1554185530.7439773
+produce message:(key=1554185531.2447948 msg size=32) to topic: topic1 at time: 1554185531.2765417
+produce message:(key=1554185531.7774084 msg size=32) to topic: topic1 at time: 1554185531.8093145
+produce message:(key=1554185532.3102288 msg size=32) to topic: topic1 at time: 1554185532.342236
+produce message:(key=1554185532.8431013 msg size=32) to topic: topic1 at time: 1554185532.8749123
+produce message:(key=1554185533.3757818 msg size=32) to topic: topic1 at time: 1554185533.407658
+produce message:(key=1554185533.9085255 msg size=32) to topic: topic1 at time: 1554185533.9402688
+produce message:(key=1554185534.4411225 msg size=32) to topic: topic1 at time: 1554185534.4728801
+produce message:(key=1554185534.9737072 msg size=32) to topic: topic1 at time: 1554185535.0056348
+produce message:(key=1554185535.5064938 msg size=32) to topic: topic1 at time: 1554185535.5382605
+produce message:(key=1554185536.0390875 msg size=32) to topic: topic1 at time: 1554185536.0710094
+produce message:(key=1554185536.571849 msg size=32) to topic: topic1 at time: 1554185536.6037054
+produce message:(key=1554185537.104514 msg size=32) to topic: topic1 at time: 1554185537.1363347
+produce message:(key=1554185537.637267 msg size=32) to topic: topic1 at time: 1554185537.6690772
+produce message:(key=1554185538.1699202 msg size=32) to topic: topic1 at time: 1554185538.201636
+produce message:(key=1554185538.4521942 msg size=32) to topic: topic1 at time: 1554185538.483957
+produce message:(key=1554185538.7345572 msg size=32) to topic: topic1 at time: 1554185538.7662306
+produce message:(key=1554185539.0168307 msg size=32) to topic: topic1 at time: 1554185539.048592
+produce message:(key=1554185539.2992663 msg size=32) to topic: topic1 at time: 1554185539.331077
+produce message:(key=1554185539.5816581 msg size=32) to topic: topic1 at time: 1554185539.613478
+produce message:(key=1554185539.8640628 msg size=32) to topic: topic1 at time: 1554185539.8959453
+produce message:(key=1554185540.146516 msg size=32) to topic: topic1 at time: 1554185540.178553
+produce message:(key=1554185540.4290833 msg size=32) to topic: topic1 at time: 1554185540.4610138
+produce message:(key=1554185540.7116137 msg size=32) to topic: topic1 at time: 1554185540.7434258
+produce message:(key=1554185540.9939747 msg size=32) to topic: topic1 at time: 1554185541.0257394
+produce message:(key=1554185541.2763057 msg size=32) to topic: topic1 at time: 1554185541.308168
+produce message:(key=1554185541.5587506 msg size=32) to topic: topic1 at time: 1554185541.5906103
+produce message:(key=1554185541.841199 msg size=32) to topic: topic1 at time: 1554185541.8733597
+produce message:(key=1554185542.1240427 msg size=32) to topic: topic1 at time: 1554185542.1572623
+produce message:(key=1554185542.4078052 msg size=32) to topic: topic1 at time: 1554185542.4399652
+produce message:(key=1554185542.6905918 msg size=32) to topic: topic1 at time: 1554185542.7222695
+produce message:(key=1554185542.972853 msg size=32) to topic: topic1 at time: 1554185543.0048578
+produce message:(key=1554185543.255482 msg size=32) to topic: topic1 at time: 1554185543.2872114
+produce message:(key=1554185543.5388613 msg size=32) to topic: topic1 at time: 1554185543.5706208
+produce message:(key=1554185543.8211694 msg size=32) to topic: topic1 at time: 1554185543.8531084
+produce message:(key=1554185544.103702 msg size=32) to topic: topic1 at time: 1554185544.135568
+produce message:(key=1554185544.386256 msg size=32) to topic: topic1 at time: 1554185544.4180176
+produce message:(key=1554185544.6686137 msg size=32) to topic: topic1 at time: 1554185544.7004528
+produce message:(key=1554185544.950998 msg size=32) to topic: topic1 at time: 1554185544.9827442
+produce message:(key=1554185545.2333412 msg size=32) to topic: topic1 at time: 1554185545.2651129
+produce message:(key=1554185545.5157266 msg size=32) to topic: topic1 at time: 1554185545.547604
+produce message:(key=1554185545.7981741 msg size=32) to topic: topic1 at time: 1554185545.8301787
+produce message:(key=1554185546.0807905 msg size=32) to topic: topic1 at time: 1554185546.1128101
+produce message:(key=1554185546.3634257 msg size=32) to topic: topic1 at time: 1554185546.3954794
+produce message:(key=1554185546.6460342 msg size=32) to topic: topic1 at time: 1554185546.6779816
+produce message:(key=1554185546.9286058 msg size=32) to topic: topic1 at time: 1554185546.9603589
+produce message:(key=1554185547.2109144 msg size=32) to topic: topic1 at time: 1554185547.2427182
+produce message:(key=1554185547.493318 msg size=32) to topic: topic1 at time: 1554185547.5250933
+produce message:(key=1554185547.7756174 msg size=32) to topic: topic1 at time: 1554185547.8073862
+produce message:(key=1554185548.05798 msg size=32) to topic: topic1 at time: 1554185548.0898745
+produce message:(key=1554185548.3404987 msg size=32) to topic: topic1 at time: 1554185548.3722904
+produce message:(key=1554185548.6229563 msg size=32) to topic: topic1 at time: 1554185548.6547244
+produce message:(key=1554185548.905281 msg size=32) to topic: topic1 at time: 1554185548.9372015
+produce message:(key=1554185549.1877856 msg size=32) to topic: topic1 at time: 1554185549.2196093
+produce message:(key=1554185549.4702044 msg size=32) to topic: topic1 at time: 1554185549.5019655
+produce message:(key=1554185549.7525659 msg size=32) to topic: topic1 at time: 1554185549.7844326
+produce message:(key=1554185550.0350146 msg size=32) to topic: topic1 at time: 1554185550.0670178
+produce message:(key=1554185550.3176382 msg size=32) to topic: topic1 at time: 1554185550.3494809
+produce message:(key=1554185550.6000903 msg size=32) to topic: topic1 at time: 1554185550.6317637
+produce message:(key=1554185550.8823142 msg size=32) to topic: topic1 at time: 1554185550.914217
+produce message:(key=1554185551.164775 msg size=32) to topic: topic1 at time: 1554185551.1965797
+produce message:(key=1554185551.4472065 msg size=32) to topic: topic1 at time: 1554185551.4790843
+produce message:(key=1554185551.7296648 msg size=32) to topic: topic1 at time: 1554185551.7614672
+produce message:(key=1554185552.012034 msg size=32) to topic: topic1 at time: 1554185552.0438747
+produce message:(key=1554185552.2945282 msg size=32) to topic: topic1 at time: 1554185552.3263423
+produce message:(key=1554185552.451884 msg size=32) to topic: topic1 at time: 1554185552.483552
+produce message:(key=1554185552.6090086 msg size=32) to topic: topic1 at time: 1554185552.6407669
+produce message:(key=1554185552.766145 msg size=32) to topic: topic1 at time: 1554185552.7978637
+produce message:(key=1554185552.9233017 msg size=32) to topic: topic1 at time: 1554185552.9550965
+produce message:(key=1554185553.080575 msg size=32) to topic: topic1 at time: 1554185553.1125202
+produce message:(key=1554185553.2379625 msg size=32) to topic: topic1 at time: 1554185553.2696347
+produce message:(key=1554185553.395099 msg size=32) to topic: topic1 at time: 1554185553.4268165
+produce message:(key=1554185553.5521817 msg size=32) to topic: topic1 at time: 1554185553.585847
+produce message:(key=1554185553.7112522 msg size=32) to topic: topic1 at time: 1554185553.742945
+produce message:(key=1554185553.8683152 msg size=32) to topic: topic1 at time: 1554185553.9003134
+produce message:(key=1554185554.0257561 msg size=32) to topic: topic1 at time: 1554185554.0575998
+produce message:(key=1554185554.1830144 msg size=32) to topic: topic1 at time: 1554185554.2147086
+produce message:(key=1554185554.3400953 msg size=32) to topic: topic1 at time: 1554185554.3718555
+produce message:(key=1554185554.497392 msg size=32) to topic: topic1 at time: 1554185554.5292974
+produce message:(key=1554185554.6547003 msg size=32) to topic: topic1 at time: 1554185554.6864276
+produce message:(key=1554185554.8119113 msg size=32) to topic: topic1 at time: 1554185554.8437753
+produce message:(key=1554185554.9692235 msg size=32) to topic: topic1 at time: 1554185555.00114
+produce message:(key=1554185555.126614 msg size=32) to topic: topic1 at time: 1554185555.1583512
+produce message:(key=1554185555.283839 msg size=32) to topic: topic1 at time: 1554185555.315801
+produce message:(key=1554185555.4412363 msg size=32) to topic: topic1 at time: 1554185555.473589
+produce message:(key=1554185555.5990155 msg size=32) to topic: topic1 at time: 1554185555.6306975
+produce message:(key=1554185555.7560964 msg size=32) to topic: topic1 at time: 1554185555.7890658
+produce message:(key=1554185555.914486 msg size=32) to topic: topic1 at time: 1554185555.946286
+produce message:(key=1554185556.071699 msg size=32) to topic: topic1 at time: 1554185556.1034305
+produce message:(key=1554185556.228831 msg size=32) to topic: topic1 at time: 1554185556.2606373
+produce message:(key=1554185556.3860927 msg size=32) to topic: topic1 at time: 1554185556.4179008
+produce message:(key=1554185556.543355 msg size=32) to topic: topic1 at time: 1554185556.5750847
+produce message:(key=1554185556.7005434 msg size=32) to topic: topic1 at time: 1554185556.7322466
+produce message:(key=1554185556.8577123 msg size=32) to topic: topic1 at time: 1554185556.8894963
+produce message:(key=1554185557.014925 msg size=32) to topic: topic1 at time: 1554185557.0469885
+produce message:(key=1554185557.172481 msg size=32) to topic: topic1 at time: 1554185557.2042837
+produce message:(key=1554185557.329778 msg size=32) to topic: topic1 at time: 1554185557.3615065
+produce message:(key=1554185557.4869597 msg size=32) to topic: topic1 at time: 1554185557.5188894
+produce message:(key=1554185557.6443465 msg size=32) to topic: topic1 at time: 1554185557.6760068
+produce message:(key=1554185557.801428 msg size=32) to topic: topic1 at time: 1554185557.8332222
+produce message:(key=1554185557.9586096 msg size=32) to topic: topic1 at time: 1554185557.990366
+produce message:(key=1554185558.1158464 msg size=32) to topic: topic1 at time: 1554185558.1474564
+produce message:(key=1554185558.2729294 msg size=32) to topic: topic1 at time: 1554185558.305079
+produce message:(key=1554185558.4305317 msg size=32) to topic: topic1 at time: 1554185558.4621363
+produce message:(key=1554185558.587672 msg size=32) to topic: topic1 at time: 1554185558.6192036
+produce message:(key=1554185558.7446363 msg size=32) to topic: topic1 at time: 1554185558.7764645
+produce message:(key=1554185558.9019144 msg size=32) to topic: topic1 at time: 1554185558.9342763
+produce message:(key=1554185559.0597577 msg size=32) to topic: topic1 at time: 1554185559.091604
+produce message:(key=1554185559.2169936 msg size=32) to topic: topic1 at time: 1554185559.248701
+produce message:(key=1554185559.374138 msg size=32) to topic: topic1 at time: 1554185559.409036
+produce message:(key=1554185559.534466 msg size=32) to topic: topic1 at time: 1554185559.5662675
+produce message:(key=1554185559.6917074 msg size=32) to topic: topic1 at time: 1554185559.723599
+produce message:(key=1554185559.8489985 msg size=32) to topic: topic1 at time: 1554185559.8805065
+produce message:(key=1554185560.005941 msg size=32) to topic: topic1 at time: 1554185560.0378394
+produce message:(key=1554185560.1633294 msg size=32) to topic: topic1 at time: 1554185560.1951053
+produce message:(key=1554185560.2579372 msg size=32) to topic: topic1 at time: 1554185560.2894769
+produce message:(key=1554185560.3522668 msg size=32) to topic: topic1 at time: 1554185560.3841166
+produce message:(key=1554185560.4469385 msg size=32) to topic: topic1 at time: 1554185560.4788558
+produce message:(key=1554185560.5416703 msg size=32) to topic: topic1 at time: 1554185560.5737607
+produce message:(key=1554185560.6366155 msg size=32) to topic: topic1 at time: 1554185560.668519
+produce message:(key=1554185560.7313647 msg size=32) to topic: topic1 at time: 1554185560.763243
+produce message:(key=1554185560.826092 msg size=32) to topic: topic1 at time: 1554185560.8581243
+produce message:(key=1554185560.9210029 msg size=32) to topic: topic1 at time: 1554185560.9529767
+produce message:(key=1554185561.0157914 msg size=32) to topic: topic1 at time: 1554185561.047828
+produce message:(key=1554185561.1106734 msg size=32) to topic: topic1 at time: 1554185561.142764
+produce message:(key=1554185561.2056208 msg size=32) to topic: topic1 at time: 1554185561.2375262
+produce message:(key=1554185561.3004148 msg size=32) to topic: topic1 at time: 1554185561.3324015
+produce message:(key=1554185561.3952336 msg size=32) to topic: topic1 at time: 1554185561.4272144
+produce message:(key=1554185561.4900987 msg size=32) to topic: topic1 at time: 1554185561.5220745
+produce message:(key=1554185561.584944 msg size=32) to topic: topic1 at time: 1554185561.6170247
+produce message:(key=1554185561.679895 msg size=32) to topic: topic1 at time: 1554185561.711908
+produce message:(key=1554185561.7748108 msg size=32) to topic: topic1 at time: 1554185561.8068376
+produce message:(key=1554185561.8696744 msg size=32) to topic: topic1 at time: 1554185561.9017928
+produce message:(key=1554185561.96467 msg size=32) to topic: topic1 at time: 1554185561.9966426
+produce message:(key=1554185562.0594993 msg size=32) to topic: topic1 at time: 1554185562.0915198
+produce message:(key=1554185562.1544178 msg size=32) to topic: topic1 at time: 1554185562.1865249
+produce message:(key=1554185562.2494562 msg size=32) to topic: topic1 at time: 1554185562.2815342
+produce message:(key=1554185562.3444536 msg size=32) to topic: topic1 at time: 1554185562.3765619
+produce message:(key=1554185562.4395 msg size=32) to topic: topic1 at time: 1554185562.4716537
+produce message:(key=1554185562.5345457 msg size=32) to topic: topic1 at time: 1554185562.5664716
+produce message:(key=1554185562.6293511 msg size=32) to topic: topic1 at time: 1554185562.6612678
+produce message:(key=1554185562.7241478 msg size=32) to topic: topic1 at time: 1554185562.7562728
+produce message:(key=1554185562.819152 msg size=32) to topic: topic1 at time: 1554185562.8513253
+produce message:(key=1554185562.9142215 msg size=32) to topic: topic1 at time: 1554185562.9462116
+produce message:(key=1554185563.0090222 msg size=32) to topic: topic1 at time: 1554185563.0411828
+produce message:(key=1554185563.1039896 msg size=32) to topic: topic1 at time: 1554185563.1361897
+produce message:(key=1554185563.199014 msg size=32) to topic: topic1 at time: 1554185563.2311785
+produce message:(key=1554185563.294012 msg size=32) to topic: topic1 at time: 1554185563.3261619
+produce message:(key=1554185563.3889713 msg size=32) to topic: topic1 at time: 1554185563.4210823
+produce message:(key=1554185563.4838943 msg size=32) to topic: topic1 at time: 1554185563.5161364
+produce message:(key=1554185563.5790014 msg size=32) to topic: topic1 at time: 1554185563.6111207
+produce message:(key=1554185563.6738904 msg size=32) to topic: topic1 at time: 1554185563.7058678
+produce message:(key=1554185563.7686708 msg size=32) to topic: topic1 at time: 1554185563.8011003
+produce message:(key=1554185563.863908 msg size=32) to topic: topic1 at time: 1554185563.8962224
+produce message:(key=1554185563.9590507 msg size=32) to topic: topic1 at time: 1554185563.9910626
+produce message:(key=1554185564.0539 msg size=32) to topic: topic1 at time: 1554185564.0858896
+produce message:(key=1554185564.1487744 msg size=32) to topic: topic1 at time: 1554185564.18085
+produce message:(key=1554185564.2437887 msg size=32) to topic: topic1 at time: 1554185564.275859
+produce message:(key=1554185564.3387187 msg size=32) to topic: topic1 at time: 1554185564.3708026
+produce message:(key=1554185564.4336944 msg size=32) to topic: topic1 at time: 1554185564.4655588
+produce message:(key=1554185564.5284045 msg size=32) to topic: topic1 at time: 1554185564.5604362
+produce message:(key=1554185564.6232429 msg size=32) to topic: topic1 at time: 1554185564.6550746
+produce message:(key=1554185564.7179215 msg size=32) to topic: topic1 at time: 1554185564.7497857
+produce message:(key=1554185564.8126318 msg size=32) to topic: topic1 at time: 1554185564.8446605
+produce message:(key=1554185564.9074965 msg size=32) to topic: topic1 at time: 1554185564.939581
+produce message:(key=1554185564.9712856 msg size=32) to topic: topic1 at time: 1554185565.003359
+produce message:(key=1554185565.034972 msg size=32) to topic: topic1 at time: 1554185565.0672004
+produce message:(key=1554185565.0987709 msg size=32) to topic: topic1 at time: 1554185565.1308897
+produce message:(key=1554185565.162421 msg size=32) to topic: topic1 at time: 1554185565.194502
+produce message:(key=1554185565.2260807 msg size=32) to topic: topic1 at time: 1554185565.2576957
+produce message:(key=1554185565.2892442 msg size=32) to topic: topic1 at time: 1554185565.3211071
+produce message:(key=1554185565.3526802 msg size=32) to topic: topic1 at time: 1554185565.3845882
+produce message:(key=1554185565.4161594 msg size=32) to topic: topic1 at time: 1554185565.4482856
+produce message:(key=1554185565.479937 msg size=32) to topic: topic1 at time: 1554185565.511892
+produce message:(key=1554185565.5434594 msg size=32) to topic: topic1 at time: 1554185565.5753374
+produce message:(key=1554185565.6068861 msg size=32) to topic: topic1 at time: 1554185565.6385508
+produce message:(key=1554185565.670313 msg size=32) to topic: topic1 at time: 1554185565.7021172
+produce message:(key=1554185565.7336602 msg size=32) to topic: topic1 at time: 1554185565.7656162
+produce message:(key=1554185565.7971556 msg size=32) to topic: topic1 at time: 1554185565.8287776
+produce message:(key=1554185565.8603144 msg size=32) to topic: topic1 at time: 1554185565.8922434
+produce message:(key=1554185565.9237955 msg size=32) to topic: topic1 at time: 1554185565.9557047
+produce message:(key=1554185565.9872787 msg size=32) to topic: topic1 at time: 1554185566.0191998
+produce message:(key=1554185566.0507517 msg size=32) to topic: topic1 at time: 1554185566.0825253
+produce message:(key=1554185566.1140664 msg size=32) to topic: topic1 at time: 1554185566.1462414
+produce message:(key=1554185566.1777725 msg size=32) to topic: topic1 at time: 1554185566.2097752
+produce message:(key=1554185566.24137 msg size=32) to topic: topic1 at time: 1554185566.2733483
+produce message:(key=1554185566.3049195 msg size=32) to topic: topic1 at time: 1554185566.3368967
+produce message:(key=1554185566.3683782 msg size=32) to topic: topic1 at time: 1554185566.4002814
+produce message:(key=1554185566.4318626 msg size=32) to topic: topic1 at time: 1554185566.4636567
+produce message:(key=1554185566.4951677 msg size=32) to topic: topic1 at time: 1554185566.52706
+produce message:(key=1554185566.5585365 msg size=32) to topic: topic1 at time: 1554185566.5904164
+produce message:(key=1554185566.6219177 msg size=32) to topic: topic1 at time: 1554185566.6538076
+produce message:(key=1554185566.685386 msg size=32) to topic: topic1 at time: 1554185566.7171364
+produce message:(key=1554185566.7486522 msg size=32) to topic: topic1 at time: 1554185566.7806568
+produce message:(key=1554185566.8122456 msg size=32) to topic: topic1 at time: 1554185566.84418
+produce message:(key=1554185566.875753 msg size=32) to topic: topic1 at time: 1554185566.9078271
+produce message:(key=1554185566.9394598 msg size=32) to topic: topic1 at time: 1554185566.971158
+produce message:(key=1554185567.0027835 msg size=32) to topic: topic1 at time: 1554185567.03475
+produce message:(key=1554185567.0662086 msg size=32) to topic: topic1 at time: 1554185567.0980952
+produce message:(key=1554185567.1296515 msg size=32) to topic: topic1 at time: 1554185567.1616015
+produce message:(key=1554185567.1931198 msg size=32) to topic: topic1 at time: 1554185567.2258995
+produce message:(key=1554185567.2574909 msg size=32) to topic: topic1 at time: 1554185567.289579
+produce message:(key=1554185567.3211179 msg size=32) to topic: topic1 at time: 1554185567.3534353
+produce message:(key=1554185567.384938 msg size=32) to topic: topic1 at time: 1554185567.4167492
+produce message:(key=1554185567.448274 msg size=32) to topic: topic1 at time: 1554185567.4801533
+produce message:(key=1554185567.5117664 msg size=32) to topic: topic1 at time: 1554185567.5437536
+produce message:(key=1554185567.5753376 msg size=32) to topic: topic1 at time: 1554185567.607284
+produce message:(key=1554185567.6388257 msg size=32) to topic: topic1 at time: 1554185567.6706376
+produce message:(key=1554185567.70221 msg size=32) to topic: topic1 at time: 1554185567.7341352
+produce message:(key=1554185567.7656956 msg size=32) to topic: topic1 at time: 1554185567.7975657
+produce message:(key=1554185567.8291688 msg size=32) to topic: topic1 at time: 1554185567.8609843
+produce message:(key=1554185567.89254 msg size=32) to topic: topic1 at time: 1554185567.9245176
+produce message:(key=1554185567.9561129 msg size=32) to topic: topic1 at time: 1554185567.9880993
+produce message:(key=1554185568.0196848 msg size=32) to topic: topic1 at time: 1554185568.0517714
+produce message:(key=1554185568.083552 msg size=32) to topic: topic1 at time: 1554185568.2313998
+produce message:(key=1554185568.247377 msg size=32) to topic: topic1 at time: 1554185568.279289
+produce message:(key=1554185568.2952101 msg size=32) to topic: topic1 at time: 1554185568.3270853
+produce message:(key=1554185568.3430483 msg size=32) to topic: topic1 at time: 1554185568.375035
+produce message:(key=1554185568.3909726 msg size=32) to topic: topic1 at time: 1554185568.4228468
+produce message:(key=1554185568.4387553 msg size=32) to topic: topic1 at time: 1554185568.4704642
+produce message:(key=1554185568.486401 msg size=32) to topic: topic1 at time: 1554185568.51823
+produce message:(key=1554185568.534179 msg size=32) to topic: topic1 at time: 1554185568.5659714
+produce message:(key=1554185568.5819159 msg size=32) to topic: topic1 at time: 1554185568.613752
+produce message:(key=1554185568.6296937 msg size=32) to topic: topic1 at time: 1554185568.6613932
+produce message:(key=1554185568.677283 msg size=32) to topic: topic1 at time: 1554185568.7091086
+produce message:(key=1554185568.725086 msg size=32) to topic: topic1 at time: 1554185568.7567692
+produce message:(key=1554185568.772775 msg size=32) to topic: topic1 at time: 1554185568.8044906
+produce message:(key=1554185568.820418 msg size=32) to topic: topic1 at time: 1554185568.8522837
+produce message:(key=1554185568.8682804 msg size=32) to topic: topic1 at time: 1554185568.9001868
+produce message:(key=1554185568.9161365 msg size=32) to topic: topic1 at time: 1554185568.9482708
+produce message:(key=1554185568.9641986 msg size=32) to topic: topic1 at time: 1554185568.9959145
+produce message:(key=1554185569.0118883 msg size=32) to topic: topic1 at time: 1554185569.043495
+produce message:(key=1554185569.0594234 msg size=32) to topic: topic1 at time: 1554185569.0913155
+produce message:(key=1554185569.107205 msg size=32) to topic: topic1 at time: 1554185569.1388345
+produce message:(key=1554185569.1547425 msg size=32) to topic: topic1 at time: 1554185569.186428
+produce message:(key=1554185569.2024403 msg size=32) to topic: topic1 at time: 1554185569.2341986
+produce message:(key=1554185569.2502706 msg size=32) to topic: topic1 at time: 1554185569.2822065
+produce message:(key=1554185569.2981539 msg size=32) to topic: topic1 at time: 1554185569.3300076
+produce message:(key=1554185569.346038 msg size=32) to topic: topic1 at time: 1554185569.37776
+produce message:(key=1554185569.3937745 msg size=32) to topic: topic1 at time: 1554185569.4255068
+produce message:(key=1554185569.4414048 msg size=32) to topic: topic1 at time: 1554185569.4729614
+produce message:(key=1554185569.4888818 msg size=32) to topic: topic1 at time: 1554185569.520651
+produce message:(key=1554185569.5365741 msg size=32) to topic: topic1 at time: 1554185569.5682333
+produce message:(key=1554185569.584172 msg size=32) to topic: topic1 at time: 1554185569.6158907
+produce message:(key=1554185569.6318145 msg size=32) to topic: topic1 at time: 1554185569.6633744
+produce message:(key=1554185569.679252 msg size=32) to topic: topic1 at time: 1554185569.71081
+produce message:(key=1554185569.7267156 msg size=32) to topic: topic1 at time: 1554185569.7584288
+produce message:(key=1554185569.774384 msg size=32) to topic: topic1 at time: 1554185569.8062446
+produce message:(key=1554185569.822208 msg size=32) to topic: topic1 at time: 1554185569.8539808
+produce message:(key=1554185569.869927 msg size=32) to topic: topic1 at time: 1554185569.9016187
+produce message:(key=1554185569.9176848 msg size=32) to topic: topic1 at time: 1554185569.94944
+produce message:(key=1554185569.9653928 msg size=32) to topic: topic1 at time: 1554185569.997028
+produce message:(key=1554185570.0129638 msg size=32) to topic: topic1 at time: 1554185570.0448155
+produce message:(key=1554185570.0607486 msg size=32) to topic: topic1 at time: 1554185570.0928466
+produce message:(key=1554185570.1087844 msg size=32) to topic: topic1 at time: 1554185570.1407306
+produce message:(key=1554185570.1567702 msg size=32) to topic: topic1 at time: 1554185570.188646
+produce message:(key=1554185570.2045562 msg size=32) to topic: topic1 at time: 1554185570.2362392
+produce message:(key=1554185570.252303 msg size=32) to topic: topic1 at time: 1554185570.2841077
+produce message:(key=1554185570.2999952 msg size=32) to topic: topic1 at time: 1554185570.3318033
+produce message:(key=1554185570.3478537 msg size=32) to topic: topic1 at time: 1554185570.379864
+produce message:(key=1554185570.3958073 msg size=32) to topic: topic1 at time: 1554185570.4279864
+produce message:(key=1554185570.443976 msg size=32) to topic: topic1 at time: 1554185570.4759803
+produce message:(key=1554185570.4919524 msg size=32) to topic: topic1 at time: 1554185570.5241563
+produce message:(key=1554185570.5400171 msg size=32) to topic: topic1 at time: 1554185570.5719533
+produce message:(key=1554185570.5879223 msg size=32) to topic: topic1 at time: 1554185570.6199589
+produce message:(key=1554185570.6281106 msg size=32) to topic: topic1 at time: 1554185570.660096
+produce message:(key=1554185570.6681914 msg size=32) to topic: topic1 at time: 1554185570.7000022
+produce message:(key=1554185570.7080944 msg size=32) to topic: topic1 at time: 1554185570.7398438
+produce message:(key=1554185570.7479527 msg size=32) to topic: topic1 at time: 1554185570.7797496
+produce message:(key=1554185570.787855 msg size=32) to topic: topic1 at time: 1554185570.8197997
+produce message:(key=1554185570.827913 msg size=32) to topic: topic1 at time: 1554185570.8596787
+produce message:(key=1554185570.867792 msg size=32) to topic: topic1 at time: 1554185570.899532
+produce message:(key=1554185570.9076378 msg size=32) to topic: topic1 at time: 1554185570.9393554
+produce message:(key=1554185570.947417 msg size=32) to topic: topic1 at time: 1554185570.9790795
+produce message:(key=1554185570.9871712 msg size=32) to topic: topic1 at time: 1554185571.0189352
+produce message:(key=1554185571.0273142 msg size=32) to topic: topic1 at time: 1554185571.1752932
+produce message:(key=1554185571.183524 msg size=32) to topic: topic1 at time: 1554185571.2149732
+produce message:(key=1554185571.223282 msg size=32) to topic: topic1 at time: 1554185571.271282
+produce message:(key=1554185571.279527 msg size=32) to topic: topic1 at time: 1554185571.311366
+produce message:(key=1554185571.3194854 msg size=32) to topic: topic1 at time: 1554185571.3510857
+produce message:(key=1554185571.3591924 msg size=32) to topic: topic1 at time: 1554185571.3910015
+produce message:(key=1554185571.399126 msg size=32) to topic: topic1 at time: 1554185571.4307902
+produce message:(key=1554185571.4388983 msg size=32) to topic: topic1 at time: 1554185571.4706304
+produce message:(key=1554185571.4787874 msg size=32) to topic: topic1 at time: 1554185571.5105655
+produce message:(key=1554185571.5185897 msg size=32) to topic: topic1 at time: 1554185571.5505588
+produce message:(key=1554185571.55857 msg size=32) to topic: topic1 at time: 1554185571.5902748
+produce message:(key=1554185571.59839 msg size=32) to topic: topic1 at time: 1554185571.630254
+produce message:(key=1554185571.6383348 msg size=32) to topic: topic1 at time: 1554185571.6701136
+produce message:(key=1554185571.6782277 msg size=32) to topic: topic1 at time: 1554185571.7100558
+produce message:(key=1554185571.718187 msg size=32) to topic: topic1 at time: 1554185571.7499313
+produce message:(key=1554185571.7580595 msg size=32) to topic: topic1 at time: 1554185571.7899156
+produce message:(key=1554185571.798145 msg size=32) to topic: topic1 at time: 1554185571.8303137
+produce message:(key=1554185571.8384056 msg size=32) to topic: topic1 at time: 1554185571.8701344
+produce message:(key=1554185571.8782525 msg size=32) to topic: topic1 at time: 1554185571.910314
+produce message:(key=1554185571.9184322 msg size=32) to topic: topic1 at time: 1554185571.9500375
+produce message:(key=1554185571.9581654 msg size=32) to topic: topic1 at time: 1554185571.98976
+produce message:(key=1554185571.9978971 msg size=32) to topic: topic1 at time: 1554185572.0296552
+produce message:(key=1554185572.0377781 msg size=32) to topic: topic1 at time: 1554185572.0694344
+produce message:(key=1554185572.0775387 msg size=32) to topic: topic1 at time: 1554185572.1093283
+produce message:(key=1554185572.1174772 msg size=32) to topic: topic1 at time: 1554185572.1492496
+produce message:(key=1554185572.1573308 msg size=32) to topic: topic1 at time: 1554185572.1889472
+produce message:(key=1554185572.1970434 msg size=32) to topic: topic1 at time: 1554185572.228701
+produce message:(key=1554185572.2368236 msg size=32) to topic: topic1 at time: 1554185572.2684984
+produce message:(key=1554185572.2766879 msg size=32) to topic: topic1 at time: 1554185572.308418
+produce message:(key=1554185572.3165298 msg size=32) to topic: topic1 at time: 1554185572.348251
+produce message:(key=1554185572.3563566 msg size=32) to topic: topic1 at time: 1554185572.3880994
+produce message:(key=1554185572.3963776 msg size=32) to topic: topic1 at time: 1554185572.4279554
+produce message:(key=1554185572.4360435 msg size=32) to topic: topic1 at time: 1554185572.4677403
+produce message:(key=1554185572.4758794 msg size=32) to topic: topic1 at time: 1554185572.5076804
+produce message:(key=1554185572.515849 msg size=32) to topic: topic1 at time: 1554185572.5477343
+produce message:(key=1554185572.55583 msg size=32) to topic: topic1 at time: 1554185572.587737
+produce message:(key=1554185572.5959682 msg size=32) to topic: topic1 at time: 1554185572.6278093
+produce message:(key=1554185572.6358962 msg size=32) to topic: topic1 at time: 1554185572.6679022
+produce message:(key=1554185572.6759915 msg size=32) to topic: topic1 at time: 1554185572.7078366
+produce message:(key=1554185572.7160962 msg size=32) to topic: topic1 at time: 1554185572.7477963
+produce message:(key=1554185572.751992 msg size=32) to topic: topic1 at time: 1554185572.7836564
+produce message:(key=1554185572.7878518 msg size=32) to topic: topic1 at time: 1554185572.8196073
+produce message:(key=1554185572.823784 msg size=32) to topic: topic1 at time: 1554185572.8553894
+produce message:(key=1554185572.8595753 msg size=32) to topic: topic1 at time: 1554185572.89114
+produce message:(key=1554185572.8953245 msg size=32) to topic: topic1 at time: 1554185572.9269278
+produce message:(key=1554185572.9311275 msg size=32) to topic: topic1 at time: 1554185572.9627016
+produce message:(key=1554185572.966845 msg size=32) to topic: topic1 at time: 1554185572.9984314
+produce message:(key=1554185573.0026243 msg size=32) to topic: topic1 at time: 1554185573.0342584
+produce message:(key=1554185573.0386274 msg size=32) to topic: topic1 at time: 1554185573.070264
+produce message:(key=1554185573.074478 msg size=32) to topic: topic1 at time: 1554185573.1063497
+produce message:(key=1554185573.1105373 msg size=32) to topic: topic1 at time: 1554185573.1422615
+produce message:(key=1554185573.146442 msg size=32) to topic: topic1 at time: 1554185573.1782756
+produce message:(key=1554185573.1824791 msg size=32) to topic: topic1 at time: 1554185573.2140088
+produce message:(key=1554185573.2182217 msg size=32) to topic: topic1 at time: 1554185573.2498677
+produce message:(key=1554185573.2540786 msg size=32) to topic: topic1 at time: 1554185573.2856715
+produce message:(key=1554185573.2899115 msg size=32) to topic: topic1 at time: 1554185573.3215723
+produce message:(key=1554185573.3258176 msg size=32) to topic: topic1 at time: 1554185573.357374
+produce message:(key=1554185573.3615692 msg size=32) to topic: topic1 at time: 1554185573.393522
+produce message:(key=1554185573.3978152 msg size=32) to topic: topic1 at time: 1554185573.429524
+produce message:(key=1554185573.4337058 msg size=32) to topic: topic1 at time: 1554185573.4655137
+produce message:(key=1554185573.469743 msg size=32) to topic: topic1 at time: 1554185573.5013356
+produce message:(key=1554185573.5055351 msg size=32) to topic: topic1 at time: 1554185573.5373752
+produce message:(key=1554185573.5416586 msg size=32) to topic: topic1 at time: 1554185573.5734103
+produce message:(key=1554185573.5776415 msg size=32) to topic: topic1 at time: 1554185573.6093001
+produce message:(key=1554185573.6134906 msg size=32) to topic: topic1 at time: 1554185573.6452162
+produce message:(key=1554185573.6494033 msg size=32) to topic: topic1 at time: 1554185573.6811132
+produce message:(key=1554185573.6853683 msg size=32) to topic: topic1 at time: 1554185573.7169447
+produce message:(key=1554185573.7211401 msg size=32) to topic: topic1 at time: 1554185573.7569094
+produce message:(key=1554185573.761089 msg size=32) to topic: topic1 at time: 1554185573.7929547
+produce message:(key=1554185573.7971869 msg size=32) to topic: topic1 at time: 1554185573.829037
+produce message:(key=1554185573.833289 msg size=32) to topic: topic1 at time: 1554185573.8651323
+produce message:(key=1554185573.869368 msg size=32) to topic: topic1 at time: 1554185573.9010742
+produce message:(key=1554185573.9052455 msg size=32) to topic: topic1 at time: 1554185573.9368336
+produce message:(key=1554185573.9410362 msg size=32) to topic: topic1 at time: 1554185573.9726646
+produce message:(key=1554185573.9768448 msg size=32) to topic: topic1 at time: 1554185574.008554
+produce message:(key=1554185574.012925 msg size=32) to topic: topic1 at time: 1554185574.0447402
+produce message:(key=1554185574.0489259 msg size=32) to topic: topic1 at time: 1554185574.0805936
+produce message:(key=1554185574.0847945 msg size=32) to topic: topic1 at time: 1554185574.116447
+produce message:(key=1554185574.1209605 msg size=32) to topic: topic1 at time: 1554185574.152563
+produce message:(key=1554185574.156762 msg size=32) to topic: topic1 at time: 1554185574.1885135
+produce message:(key=1554185574.192704 msg size=32) to topic: topic1 at time: 1554185574.2244432
+produce message:(key=1554185574.2286413 msg size=32) to topic: topic1 at time: 1554185574.2602844
+produce message:(key=1554185574.2644575 msg size=32) to topic: topic1 at time: 1554185574.2962825
+produce message:(key=1554185574.3005667 msg size=32) to topic: topic1 at time: 1554185574.3337264
+produce message:(key=1554185574.3379269 msg size=32) to topic: topic1 at time: 1554185574.3694975
+produce message:(key=1554185574.3736637 msg size=32) to topic: topic1 at time: 1554185574.4052622
+produce message:(key=1554185574.409466 msg size=32) to topic: topic1 at time: 1554185574.4409347
+produce message:(key=1554185574.4451437 msg size=32) to topic: topic1 at time: 1554185574.476639
+produce message:(key=1554185574.4808486 msg size=32) to topic: topic1 at time: 1554185574.5124693

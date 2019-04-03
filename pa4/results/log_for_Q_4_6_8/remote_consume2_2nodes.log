@@ -1,0 +1,6 @@
+Start Receiving Message >>>>>>
+Receive message: (key=b'1554188816.731076' msg size=32) from topic: topic1 at time: 1554188817.3971863
+Receive message: (key=b'1554188816.8925266' msg size=32) from topic: topic1 at time: 1554188817.3975277
+Receive message: (key=b'1554188817.1463447' msg size=32) from topic: topic1 at time: 1554188817.3976936
+Receive message: (key=b'1554188817.1787114' msg size=32) from topic: topic1 at time: 1554188817.514056
+Receive message: (key=b'1554188817.5228927' msg size=32) from topic: topic1 at time: 1554188817.5468144

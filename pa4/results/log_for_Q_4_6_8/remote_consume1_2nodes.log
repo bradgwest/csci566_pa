@@ -1,0 +1,11 @@
+Start Receiving Message >>>>>>
+Receive message: (key=b'1554188769.482522' msg size=32) from topic: topic1 at time: 1554188771.8227296
+Receive message: (key=b'1554188770.352399' msg size=32) from topic: topic1 at time: 1554188771.8230393
+Receive message: (key=b'1554188770.606381' msg size=32) from topic: topic1 at time: 1554188771.8231623
+Receive message: (key=b'1554188770.6388352' msg size=32) from topic: topic1 at time: 1554188771.8232708
+Receive message: (key=b'1554188770.99441' msg size=32) from topic: topic1 at time: 1554188775.0154119
+Receive message: (key=b'1554188773.0608904' msg size=32) from topic: topic1 at time: 1554188775.0157032
+Receive message: (key=b'1554188773.0931716' msg size=32) from topic: topic1 at time: 1554188775.015827
+Receive message: (key=b'1554188773.1257064' msg size=32) from topic: topic1 at time: 1554188775.0159376
+Receive message: (key=b'1554188773.5223334' msg size=32) from topic: topic1 at time: 1554188775.0160477
+Receive message: (key=b'1554188773.5548375' msg size=32) from topic: topic1 at time: 1554188775.0161576
