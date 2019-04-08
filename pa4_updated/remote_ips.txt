@@ -1,0 +1,7 @@
+Kafka, ubuntu@35.165.72.110
+Initiator,ubuntu@34.220.151.212
+Responder,ubuntu@34.216.69.81
+Responder,ubuntu@52.13.16.105
+Responder,ubuntu@54.191.155.142
+Responder,ubuntu@52.34.26.217
+Responder,ubuntu@34.211.43.226

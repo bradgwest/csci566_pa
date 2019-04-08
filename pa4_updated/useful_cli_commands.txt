@@ -1,0 +1,60 @@
+kafka_2.12-2.2.0/bin/zookeeper-server-start.sh kafka_2.12-2.2.0/config/zookeeper.properties 
+
+kafka_2.12-2.2.0/bin/kafka-server-start.sh kafka_2.12-2.2.0/config/server.properties 
+
+sudo ssh rocky91@192.168.0.111 mkdir pa4
+sudo scp kafka_2.11-2.1.0.tgz rocky91@192.168.0.111:~/pa4
+sudo ssh rocky91@192.168.0.111 'cd pa4 && tar -xzvf ~/pa4/kafka_2.11-2.1.0.tgz'
+sudo ssh -t rocky91@192.168.0.111 'sudo apt install default-jre'
+sudo ssh rocky91@192.168.0.111 'pa4/kafka_2.11-2.1.0/bin/zookeeper-server-start.sh config/zookeeper.properties'
+
+sudo ssh rocky@192.168.0.108 mkdir pa4
+sudo scp kafka_2.11-2.1.0.tgz rocky@192.168.0.108:~/pa4
+sudo ssh rocky@192.168.0.108 'cd pa4 && tar -xzvf ~/pa4/kafka_2.11-2.1.0.tgz'
+
+sudo tc qdisc del dev eth0 root
+
+python3 consume_msg.py topic1 responder1_consume_3_5_10.log True topic2 group1
+
+python3 consume_msg.py topic2 responder2_consume_3_5_10.log False None group2
+
+scp -i key1.pem ubuntu@34.220.151.212:local_produce.log .
+scp -i key1.pem ubuntu@34.216.69.81:responder1_consume.log .
+scp -i key1.pem ubuntu@52.13.16.105:responder2_consume.log .
+
+echo "Deleting current net rule.."
+sudo tc qdisc del dev eth0 root
+echo "Setting up net rule.."
+sudo tc qdisc add dev eth0 root handle 1: netem delay 15ms loss 1%
+sudo tc qdisc add dev eth0 parent 1:1 handle 10: tbf rate 10mbit latency 15ms burst 32kbit
+sudo tc qdisc show
+
+
+
+
+
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test1
+
+bin/kafka-topics.sh --create --zookeeper 192.168.0.100:2181 --replication-factor 1 --partitions 1 --topic test1
+
+bin/kafka-topics.sh --list --zookeeper localhost:2181
+bin/kafka-topics.sh --zookeeper localhost:2181 --delete --topic test
+
+bin/kafka-consumer-groups.sh  --list --bootstrap-server localhost:9092
+
+kafka_2.12-2.2.0/bin/kafka-console-producer.sh --broker-list 35.165.72.110:9092 --topic topic1
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
+
+bin/kafka-console-producer.sh --broker-list localhost:9093 --topic test
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9093 --topic test --from-beginning
+
+bin/kafka-consumer-groups.sh  --list --bootstrap-server localhost:9092
+bin/kafka-consumer-groups.sh --describe --group mygroup --bootstrap-server localhost:9092
+
+sudo timedatectl set-ntp no
+sudo apt update
+sudo apt install ntp
+sudo service ntp restart
+ntpq -p
+date -u
+

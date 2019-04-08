@@ -1,6 +1,0 @@
-kafka, ubuntu@54.201.231.207
-client,ubuntu@54.185.9.14
-client,ubuntu@52.35.6.6
-client,ubuntu@34.216.141.152
-client,ubuntu@52.39.40.45
-client,ubuntu@34.222.58.254
