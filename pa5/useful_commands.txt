@@ -3,9 +3,9 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD7
 
 echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
 
-sudo apt-get update
+sudo apt update
 
-sudo apt-get install -y mongodb-org
+sudo apt install -y mongodb-org
 
 # start MongoDB
 sudo service mongod start
@@ -14,4 +14,75 @@ sudo service mongod restart
 mongo
 
 # install pymongo
-pip3 install pymongo
+
+sudo apt install python3-pip
+python3 -m pip install pymongo
+
+# check port mongodb is running
+sudo lsof -iTCP -sTCP:LISTEN | grep mongo
+sudo kill -9 <mongo_pid>
+
+rs.add('localhost',27018)
+rs.add('localhost',27019)
+
+rsconf={ 
+		_id:"rs1","version":1, 
+		members:[{
+			 		_id:0,
+			 	   host:"localhost:27017" }
+			 	   ]}
+
+(db.animal.find({name:'cats'}).forEach(printjson))
+
+var mycursor = db.animal.find()
+myDocument= mycursor.hasNext()?mycursor.next():null
+
+############ for debug #############
+Step 1: Remove lock file.
+sudo rm /var/lib/mongodb/mongod.lock
+
+Step 2: Repair mongodb. 
+sudo mongod --repair 
+
+Step 3: start mongodb.
+sudo start mongodb 
+or
+sudo service mongodb start
+
+Step 4: Check status of mongodb.
+sudo status mongodb 
+or   
+sudo service mongodb status
+
+Step 5: Start mongo console.
+mongo 
+
+
+
+############ for testing message pulling #############
+ from pymongo import MongoClient
+>>> client = MongoClient('ip-172-31-25-62',27017)
+>>> db.client.test1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'db' is not defined
+>>> db=client.test1
+>>> print(db.mytest.count())
+3
+>>> db.mytest.insert_one({'x':1})
+<pymongo.results.InsertOneResult object at 0x7fa6440d9308>
+>>> print(db.mytest.count())
+4
+>>> db.mytest.insert_one({'x':1s})
+  File "<stdin>", line 1
+    db.mytest.insert_one({'x':1s})
+                               ^
+SyntaxError: invalid syntax
+>>> db.mytest.insert_one({'x':14})
+<pymongo.results.InsertOneResult object at 0x7fa6440d9348>
+>>> db.mytest.insert_one({'counter':5,'flag':'syn'})
+
+db = client.test1
+post = db.mytest.find_one({'counter':5,'flag':'syn'})
+print(str(post['counter']) + post['flag'])
+print(db.mytest.find_one({'x':14})['x'])
