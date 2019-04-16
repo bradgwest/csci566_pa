@@ -34,10 +34,11 @@ if [ $type = "MongoDB" ]; then
 	echo "Sending remote setup script"  
 	scp -i key1.pem mongo_setup.sh $IP:
 	echo "Sending server config modifying script"
-	scp -i key1.pem modify_server_config.py $IP:
+	scp -i key1.pem aux_func.py modify_server_config.py $IP:
 	echo "Running remote set up script"
 	ssh -i key1.pem $IP bash mongo_setup.sh ${IP##*@}
-	
+	echo "Sending net setting script"  
+	scp -i key1.pem net_setting.sh $IP:
 
 fi
 
@@ -48,5 +49,8 @@ if [ $type = "Responder" ]; then
 	scp -i key1.pem responder_setup.sh $IP:
 	echo "Running remote responder set up script"
 	ssh -i key1.pem $IP "bash responder_setup.sh"
+	echo "Sending net setting script"  
+	scp -i key1.pem net_setting.sh $IP:
+
 fi
 

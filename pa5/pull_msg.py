@@ -4,32 +4,34 @@ from pymongo import MongoClient
 import sys
 mongo_ip = get_mongo_ip()
 log_name = sys.argv[1]
-message_forwarding = sys.argv[2]
-# forwarding_collection = sys.argv[3]
+receiving_collection = sys.argv[2]
+message_forwarding = sys.argv[3]
+forwarding_collection = sys.argv[4]
 # group_id = sys.argv[5]
 
 
 client = MongoClient(mongo_ip,27017)
-client.pa4.messages1.delete_many({})
-client.pa4.messages2.delete_many({})
+client.pa5[receiving_collection].delete_many({})
+client.pa5[forwarding_collection].delete_many({})
 counter = 0
 write_to_file(log_name,'')
 try:
     while True:
 
-        msg = client.q5.message1.find_one({'counter':counter})
+        msg = client.pa5[receiving_collection].find_one({'counter':counter})
+
         if(msg==None):
             continue
         else:
             ts= str(time.time())
-            print("Counter is :{}, value is :{}".format(str(counter),msg['value']))
-            append_to_file(log_name,"Receive message: (counter={},msg size={}),time: {}".format(str(counter),len(msg['value'])),ts)
+            print("Counter is :{}, msg size is :{}".format(str(counter),len(msg['value'])))
+            append_to_file(log_name,"Receive message: (counter={},msg size={}),time: {}".format(str(counter),len(msg['value']),ts))
             counter+=1
             if message_forwarding == 'True':
-                client.pa5.messages2.insert_one({'counter':counter-1,'value':msg['value']})
-                print("Forwarding message with counter: {} and value {}".format(str(counter-1),msg['value']))
+                client.pa5[forwarding_collection].insert_one({'counter':counter-1,'value':msg['value']})
+                print("Forwarding message with counter: {} and msg size {}".format(str(counter-1),len(msg['value'])))
                 ts = str(time.time())
-                append_to_file(log_name,"Forwarding message: (counter={},msg size={}),time: {}".format(str(counter),len(msg['value'])),ts)
+                append_to_file(log_name,"Forwarding message: (counter={},msg size={}),time: {}".format(str(counter),len(msg['value']),ts))
 
 
 

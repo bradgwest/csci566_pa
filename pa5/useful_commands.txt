@@ -1,23 +1,3 @@
-# install MongoDB
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
-
-echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
-
-sudo apt update
-
-sudo apt install -y mongodb-org
-
-# start MongoDB
-sudo service mongod start
-sudo service mongod stop
-sudo service mongod restart
-mongo
-
-# install pymongo
-
-sudo apt install python3-pip
-python3 -m pip install pymongo
-
 # check port mongodb is running
 sudo lsof -iTCP -sTCP:LISTEN | grep mongo
 sudo kill -9 <mongo_pid>
@@ -86,3 +66,44 @@ db = client.test1
 post = db.mytest.find_one({'counter':5,'flag':'syn'})
 print(str(post['counter']) + post['flag'])
 print(db.mytest.find_one({'x':14})['x'])
+
+
+
+########3 increase base latency to 200ms on the eth0 interface
+
+sudo tc qdisc add dev eth0 root netem delay 200ms
+
+####### see the current rule
+
+sudo tc qdisc show dev eth0
+
+#######  delete the current rule
+
+sudo tc qdisc del dev eth0 root
+
+########## introduce packet loss
+
+sudo tc qdisc add dev eth0 root netem loss 10%
+
+########## introduce packet corruption
+
+sudo tc qdisc add dev eth0 root netem corrupt 5%
+
+########## or limit bandwidth
+
+sudo tc qdisc add dev eth0 root tbf rate 1mbit burst 32kbit limit 10000
+
+sudo tc qdisc del dev eth0 root
+
+./net_setting.sh 15 10m 0.0000000001
+./net_setting.sh 15 10m 0.2
+./net_setting.sh 15 10m 0.4
+./net_setting.sh 15 10m 0.6
+./net_setting.sh 15 10m 0.8
+./net_setting.sh 15 10m 1
+./net_setting.sh 15 10m 1.2
+./net_setting.sh 15 10m 1.4
+./net_setting.sh 15 10m 1.6
+./net_setting.sh 15 10m 1.8
+./net_setting.sh 15 10m 2
+

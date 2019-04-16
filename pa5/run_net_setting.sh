@@ -11,6 +11,6 @@ if [ $type = "Initiator" ]; then
 
 else
 	echo "setting up net rule for "${type}
-	scp -i key1.pem net_setting.sh $ip:
+	# scp -i key1.pem net_setting.sh $ip:
 	ssh -i key1.pem $ip ./net_setting.sh $lat $bw $loss
 fi

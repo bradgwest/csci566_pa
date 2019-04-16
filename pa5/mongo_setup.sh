@@ -19,6 +19,6 @@ sudo apt install ntp
 sudo service ntp restart
 
 echo "modifying server config"
-python3 modify_server_config.py ./kafka_2.12-2.2.0/config/server.properties $ip
+sudo python3 modify_server_config.py
 # sudo apt update
 # echo update
