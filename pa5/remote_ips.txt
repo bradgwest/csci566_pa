@@ -1,7 +1,7 @@
-Initiator,ubuntu@18.236.182.72
-MongoDB,ubuntu@18.237.253.186
-Responder,ubuntu@54.191.224.42
-Responder,ubuntu@18.237.76.6
-Responder,ubuntu@34.221.178.125
-Responder,ubuntu@34.214.218.143
-Responder,ubuntu@54.184.80.127
+Initiator,ubuntu@54.188.89.98
+MongoDB,ubuntu@34.216.32.21
+Responder,ubuntu@34.215.93.126
+Responder,ubuntu@35.166.223.130
+Responder,ubuntu@54.201.255.128
+Responder,ubuntu@34.215.23.149
+Responder,ubuntu@34.219.173.151

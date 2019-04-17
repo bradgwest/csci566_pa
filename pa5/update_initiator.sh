@@ -1,1 +1,1 @@
-scp -i key1.pem *.py *.sh remote_ips.txt $1:
+scp -i key1.pem key1.pem *.py *.sh remote_ips.txt $1:

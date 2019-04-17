@@ -25,13 +25,13 @@ try:
         else:
             ts= str(time.time())
             print("Counter is :{}, msg size is :{}".format(str(counter),len(msg['value'])))
-            append_to_file(log_name,"Receive message: (counter={},msg size={}),time: {}".format(str(counter),len(msg['value']),ts))
+            append_to_file(log_name,"Receive message: (counter={},msg_size={}),time: {}".format(str(counter),len(msg['value']),ts))
             counter+=1
             if message_forwarding == 'True':
                 client.pa5[forwarding_collection].insert_one({'counter':counter-1,'value':msg['value']})
                 print("Forwarding message with counter: {} and msg size {}".format(str(counter-1),len(msg['value'])))
                 ts = str(time.time())
-                append_to_file(log_name,"Forwarding message: (counter={},msg size={}),time: {}".format(str(counter),len(msg['value']),ts))
+                append_to_file(log_name,"Forwarding message: (counter={},msg size={}),time: {}".format(str(counter-1),len(msg['value']),ts))
 
 
 

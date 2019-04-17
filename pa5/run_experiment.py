@@ -17,8 +17,8 @@ def main():
 		if q_num == '3':
 			write_to_file('q3_initiator.log','')
 			input('Please adjust network setting on each node\nSet latency 15, bandwidth 10m, loss 0.0000000001')
-			# for i,instance in enumerate(get_ip()):
-			# 	subprocess.run(['./run_net_setting.sh',instance.ip,instance.type,'15','10m','0.0000000001'])
+			for i,instance in enumerate(get_ip()):
+				subprocess.run(['./run_net_setting.sh',instance.ip,instance.type,'15','10m','0.0000000001'])
 			input('Please log in server(Responder and start pulling message,\n Run "python3 pull_msg.py q3_responder1.log messages1 True messages2"\nEnter to continue')
 			input('Please log in second responder and start pulling messages\n Run "python3 pull_msg.py q3_responder2.log messages2 False None')
 			append_to_file('q3_initiator.log',"Q3 >>>>>>>>>>>>>>>>")
@@ -42,10 +42,10 @@ def main():
 			msg_list = ['a'*32]*50
 			for nodes in nodes_setting:
 				input('Please adjust network setting on each node\nSet latency 15, bandwidth 10m, loss 0.0000000001')
-				# for i,instance in enumerate(get_ip()):			
-				# 	# if i > nodes +1:
-				# 	# 	break		
-				# 	subprocess.run(['./run_net_setting.sh',instance.ip,instance.type,'15','10m','0.0000000001'])
+				for i,instance in enumerate(get_ip()):			
+					# if i > nodes +1:
+					# 	break		
+					subprocess.run(['./run_net_setting.sh',instance.ip,instance.type,'15','10m','0.0000000001'])
 				counter = 0
 				print("Number of responder nodes: {}".format(nodes))
 				append_to_file('q4_initiator.log','Num of nodes:{}'.format(nodes))
@@ -73,10 +73,10 @@ def main():
 				append_to_file('q5_initiator.log','loss setting = {}'.format(loss_setting))
 				print("Adjusting network setting")
 				input('Please adjust network setting on each node\nSet latency 15, bandwidth 10m, loss lost_setting+0.0000000001')
-				# for i,instance in enumerate(get_ip()):
-				# 	# if(i>4):
-				# 	# 	break
-				# 	subprocess.run(['./run_net_setting.sh',instance.ip,instance.type,'15','10m',str(loss_setting+0.00000000001)])
+				for i,instance in enumerate(get_ip()):
+					# if(i>4):
+					# 	break
+					subprocess.run(['./run_net_setting.sh',instance.ip,instance.type,'15','10m',str(loss_setting+0.00000000001)])
 				for msg in msg_list:
 					print("current message id is {} size is {}".format(counter,len(msg)))
 					client.pa5.messages1.insert_one({'counter':counter,'value':msg})
@@ -99,16 +99,16 @@ def main():
 				append_to_file('q6_initiator.log','loss setting:{}'.format(loss_setting))
 				print("Adjusting network setting")
 				input('Please adjust network setting on each node\nSet latency 15, bandwidth 10m, loss loss_setting+0.0000000001')
-				# for i,instance in enumerate(get_ip()):
-				# 	# if(i>4):
-				# 	# 	break
-				# 	subprocess.run(['./run_net_setting.sh',instance.ip,instance.type,'15','10m',str(loss_setting+0.00000000001)])
+				for i,instance in enumerate(get_ip()):
+					# if(i>4):
+					# 	break
+					subprocess.run(['./run_net_setting.sh',instance.ip,instance.type,'15','10m',str(loss_setting+0.00000000001)])
 				for msg in msg_list:
 					
 					print("current message id is {} size is {}".format(counter,len(msg)))
 					client.pa5.messages1.insert_one({'counter':counter,'value':msg})
 					ts = str(time.time())
-					append_to_file('q5_initiator.log',"Insert Doc:(counter:{},msg_size={},time: {})".format(counter,len(msg),ts))
+					append_to_file('q6_initiator.log',"Insert Doc:(counter:{},msg_size={},time: {})".format(counter,len(msg),ts))
 					counter+=1
 			# print("Deleting all documents")
 			# client.pa5.messages1.delete_many({})
@@ -117,7 +117,22 @@ def main():
 		elif q_num == '8':
 			pass
 		elif q_num == '9':
-			pass
+			write_to_file('q9_initiator.log','')
+			input('Please adjust network setting on each node\nSet latency 15, bandwidth 10m, loss 0.0000000001')
+			for i,instance in enumerate(get_ip()):
+				subprocess.run(['./run_net_setting.sh',instance.ip,instance.type,'15','10m','0.0000000001'])
+			input('Please log in server(Responder and start pulling message,\n Run "python3 pull_msg.py q9_responder1.log messages1 True messages2"\nEnter to continue')
+			# input('Please log in second responder and start pulling messages\n Run "python3 pull_msg.py q3_responder2.log messages2 False None')
+			append_to_file('q3_initiator.log',"Q3 >>>>>>>>>>>>>>>>")
+			msg_list = ['a' * 2**c for c in range(0,21)]
+			counter = 0
+			for msg in msg_list:
+				
+				print("current message id is {} size is {}".format(counter,len(msg)))
+				client.pa5.messages1.insert_one({'counter':counter,'value':msg})
+				ts = str(time.time())
+				append_to_file('q9_initiator.log',"Insert Doc:(counter:{},msg_size={},time: {})".format(counter,len(msg),ts))
+				counter+=1
 		elif q_num == '10':
 			input('Please log in server(Responder and start pulling message,\n Run "python3 pull_msg.py q10_responder1.log messages1 True messages2"\nEnter to continue')
 			input('Please log in second responder and start pulling messages\n Run "python3 pull_msg.py q10_responder2.log messages2 False None')
@@ -125,10 +140,10 @@ def main():
 			msg_list = ['a'*32] * 50
 			print("Adjusting network setting")
 			input('Please adjust network setting on each node\nSet latency 15, bandwidth 10m, loss 0.0000000001')
-			# for i,instance in enumerate(get_ip()):
-			# 	# if(i>4):
-			# 	# 	break
-			# 	subprocess.run(['./run_net_setting.sh',instance.ip,instance.type,'15','10m','0.00000000001'])
+			for i,instance in enumerate(get_ip()):
+				# if(i>4):
+				# 	break
+				subprocess.run(['./run_net_setting.sh',instance.ip,instance.type,'15','10m','0.00000000001'])
 			trans_rate = [2**r for r in range(0,9)]
 			delays = [1/tr for tr in trans_rate]
 			counter = 0
