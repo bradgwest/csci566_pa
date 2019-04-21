@@ -2,11 +2,11 @@ import subprocess
 
 def write_to_file(filename,content):
     with open(filename,'w') as file:
-        file.write(content+'\n')
+        file.write(content)
 
 def append_to_file(filename,content):
     with open(filename,'a') as file:
-        file.write(content+'\n')
+        file.write(content)
 
 class EC2_instance():
 	def __init__(self,type='',ip=''):
@@ -19,6 +19,8 @@ def get_ip():
 	with open('./remote_ips.txt','r') as file:
 		lines = file.readlines()
 	for line in lines:
+		if(line=='\n'):
+			continue
 		instance_list.append(EC2_instance(line.split(',')[0].strip(),line.split(',')[1].strip()))
 	return instance_list
 

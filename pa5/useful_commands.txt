@@ -107,3 +107,4 @@ sudo tc qdisc del dev eth0 root
 ./net_setting.sh 15 10m 1.8
 ./net_setting.sh 15 10m 2
 
+python3 pull_msg.py q4_responder1_2nodes.log messages1 False Node
